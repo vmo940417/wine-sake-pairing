@@ -1,0 +1,345 @@
+[
+  {
+    "id": "cabernet_sauvignon", "type": "wine", "category": "레드",
+    "name_ko": "카베르네 소비뇽", "name_en": "Cabernet Sauvignon", "aliases": ["카베르네", "카버네", "cab", "까베르네 소비뇽"],
+    "profile": {"acidity": 3.5, "tannin": 4.5, "body": 4.5, "sweetness": 0.5, "alcohol": 4, "umami": 0, "aroma": 3.5, "oak": 3.5},
+    "summary": "블랙커런트, 삼나무, 흑연 향의 풀바디 레드. 탄닌이 단단해 기름진 붉은 고기와 잘 맞습니다.",
+    "regions": ["보르도 좌안", "나파 밸리", "쿠나와라", "칠레 마이포"],
+    "serving_temp": "16~18℃", "pairs_with": ["grilled", "steak", "lamb", "hard_cheese"],
+    "bottles": ["Caymus Cabernet Sauvignon", "Opus One", "Chateau Montelena Cabernet Sauvignon"]
+  },
+  {
+    "id": "merlot", "type": "wine", "category": "레드",
+    "name_ko": "메를로", "name_en": "Merlot", "aliases": ["멀롯", "메를롯"],
+    "profile": {"acidity": 3, "tannin": 3, "body": 3.5, "sweetness": 0.5, "alcohol": 3.5, "umami": 0, "aroma": 3, "oak": 2.5},
+    "summary": "자두, 블랙체리 향에 탄닌이 부드러운 미디엄~풀바디 레드. 폭넓은 육류 요리에 무난합니다.",
+    "regions": ["보르도 우안(포므롤·생테밀리옹)", "나파 밸리", "워싱턴"],
+    "serving_temp": "16~18℃", "pairs_with": ["pork", "roast", "mushroom", "tomato_sauce"],
+    "bottles": ["Duckhorn Merlot", "Chateau Petrus", "Chateau Angelus"]
+  },
+  {
+    "id": "pinot_noir", "type": "wine", "category": "레드",
+    "name_ko": "피노 누아", "name_en": "Pinot Noir", "aliases": ["피노누아", "피노 느와", "부르고뉴 레드", "pinot"],
+    "profile": {"acidity": 4, "tannin": 2, "body": 3, "sweetness": 0.5, "alcohol": 3, "umami": 1, "aroma": 4, "oak": 2},
+    "summary": "체리, 라즈베리, 버섯·흙 향의 가벼운 레드. 산도가 높고 탄닌이 적어 연어·오리·버섯 요리에 강합니다.",
+    "regions": ["부르고뉴", "오리건", "센트럴 오타고", "소노마"],
+    "serving_temp": "14~16℃", "pairs_with": ["duck", "mushroom", "salmon", "poultry", "soy_sauce"],
+    "bottles": ["Louis Jadot Bourgogne Pinot Noir", "Felton Road Pinot Noir", "Cloudy Bay Pinot Noir"]
+  },
+  {
+    "id": "syrah", "type": "wine", "category": "레드",
+    "name_ko": "시라 / 쉬라즈", "name_en": "Syrah / Shiraz", "aliases": ["시라", "쉬라즈", "shiraz", "syrah"],
+    "profile": {"acidity": 3, "tannin": 4, "body": 4.5, "sweetness": 1, "alcohol": 4, "umami": 0, "aroma": 4, "oak": 3},
+    "summary": "블랙베리, 후추, 훈연 향의 풀바디 레드. 스파이스가 있어 바비큐·양념 고기와 잘 맞습니다.",
+    "regions": ["북부 론", "바로사 밸리", "맥라렌 베일"],
+    "serving_temp": "16~18℃", "pairs_with": ["grilled", "bbq", "lamb", "pork"],
+    "bottles": ["Penfolds Bin 28 Kalimna Shiraz", "E. Guigal Crozes-Hermitage", "Penfolds Grange"]
+  },
+  {
+    "id": "grenache", "type": "wine", "category": "레드",
+    "name_ko": "그르나슈", "name_en": "Grenache", "aliases": ["가르나차", "garnacha", "샤토네프 뒤 파프"],
+    "profile": {"acidity": 2.5, "tannin": 2.5, "body": 3.5, "sweetness": 1, "alcohol": 4.5, "umami": 0, "aroma": 3.5, "oak": 1.5},
+    "summary": "딸기잼, 감초, 허브 향의 따뜻한 레드. 탄닌이 부드럽고 과실감이 풍부해 구운 고기·스튜에 좋습니다.",
+    "regions": ["남부 론", "프리오랏", "사르데냐(카노나우)"],
+    "serving_temp": "15~17℃", "pairs_with": ["grilled", "stew", "pork", "lamb"],
+    "bottles": ["Chateau de Beaucastel Chateauneuf-du-Pape", "E. Guigal Cotes du Rhone"]
+  },
+  {
+    "id": "malbec", "type": "wine", "category": "레드",
+    "name_ko": "말벡", "name_en": "Malbec", "aliases": ["멀벡"],
+    "profile": {"acidity": 3, "tannin": 3.5, "body": 4, "sweetness": 1, "alcohol": 4, "umami": 0, "aroma": 3.5, "oak": 2.5},
+    "summary": "자두, 블루베리, 제비꽃 향의 진한 레드. 아르헨티나식 숯불 소고기와 궁합이 대표적입니다.",
+    "regions": ["멘도사", "카오르"],
+    "serving_temp": "16~18℃", "pairs_with": ["grilled", "steak", "bbq"],
+    "bottles": ["Catena Malbec", "Achaval Ferrer Malbec"]
+  },
+  {
+    "id": "sangiovese", "type": "wine", "category": "레드",
+    "name_ko": "산지오베제", "name_en": "Sangiovese", "aliases": ["키안티", "chianti", "브루넬로", "산조베제"],
+    "profile": {"acidity": 4.5, "tannin": 3.5, "body": 3, "sweetness": 0.5, "alcohol": 3.5, "umami": 0.5, "aroma": 3, "oak": 2},
+    "summary": "체리, 토마토잎, 허브 향의 산도 높은 레드. 토마토 소스 파스타·피자와 최고의 짝입니다.",
+    "regions": ["토스카나(키안티·브루넬로 디 몬탈치노)"],
+    "serving_temp": "15~17℃", "pairs_with": ["tomato_sauce", "pizza", "hard_cheese"],
+    "bottles": ["Antinori Tignanello", "Castello di Ama Chianti Classico"]
+  },
+  {
+    "id": "nebbiolo", "type": "wine", "category": "레드",
+    "name_ko": "네비올로", "name_en": "Nebbiolo", "aliases": ["바롤로", "barolo", "바르바레스코", "barbaresco"],
+    "profile": {"acidity": 4.5, "tannin": 5, "body": 4, "sweetness": 0.5, "alcohol": 4, "umami": 0.5, "aroma": 4, "oak": 2},
+    "summary": "장미, 타르, 체리 향에 탄닌과 산도가 모두 강한 레드. 트러플·버섯, 오래 익힌 고기 요리에 맞습니다.",
+    "regions": ["피에몬테(바롤로·바르바레스코)"],
+    "serving_temp": "16~18℃", "pairs_with": ["truffle", "mushroom", "braised", "steak"],
+    "bottles": ["Produttori del Barbaresco", "Gaja Barbaresco"]
+  },
+  {
+    "id": "tempranillo", "type": "wine", "category": "레드",
+    "name_ko": "템프라니요", "name_en": "Tempranillo", "aliases": ["리오하", "rioja", "리베라 델 두에로"],
+    "profile": {"acidity": 3, "tannin": 3.5, "body": 3.5, "sweetness": 0.5, "alcohol": 3.5, "umami": 0.5, "aroma": 3, "oak": 3.5},
+    "summary": "체리, 가죽, 바닐라(미국 오크) 향의 레드. 하몽, 양고기, 훈제 파프리카 요리와 잘 어울립니다.",
+    "regions": ["리오하", "리베라 델 두에로", "토로"],
+    "serving_temp": "16~18℃", "pairs_with": ["lamb", "pork", "cured_meat", "grilled"],
+    "bottles": ["La Rioja Alta Vina Ardanza", "Marques de Murrieta Reserva", "Vega Sicilia Unico"]
+  },
+  {
+    "id": "zinfandel", "type": "wine", "category": "레드",
+    "name_ko": "진판델", "name_en": "Zinfandel", "aliases": ["프리미티보", "primitivo", "진펀델"],
+    "profile": {"acidity": 2.5, "tannin": 3, "body": 4.5, "sweetness": 1.5, "alcohol": 5, "umami": 0, "aroma": 4, "oak": 2.5},
+    "summary": "잼 같은 블랙베리, 후추 향의 고알코올 레드. 달콤짭짤한 바비큐 소스·갈비와 잘 맞습니다.",
+    "regions": ["캘리포니아(소노마·로다이)", "풀리아"],
+    "serving_temp": "16~18℃", "pairs_with": ["bbq", "sweet_soy", "grilled", "pork"],
+    "bottles": ["Ridge Lytton Springs", "Turley Old Vines Zinfandel"]
+  },
+  {
+    "id": "gamay", "type": "wine", "category": "레드",
+    "name_ko": "가메", "name_en": "Gamay", "aliases": ["보졸레", "beaujolais", "가메이"],
+    "profile": {"acidity": 4, "tannin": 1.5, "body": 2, "sweetness": 0.5, "alcohol": 3, "umami": 0, "aroma": 3.5, "oak": 0.5},
+    "summary": "딸기, 체리 향의 가볍고 경쾌한 레드. 살짝 차게 마시며 치킨·샤퀴테리·가벼운 한식과 편하게 맞습니다.",
+    "regions": ["보졸레(모르공·플뢰리)"],
+    "serving_temp": "12~14℃", "pairs_with": ["poultry", "cured_meat", "fried", "pork"],
+    "bottles": ["Marcel Lapierre Morgon", "Louis Jadot Beaujolais-Villages"]
+  },
+  {
+    "id": "barbera", "type": "wine", "category": "레드",
+    "name_ko": "바르베라", "name_en": "Barbera", "aliases": ["바르베라 다스티"],
+    "profile": {"acidity": 4.5, "tannin": 2, "body": 3, "sweetness": 0.5, "alcohol": 3.5, "umami": 0, "aroma": 3, "oak": 1.5},
+    "summary": "체리, 자두 향에 산도가 높고 탄닌이 낮은 레드. 기름진 요리·토마토 소스에 가볍게 맞추기 좋습니다.",
+    "regions": ["피에몬테(아스티·알바)"],
+    "serving_temp": "14~16℃", "pairs_with": ["tomato_sauce", "pizza", "cured_meat"],
+    "bottles": ["Vietti Barbera d'Asti Tre Vigne", "Braida Bricco dell'Uccellone"]
+  },
+  {
+    "id": "chardonnay_oaked", "type": "wine", "category": "화이트",
+    "name_ko": "샤르도네 (오크 숙성)", "name_en": "Chardonnay (Oaked)", "aliases": ["샤도네이", "샤르도네", "chardonnay", "뫼르소", "캘리포니아 샤도네이"],
+    "profile": {"acidity": 2.5, "tannin": 0, "body": 4, "sweetness": 0.5, "alcohol": 3.5, "umami": 0.5, "aroma": 3.5, "oak": 4},
+    "summary": "버터, 바닐라, 구운 견과, 열대과일 향의 풀바디 화이트. 크림소스·랍스터·로스트 치킨에 맞습니다.",
+    "regions": ["뫼르소", "나파·소노마", "마가렛 리버"],
+    "serving_temp": "10~13℃", "pairs_with": ["cream_sauce", "lobster", "poultry", "butter"],
+    "bottles": ["Kistler Chardonnay", "Rombauer Chardonnay"]
+  },
+  {
+    "id": "chablis", "type": "wine", "category": "화이트",
+    "name_ko": "샤블리 (언오크 샤르도네)", "name_en": "Chablis / Unoaked Chardonnay", "aliases": ["샤블리", "chablis"],
+    "profile": {"acidity": 4.5, "tannin": 0, "body": 2.5, "sweetness": 0.5, "alcohol": 3, "umami": 1, "aroma": 2.5, "oak": 0.5},
+    "summary": "청사과, 레몬, 미네랄(굴 껍질) 향의 날카로운 화이트. 굴·조개·생선회와 클래식한 조합입니다.",
+    "regions": ["샤블리"],
+    "serving_temp": "8~10℃", "pairs_with": ["oyster", "shellfish", "raw_fish", "fish"],
+    "bottles": ["William Fevre Chablis", "Louis Michel Chablis"]
+  },
+  {
+    "id": "sauvignon_blanc", "type": "wine", "category": "화이트",
+    "name_ko": "소비뇽 블랑", "name_en": "Sauvignon Blanc", "aliases": ["쇼비뇽 블랑", "상세르", "sancerre", "말보로 소비뇽"],
+    "profile": {"acidity": 5, "tannin": 0, "body": 2, "sweetness": 0.5, "alcohol": 3, "umami": 0, "aroma": 4.5, "oak": 0.5},
+    "summary": "자몽, 패션프루트, 풀·허브 향의 상큼한 화이트. 염소치즈, 샐러드, 허브 요리, 튀김과 좋습니다.",
+    "regions": ["말보로", "상세르·푸이퓌메", "보르도"],
+    "serving_temp": "7~10℃", "pairs_with": ["herbs", "goat_cheese", "salad", "fried", "shellfish"],
+    "bottles": ["Cloudy Bay Sauvignon Blanc", "Henri Bourgeois Sancerre"]
+  },
+  {
+    "id": "riesling_dry", "type": "wine", "category": "화이트",
+    "name_ko": "리슬링 (드라이)", "name_en": "Riesling (Dry)", "aliases": ["리슬링", "riesling", "트로켄"],
+    "profile": {"acidity": 5, "tannin": 0, "body": 2, "sweetness": 1, "alcohol": 2.5, "umami": 0, "aroma": 4, "oak": 0},
+    "summary": "라임, 청사과, 페트롤 향의 산도 높은 화이트. 해산물, 돼지고기, 새콤한 요리에 두루 맞습니다.",
+    "regions": ["알자스", "클레어 밸리", "독일(GG)"],
+    "serving_temp": "7~10℃", "pairs_with": ["shellfish", "pork", "asian", "sour"],
+    "bottles": ["Trimbach Riesling", "Grosset Polish Hill Riesling"]
+  },
+  {
+    "id": "riesling_offdry", "type": "wine", "category": "화이트",
+    "name_ko": "리슬링 (오프드라이·카비넷)", "name_en": "Riesling (Off-dry / Kabinett)", "aliases": ["카비넷", "kabinett", "슈페트레제", "모젤 리슬링"],
+    "profile": {"acidity": 4.5, "tannin": 0, "body": 2, "sweetness": 3, "alcohol": 1.5, "umami": 0, "aroma": 4, "oak": 0},
+    "summary": "살구, 꿀, 라임 향에 약간의 단맛과 낮은 알코올. 매운 한식·중식·태국 요리를 진정시키는 데 탁월합니다.",
+    "regions": ["모젤", "라인가우"],
+    "serving_temp": "7~10℃", "pairs_with": ["spicy", "asian", "pork", "sweet_soy"],
+    "bottles": ["Dr. Loosen Blue Slate Riesling Kabinett", "J.J. Prum Wehlener Sonnenuhr Kabinett"]
+  },
+  {
+    "id": "gewurztraminer", "type": "wine", "category": "화이트",
+    "name_ko": "게뷔르츠트라미너", "name_en": "Gewurztraminer", "aliases": ["게뷔르츠", "게부르츠트라미너"],
+    "profile": {"acidity": 2.5, "tannin": 0, "body": 3.5, "sweetness": 2, "alcohol": 3.5, "umami": 0, "aroma": 5, "oak": 0},
+    "summary": "리치, 장미, 생강 향이 화려한 화이트. 향신료 많은 요리, 커리, 숙성 치즈(뮌스터)와 맞습니다.",
+    "regions": ["알자스", "알토 아디제"],
+    "serving_temp": "8~10℃", "pairs_with": ["spicy", "curry", "asian", "washed_cheese"],
+    "bottles": ["Trimbach Gewurztraminer", "Hugel Gewurztraminer"]
+  },
+  {
+    "id": "chenin_blanc", "type": "wine", "category": "화이트",
+    "name_ko": "슈냉 블랑", "name_en": "Chenin Blanc", "aliases": ["부브레", "vouvray", "슈냉"],
+    "profile": {"acidity": 4.5, "tannin": 0, "body": 3, "sweetness": 1.5, "alcohol": 3, "umami": 0, "aroma": 3.5, "oak": 1},
+    "summary": "사과, 모과, 꿀 향의 다재다능한 화이트. 드라이~스위트까지 다양하며 돼지고기·닭고기·달콤짭짤한 요리에 좋습니다.",
+    "regions": ["루아르(부브레·사브니에르)", "남아공"],
+    "serving_temp": "8~11℃", "pairs_with": ["pork", "poultry", "sweet_soy", "asian"],
+    "bottles": ["Domaine Huet Vouvray", "Ken Forrester Old Vine Reserve Chenin Blanc"]
+  },
+  {
+    "id": "albarino", "type": "wine", "category": "화이트",
+    "name_ko": "알바리뇨", "name_en": "Albarino", "aliases": ["알바리노", "albarino", "알바리뇨"],
+    "profile": {"acidity": 4.5, "tannin": 0, "body": 2, "sweetness": 0.5, "alcohol": 3, "umami": 0.5, "aroma": 3.5, "oak": 0},
+    "summary": "레몬, 복숭아, 바다 짠내가 나는 화이트. 해산물 구이·조개찜·생선 요리 전반에 잘 맞습니다.",
+    "regions": ["리아스 바이사스", "비뉴 베르드(알바리뉴)"],
+    "serving_temp": "7~10℃", "pairs_with": ["shellfish", "fish", "raw_fish", "grilled_fish"],
+    "bottles": ["Pazo de Senorans Albarino", "Martin Codax Albarino"]
+  },
+  {
+    "id": "pinot_grigio", "type": "wine", "category": "화이트",
+    "name_ko": "피노 그리지오 / 피노 그리", "name_en": "Pinot Grigio / Pinot Gris", "aliases": ["피노 그리", "피노그리지오"],
+    "profile": {"acidity": 3.5, "tannin": 0, "body": 2, "sweetness": 0.5, "alcohol": 3, "umami": 0, "aroma": 2.5, "oak": 0},
+    "summary": "배, 레몬, 아몬드 향의 가볍고 깔끔한 화이트. 담백한 생선·샐러드·가벼운 전채와 무난합니다.",
+    "regions": ["프리울리", "베네토", "알자스(피노 그리)"],
+    "serving_temp": "7~10℃", "pairs_with": ["fish", "salad", "vegetable"],
+    "bottles": ["Livio Felluga Pinot Grigio", "Santa Margherita Pinot Grigio"]
+  },
+  {
+    "id": "viognier", "type": "wine", "category": "화이트",
+    "name_ko": "비오니에", "name_en": "Viognier", "aliases": ["콩드리외", "condrieu"],
+    "profile": {"acidity": 2, "tannin": 0, "body": 4, "sweetness": 1, "alcohol": 4, "umami": 0, "aroma": 5, "oak": 1.5},
+    "summary": "살구, 복숭아, 꽃 향이 진한 풀바디 화이트. 크림 커리, 가금류, 견과류 소스 요리에 맞습니다.",
+    "regions": ["콩드리외(북부 론)", "캘리포니아"],
+    "serving_temp": "10~12℃", "pairs_with": ["curry", "poultry", "cream_sauce"],
+    "bottles": ["E. Guigal Condrieu", "Yalumba The Virgilius Viognier"]
+  },
+  {
+    "id": "gruner_veltliner", "type": "wine", "category": "화이트",
+    "name_ko": "그뤼너 펠트리너", "name_en": "Gruner Veltliner", "aliases": ["그루너", "그뤼너"],
+    "profile": {"acidity": 4, "tannin": 0, "body": 2.5, "sweetness": 0.5, "alcohol": 3, "umami": 0, "aroma": 3, "oak": 0},
+    "summary": "백후추, 청사과, 채소 향의 화이트. 채소 요리, 슈니첼, 아스파라거스처럼 와인이 어려운 재료와도 맞습니다.",
+    "regions": ["바하우", "캄프탈", "크렘스탈"],
+    "serving_temp": "8~10℃", "pairs_with": ["vegetable", "fried", "salad", "pork"],
+    "bottles": ["F.X. Pichler Gruner Veltliner", "Hirsch Gruner Veltliner"]
+  },
+  {
+    "id": "rose", "type": "wine", "category": "로제",
+    "name_ko": "드라이 로제", "name_en": "Dry Rose", "aliases": ["로제", "rose", "프로방스 로제"],
+    "profile": {"acidity": 3.5, "tannin": 0.5, "body": 2, "sweetness": 0.5, "alcohol": 3, "umami": 0, "aroma": 3, "oak": 0},
+    "summary": "딸기, 자몽, 허브 향의 드라이 로제. 지중해 요리, 샐러드, 해산물, 가벼운 한식 반찬과 편하게 맞습니다.",
+    "regions": ["프로방스", "타벨", "나바라"],
+    "serving_temp": "8~10℃", "pairs_with": ["salad", "shellfish", "fish", "vegetable", "cured_meat"],
+    "bottles": ["Whispering Angel", "Chateau Miraval Rose"]
+  },
+  {
+    "id": "champagne", "type": "wine", "category": "스파클링",
+    "name_ko": "샴페인 / 전통방식 스파클링", "name_en": "Champagne / Traditional Method", "aliases": ["샴페인", "champagne", "크레망", "까바", "cava", "스파클링 와인"],
+    "profile": {"acidity": 5, "tannin": 0, "body": 2.5, "sweetness": 1, "alcohol": 3, "umami": 1, "aroma": 3, "oak": 0.5},
+    "summary": "레몬, 브리오슈, 효모 향에 기포와 높은 산도. 튀김·굴·짭짤한 안주와 만능 조합입니다.",
+    "regions": ["샹파뉴", "카바(페네데스)", "크레망"],
+    "serving_temp": "6~9℃", "pairs_with": ["fried", "oyster", "raw_fish", "salty_snack", "caviar"],
+    "bottles": ["Moet & Chandon Brut Imperial", "Bollinger Special Cuvee", "Krug Grande Cuvee"]
+  },
+  {
+    "id": "port", "type": "wine", "category": "주정강화",
+    "name_ko": "포트", "name_en": "Port", "aliases": ["포트와인", "port", "토니 포트"],
+    "profile": {"acidity": 2.5, "tannin": 3, "body": 5, "sweetness": 5, "alcohol": 5, "umami": 0, "aroma": 4.5, "oak": 2},
+    "summary": "건포도, 무화과, 초콜릿 향의 달고 진한 주정강화 와인. 초콜릿 디저트·블루치즈와 클래식 조합입니다.",
+    "regions": ["도우루"],
+    "serving_temp": "14~18℃", "pairs_with": ["chocolate", "blue_cheese", "dessert", "nuts"],
+    "bottles": ["Taylor's 10 Year Old Tawny Port", "Graham's Six Grapes Port"]
+  },
+  {
+    "id": "sauternes", "type": "wine", "category": "스위트",
+    "name_ko": "소테른 (귀부 스위트)", "name_en": "Sauternes", "aliases": ["소테른", "sauternes", "토카이", "귀부와인"],
+    "profile": {"acidity": 3.5, "tannin": 0, "body": 4.5, "sweetness": 5, "alcohol": 3.5, "umami": 0, "aroma": 4.5, "oak": 2},
+    "summary": "꿀, 살구, 사프란 향의 귀부 스위트 와인. 푸아그라, 블루치즈, 과일 디저트와 잘 맞습니다.",
+    "regions": ["소테른·바르삭", "토카이"],
+    "serving_temp": "8~11℃", "pairs_with": ["foie_gras", "blue_cheese", "dessert", "fruit"],
+    "bottles": ["Chateau Suduiraut", "Chateau d'Yquem"]
+  },
+  {
+    "id": "fino_sherry", "type": "wine", "category": "주정강화",
+    "name_ko": "피노 셰리", "name_en": "Fino Sherry", "aliases": ["셰리", "sherry", "만사니야", "피노"],
+    "profile": {"acidity": 3, "tannin": 0, "body": 2.5, "sweetness": 0, "alcohol": 4, "umami": 3, "aroma": 3.5, "oak": 0.5},
+    "summary": "아몬드, 효모(플로르), 짭짤한 향의 드라이 셰리. 하몽, 올리브, 감칠맛 강한 해산물·간장 요리와 맞습니다.",
+    "regions": ["헤레스", "산루카르 데 바라메다"],
+    "serving_temp": "7~9℃", "pairs_with": ["cured_meat", "salty_snack", "shellfish", "soy_sauce", "nuts"],
+    "bottles": ["Tio Pepe Fino", "Hidalgo La Gitana Manzanilla"]
+  },
+
+  {
+    "id": "sake_junmai", "type": "sake", "category": "준마이",
+    "name_ko": "준마이 (순미주)", "name_en": "Junmai", "aliases": ["준마이", "junmai", "순미", "순미주"],
+    "profile": {"acidity": 3, "tannin": 0, "body": 3.5, "sweetness": 1.5, "alcohol": 3.5, "umami": 4, "aroma": 2.5, "oak": 0},
+    "summary": "쌀·누룩·물만으로 빚은 사케. 쌀의 감칠맛과 산미가 뚜렷해 구이, 조림, 간장·된장 요리에 폭넓게 맞습니다.",
+    "regions": ["니가타", "효고", "야마가타"],
+    "serving_temp": "상온 또는 누루칸(40℃)", "pairs_with": ["soy_sauce", "grilled", "grilled_fish", "braised", "miso"],
+    "bottles": ["Hakkaisan Tokubetsu Junmai"]
+  },
+  {
+    "id": "sake_junmai_ginjo", "type": "sake", "category": "준마이 긴조",
+    "name_ko": "준마이 긴조", "name_en": "Junmai Ginjo", "aliases": ["준마이긴조", "junmai ginjo", "순미음양"],
+    "profile": {"acidity": 2.5, "tannin": 0, "body": 2.5, "sweetness": 1.5, "alcohol": 3.5, "umami": 3, "aroma": 4, "oak": 0},
+    "summary": "정미보합 60% 이하. 사과·배 같은 과일 향(긴조향)과 쌀의 감칠맛이 균형을 이룹니다. 회·초밥·담백한 구이에 좋습니다.",
+    "regions": ["니가타", "야마구치", "아키타"],
+    "serving_temp": "차게(8~12℃)", "pairs_with": ["raw_fish", "sushi", "grilled_fish", "tofu"],
+    "bottles": ["Hakkaisan Junmai Ginjo", "Dewazakura Dewasansan"]
+  },
+  {
+    "id": "sake_junmai_daiginjo", "type": "sake", "category": "준마이 다이긴조",
+    "name_ko": "준마이 다이긴조", "name_en": "Junmai Daiginjo", "aliases": ["다이긴조", "daiginjo", "준마이다이긴조", "대음양"],
+    "profile": {"acidity": 2, "tannin": 0, "body": 2, "sweetness": 2, "alcohol": 3.5, "umami": 2, "aroma": 5, "oak": 0},
+    "summary": "정미보합 50% 이하의 최상위 등급. 멜론·백도 같은 화려한 향과 섬세한 맛으로 흰살 생선회·가벼운 전채에 맞습니다.",
+    "regions": ["야마구치", "니가타", "효고"],
+    "serving_temp": "차게(8~10℃)", "pairs_with": ["raw_fish", "sushi", "shellfish", "fruit"],
+    "bottles": ["Dassai 45", "Dassai 23", "Kubota Manju"]
+  },
+  {
+    "id": "sake_honjozo", "type": "sake", "category": "혼조조",
+    "name_ko": "혼조조", "name_en": "Honjozo", "aliases": ["혼조조", "honjozo", "본양조"],
+    "profile": {"acidity": 2.5, "tannin": 0, "body": 2.5, "sweetness": 1, "alcohol": 3.5, "umami": 2.5, "aroma": 2, "oak": 0},
+    "summary": "소량의 양조 알코올을 더해 가볍고 드라이한 사케. 튀김, 꼬치구이, 일상 안주에 깔끔하게 맞습니다.",
+    "regions": ["니가타", "효고"],
+    "serving_temp": "차게 또는 아츠칸(50℃)", "pairs_with": ["fried", "grilled", "salty_snack", "soy_sauce"],
+    "bottles": ["Hakkaisan Tokubetsu Honjozo", "Kikusui Funaguchi"]
+  },
+  {
+    "id": "sake_ginjo", "type": "sake", "category": "긴조",
+    "name_ko": "긴조", "name_en": "Ginjo", "aliases": ["긴조", "ginjo", "음양"],
+    "profile": {"acidity": 2, "tannin": 0, "body": 2, "sweetness": 1.5, "alcohol": 3.5, "umami": 2, "aroma": 4, "oak": 0},
+    "summary": "정미보합 60% 이하에 양조 알코올을 소량 더해 향이 화사하고 가벼운 사케. 회, 샐러드, 가벼운 해산물에 좋습니다.",
+    "regions": ["니가타", "아키타"],
+    "serving_temp": "차게(8~12℃)", "pairs_with": ["raw_fish", "salad", "shellfish", "tofu"],
+    "bottles": ["Kubota Senju", "Kokuryu Ginjo"]
+  },
+  {
+    "id": "sake_kimoto", "type": "sake", "category": "기모토·야마하이",
+    "name_ko": "기모토 / 야마하이", "name_en": "Kimoto / Yamahai", "aliases": ["기모토", "kimoto", "야마하이", "yamahai", "생원"],
+    "profile": {"acidity": 4, "tannin": 0, "body": 4, "sweetness": 1, "alcohol": 4, "umami": 4.5, "aroma": 3, "oak": 0},
+    "summary": "전통 효모 배양법으로 빚어 산미와 감칠맛이 강하고 묵직한 사케. 데워 마시면 고기 구이·전골·발효 음식과 잘 맞습니다.",
+    "regions": ["도치기", "효고", "이시카와"],
+    "serving_temp": "상온 또는 칸자케(45~50℃)", "pairs_with": ["grilled", "braised", "miso", "pork", "cheese", "fermented"],
+    "bottles": ["Daishichi Kimoto Junmai", "Tengumai Yamahai Junmai"]
+  },
+  {
+    "id": "sake_nama", "type": "sake", "category": "나마자케",
+    "name_ko": "나마자케 (생주)", "name_en": "Namazake", "aliases": ["나마", "nama", "나마자케", "생주", "나마겐슈"],
+    "profile": {"acidity": 3.5, "tannin": 0, "body": 3, "sweetness": 2, "alcohol": 4, "umami": 3, "aroma": 4, "oak": 0},
+    "summary": "열처리(히이레)를 하지 않아 신선하고 생동감 있는 사케. 과일 향과 산미가 살아 있어 회·튀김·새콤한 요리에 맞습니다. 냉장 보관 필수.",
+    "regions": ["전국 (주로 겨울~봄 출하)"],
+    "serving_temp": "차게(5~8℃)", "pairs_with": ["raw_fish", "fried", "sour", "salad"],
+    "bottles": ["Kikusui Funaguchi"]
+  },
+  {
+    "id": "sake_nigori", "type": "sake", "category": "니고리",
+    "name_ko": "니고리 (탁주형)", "name_en": "Nigori", "aliases": ["니고리", "nigori", "탁한 사케"],
+    "profile": {"acidity": 2, "tannin": 0, "body": 4, "sweetness": 3.5, "alcohol": 3, "umami": 2.5, "aroma": 3, "oak": 0},
+    "summary": "거른 술지게미가 남아 뿌옇고 크리미한 사케. 단맛이 있어 매운 요리를 부드럽게 감싸고 디저트와도 맞습니다.",
+    "regions": ["전국"],
+    "serving_temp": "차게(5~10℃)", "pairs_with": ["spicy", "dessert", "fruit", "asian"],
+    "bottles": ["Gekkeikan Nigori", "Sho Chiku Bai Nigori"]
+  },
+  {
+    "id": "sake_koshu", "type": "sake", "category": "고슈",
+    "name_ko": "고슈 (숙성 사케)", "name_en": "Koshu (Aged Sake)", "aliases": ["고슈", "koshu", "숙성 사케", "장기숙성주"],
+    "profile": {"acidity": 3.5, "tannin": 0, "body": 4.5, "sweetness": 3, "alcohol": 4, "umami": 4.5, "aroma": 4.5, "oak": 0},
+    "summary": "수년 숙성해 호박색을 띠는 사케. 캐러멜, 간장, 견과 향으로 장어구이·숙성 치즈·초콜릿처럼 진한 음식과 맞습니다.",
+    "regions": ["기후", "효고"],
+    "serving_temp": "상온 또는 누루칸", "pairs_with": ["sweet_soy", "blue_cheese", "chocolate", "nuts", "braised"],
+    "bottles": ["Daruma Masamune"]
+  },
+  {
+    "id": "sake_sparkling", "type": "sake", "category": "스파클링 사케",
+    "name_ko": "스파클링 사케", "name_en": "Sparkling Sake", "aliases": ["스파클링 사케", "sparkling sake", "발포 사케", "미오"],
+    "profile": {"acidity": 2.5, "tannin": 0, "body": 1.5, "sweetness": 3, "alcohol": 1.5, "umami": 1, "aroma": 3.5, "oak": 0},
+    "summary": "기포가 있는 저알코올(5~8%) 사케. 달콤하고 가벼워 식전주, 과일, 가벼운 매운 요리와 맞습니다.",
+    "regions": ["전국"],
+    "serving_temp": "차게(5℃)", "pairs_with": ["fruit", "dessert", "spicy", "salad"],
+    "bottles": ["Sho Chiku Bai Mio Sparkling Sake", "Hakkaisan Awa"]
+  }
+]
