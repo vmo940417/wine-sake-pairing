@@ -7,6 +7,19 @@
 |---|---|---|---|
 | ![](docs/screenshots/1_home.png) | ![](docs/screenshots/2_pairing.png) | ![](docs/screenshots/3_detail.png) | ![](docs/screenshots/4_dictionary.png) |
 
+## 휴대폰 웹 버전 (서버 불필요)
+
+`web/` 은 서버 없이 휴대폰 브라우저에서 바로 쓰는 단일 HTML 버전입니다.
+데이터와 점수 엔진(`web/engine.js`, Python 엔진의 이식본)이 페이지 안에 들어 있어 오프라인으로도 동작합니다.
+DB에 없는 음식은 키워드로 추정하며, 제품 AI 요약은 서버 버전에서만 제공됩니다.
+
+```bash
+python3 web/build.py   # Python 엔진과 결과 대조 후 web/dist/index.html 생성
+```
+
+빌드 스크립트는 DB 음식 64종 + 키워드 추정 음식 5종 × 술 38종의 점수와 이유가 Python 엔진과 완전히 같은지 확인하고, 다르면 빌드를 멈춥니다.
+점수 규칙을 바꿀 때는 `server/app/engine/scoring.py` 와 `web/engine.js` 를 함께 고치세요.
+
 ## 구성
 
 ```
@@ -16,6 +29,7 @@ server/   FastAPI 백엔드 (Python)
   app/engine/scoring.py 규칙 기반 페어링 점수 엔진
   app/services/         음식 분석(키워드/Claude), 가격 링크, 페어링 조합
   app/main.py           API 엔드포인트
+web/      서버 없는 휴대폰 웹 버전 (단일 HTML)
 app/      Expo(React Native) 모바일 앱, Expo Router
   src/app/(tabs)/       페어링 · 술 사전 · 내 기록 탭
   src/app/pairing.tsx   점수 순위 화면 (전체/와인/사케 필터)

@@ -62,6 +62,13 @@ def test_unknown_food_falls_back_to_keywords():
     assert "spicy" in res["food"]["tags"]
 
 
+def test_short_alias_inside_query_does_not_hijack_dish():
+    res = client.get("/pairing", params={"food": "연어 데리야끼"}).json()
+    assert res["food_source"] == "keyword"
+    assert "sweet_soy" in res["food"]["tags"]
+    assert client.get("/pairing", params={"food": "매운 삼겹살"}).json()["food"]["id"] == "samgyeopsal"
+
+
 def test_keyword_parser_does_not_misread_common_syllables():
     food = food_parser.parse_food("소스 듬뿍 전복 버터구이")
     assert food.protein == "shellfish"

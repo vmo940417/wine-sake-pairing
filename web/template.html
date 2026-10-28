@@ -1,0 +1,532 @@
+<title>와인·사케 페어링</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600;700&display=swap">
+<style>
+  /* 레이아웃: 휴대폰 한 화면 앱. 상단 바 + 스크롤 본문 + 하단 탭, 상세는 전체 화면 시트 */
+  :root {
+    --bg: #FBF8F6;
+    --surface: #FFFFFF;
+    --ink: #2B1B1F;
+    --muted: #6E5E62;
+    --line: #E9E0DD;
+    --soft: #F3EDEB;
+    --wine: #7A1F3D;
+    --sake: #2F5D8A;
+    --on-accent: #FFFFFF;
+    --good: #2E7D4F;
+    --ok: #66872A;
+    --warn: #B07A12;
+    --bad: #B3402A;
+    --font-display: "Noto Serif KR", "Apple SD Gothic Neo", serif;
+    --font-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+    --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+    --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151012; --surface: #201719; --ink: #F2EAEC; --muted: #B3A3A8; --line: #3A2D31; --soft: #2A1F22;
+      --wine: #E58AA6; --sake: #8DB7E3; --on-accent: #1A1012;
+      --good: #63C08A; --ok: #AFC660; --warn: #E2B455; --bad: #F08A72;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151012; --surface: #201719; --ink: #F2EAEC; --muted: #B3A3A8; --line: #3A2D31; --soft: #2A1F22;
+    --wine: #E58AA6; --sake: #8DB7E3; --on-accent: #1A1012;
+    --good: #63C08A; --ok: #AFC660; --warn: #E2B455; --bad: #F08A72;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body::before {
+    content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+    z-index: 10; background: var(--bg);
+  }
+  button, input { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--wine); outline-offset: 2px; }
+
+  .topbar {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    padding-block: 12px;
+    padding-left: var(--gutter-l); padding-right: var(--gutter-r);
+    display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  }
+  .brand { font-family: var(--font-display); font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin: 0; }
+  .brand em { font-style: normal; color: var(--wine); }
+  .topbar small { color: var(--muted); font-size: 12px; }
+
+  main {
+    max-width: 640px; margin: 0 auto;
+    padding-left: var(--gutter-l); padding-right: var(--gutter-r);
+    padding-block: 18px calc(96px + env(safe-area-inset-bottom, 0px));
+  }
+  .view { display: flex; flex-direction: column; gap: 16px; }
+
+  h2.lead { font-family: var(--font-display); font-size: 24px; line-height: 1.3; margin: 4px 0 0; text-wrap: balance; }
+  .sub { color: var(--muted); margin: 0; font-size: 14px; }
+
+  .search { position: relative; }
+  .search-row { display: flex; gap: 8px; }
+  .search input {
+    flex: 1; min-width: 0;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px 14px; font-size: 16px;
+  }
+  .search input::placeholder { color: var(--muted); }
+  .btn {
+    border: 0; border-radius: 12px; padding: 0 18px; font-weight: 700;
+    background: var(--wine); color: var(--on-accent);
+  }
+  .suggest {
+    position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 4;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    list-style: none; margin: 0; padding: 4px 0; box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
+  }
+  .suggest button {
+    width: 100%; display: flex; justify-content: space-between; gap: 12px;
+    background: none; border: 0; padding: 10px 14px; text-align: left;
+  }
+  .suggest button span:last-child { color: var(--muted); font-size: 13px; }
+
+  .label { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; color: var(--muted); margin: 0 0 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 999px;
+    padding: 6px 14px; font-size: 14px;
+  }
+  .chip[aria-pressed="true"] { background: var(--wine); border-color: var(--wine); color: var(--on-accent); font-weight: 700; }
+
+  .result-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .result-head h3 { font-family: var(--font-display); font-size: 20px; margin: 0; }
+  .tag-example { font-size: 12px; color: var(--muted); background: var(--soft); border-radius: 6px; padding: 2px 8px; }
+  .note { background: var(--soft); color: var(--muted); font-size: 13px; border-radius: 10px; padding: 10px 12px; margin: 0; }
+
+  .cards { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .card {
+    width: 100%; text-align: left; display: grid; grid-template-columns: 22px 1fr auto; gap: 4px 12px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px;
+  }
+  .rank { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; align-self: center; text-align: center; }
+  .card-main { min-width: 0; }
+  .kind { font-size: 12px; font-weight: 700; }
+  .kind.wine { color: var(--wine); }
+  .kind.sake { color: var(--sake); }
+  .kind, .bev-name, .bev-en { display: block; }
+  .bev-name { font-family: var(--font-display); font-size: 17px; font-weight: 700; line-height: 1.35; margin: 2px 0 0; }
+  .bev-en { font-size: 12px; color: var(--muted); }
+  .score {
+    width: 54px; height: 54px; border-radius: 50%; align-self: center;
+    border: 3px solid var(--score); color: var(--score);
+    display: grid; place-content: center; text-align: center; line-height: 1;
+  }
+  .score b { font-family: var(--font-display); font-size: 20px; font-variant-numeric: tabular-nums; }
+  .score span { font-size: 10px; margin-top: 2px; }
+  .reasons { grid-column: 2 / 4; margin-top: 6px; font-size: 13px; display: flex; flex-direction: column; gap: 2px; }
+  .reasons .r { display: flex; gap: 6px; }
+  .reasons .mark { font-weight: 700; flex: none; }
+  .reasons .plus .mark { color: var(--good); }
+  .reasons .minus .mark { color: var(--bad); }
+
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+  .panel h4 { margin: 0; font-size: 15px; }
+  .panel p { margin: 0; }
+  dl.info { margin: 0; display: grid; grid-template-columns: 72px 1fr; gap: 6px 10px; font-size: 14px; }
+  dl.info dt { color: var(--muted); }
+  dl.info dd { margin: 0; min-width: 0; }
+
+  .bars { display: flex; flex-direction: column; gap: 8px; }
+  .bar { display: grid; grid-template-columns: 52px 1fr 30px; align-items: center; gap: 10px; font-size: 13px; }
+  .bar span:first-child { color: var(--muted); }
+  .track { height: 8px; border-radius: 4px; background: var(--soft); overflow: hidden; }
+  .fill { height: 100%; border-radius: 4px; background: var(--accent-kind); }
+  .bar span:last-child { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .price {
+    display: flex; justify-content: space-between; align-items: center; gap: 10px;
+    border: 1px solid var(--line); border-radius: 10px; padding: 11px 14px;
+    color: var(--ink); text-decoration: none; background: var(--surface);
+  }
+  .price span:first-child { min-width: 0; overflow-wrap: anywhere; }
+  .price span:last-child { color: var(--wine); font-weight: 700; font-size: 13px; flex: none; }
+  .fine { color: var(--muted); font-size: 12px; line-height: 1.5; }
+  .linkish { background: none; border: 0; padding: 0; color: var(--wine); font-weight: 700; text-align: left; }
+
+  .fav-list { list-style: none; margin: 0; padding: 0; }
+  .fav-list button {
+    width: 100%; display: flex; justify-content: space-between; gap: 10px; text-align: left;
+    background: none; border: 0; border-bottom: 1px solid var(--line); padding: 11px 0;
+  }
+  .fav-list button span:last-child { color: var(--muted); font-size: 13px; }
+  .empty { color: var(--muted); font-size: 14px; }
+
+  .tabbar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+    background: var(--surface); border-top: 1px solid var(--line);
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px);
+  }
+  .tabbar a {
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+    padding: 9px 0 10px; font-size: 12px; color: var(--muted); text-decoration: none;
+  }
+  .tabbar a[aria-current="page"] { color: var(--wine); font-weight: 700; }
+  .tabbar svg { width: 22px; height: 22px; }
+
+  .sheet {
+    position: fixed; inset: 0; z-index: 20; background: var(--bg);
+    display: flex; flex-direction: column;
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+  .sheet-bar {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    border-bottom: 1px solid var(--line);
+    padding-block: 8px; padding-left: var(--gutter-l); padding-right: var(--gutter-r);
+  }
+  .icon-btn { background: none; border: 0; padding: 8px; font-size: 15px; color: var(--wine); font-weight: 700; }
+  .sheet-body {
+    flex: 1; overflow-y: auto;
+    padding-left: var(--gutter-l); padding-right: var(--gutter-r);
+    padding-block: 16px calc(32px + env(safe-area-inset-bottom, 0px));
+  }
+  .sheet-inner { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+  .detail-title { font-family: var(--font-display); font-size: 26px; line-height: 1.25; margin: 0; text-wrap: balance; }
+  .big-score { font-family: var(--font-display); font-size: 30px; font-weight: 700; color: var(--score); font-variant-numeric: tabular-nums; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .sheet:not([hidden]) { animation: rise 180ms ease-out; }
+    @keyframes rise { from { transform: translateY(12px); opacity: 0.6; } to { transform: none; opacity: 1; } }
+  }
+</style>
+
+<header class="topbar">
+  <h1 class="brand"><em>와인</em>·사케 페어링</h1>
+  <small>웹 버전</small>
+</header>
+
+<main>
+  <section class="view" id="view-pairing" aria-label="페어링">
+    <div>
+      <h2 class="lead">어떤 음식을 드시나요?</h2>
+      <p class="sub">음식을 입력하면 어울리는 와인 품종과 사케를 점수 순으로 보여드려요.</p>
+    </div>
+    <form class="search" id="food-form" autocomplete="off">
+      <div class="search-row">
+        <input id="food-input" type="search" enterkeyhint="search" placeholder="예: 양념갈비, 연어 데리야끼" aria-label="음식 이름">
+        <button class="btn" type="submit">찾기</button>
+      </div>
+      <ul class="suggest" id="food-suggest" hidden></ul>
+    </form>
+    <div>
+      <p class="label" id="chip-label">이런 음식은 어때요?</p>
+      <div class="chips" id="food-chips"></div>
+    </div>
+    <div class="view" id="pairing-result"></div>
+  </section>
+
+  <section class="view" id="view-dictionary" aria-label="술 사전" hidden>
+    <div>
+      <h2 class="lead">술 사전</h2>
+      <p class="sub">품종이나 사케 등급을 입력하면 특징을 알려드려요. 제품명은 Wine-Searcher로 연결합니다.</p>
+    </div>
+    <form class="search" id="dict-form" autocomplete="off">
+      <div class="search-row">
+        <input id="dict-input" type="search" enterkeyhint="search" placeholder="예: 피노 누아, 다이긴조" aria-label="술 이름">
+        <button class="btn" type="submit">검색</button>
+      </div>
+    </form>
+    <div class="chips" id="dict-chips"></div>
+    <div class="view" id="dict-result"></div>
+  </section>
+
+  <section class="view" id="view-mylog" aria-label="내 기록" hidden>
+    <h2 class="lead">내 기록</h2>
+    <div class="panel">
+      <h4>즐겨찾기한 술</h4>
+      <ul class="fav-list" id="fav-list"></ul>
+    </div>
+    <div class="panel">
+      <h4>최근 검색한 음식</h4>
+      <div class="chips" id="recent-chips"></div>
+      <button class="linkish" id="clear-recent" type="button">기록 지우기</button>
+    </div>
+    <p class="fine">기록은 이 기기의 브라우저에만 저장됩니다.</p>
+  </section>
+</main>
+
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" hidden>
+  <div class="sheet-bar">
+    <button class="icon-btn" id="sheet-close" type="button">← 뒤로</button>
+    <button class="icon-btn" id="sheet-fav" type="button" aria-pressed="false">☆ 즐겨찾기</button>
+  </div>
+  <div class="sheet-body"><div class="sheet-inner" id="sheet-content"></div></div>
+</div>
+
+<nav class="tabbar" aria-label="메뉴">
+  <a href="#pairing" data-view="pairing">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 3v8a3 3 0 0 0 3 3h0v7M10 3v5M4 3v5a3 3 0 0 0 3 3M17 21V3c-2 1.5-3 4-3 7v4h3"/></svg>
+    페어링
+  </a>
+  <a href="#dictionary" data-view="dictionary">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/></svg>
+    술 사전
+  </a>
+  <a href="#mylog" data-view="mylog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z"/></svg>
+    내 기록
+  </a>
+</nav>
+
+<script>
+/*__ENGINE__*/
+</script>
+<script>
+(function () {
+  const DATA = /*__DATA__*/null;
+  const engine = PairingEngine.createEngine(DATA);
+  const byId = Object.fromEntries(DATA.beverages.map((b) => [b.id, b]));
+  const $ = (id) => document.getElementById(id);
+
+  const SUGGESTIONS = ['삼겹살', '스테이크', '광어회', '초밥', '떡볶이', '후라이드 치킨', '토마토 파스타', '된장찌개'];
+  const DICT_EXAMPLES = ['피노 누아', '바롤로', '샴페인', '다이긴조', '기모토', 'Dassai 23', 'Opus One'];
+  const AXES = [
+    ['acidity', '산도'], ['sweetness', '당도'], ['body', '바디'], ['tannin', '탄닌', true],
+    ['umami', '감칠맛'], ['aroma', '향 강도'], ['alcohol', '알코올'], ['oak', '오크', true],
+  ];
+
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  const kindLabel = (b) => `${b.type === 'wine' ? '와인' : '사케'} · ${b.category}`;
+  const scoreVar = (s) => (s >= 85 ? 'var(--good)' : s >= 70 ? 'var(--ok)' : s >= 55 ? 'var(--warn)' : 'var(--bad)');
+  const kindVar = (b) => (b.type === 'wine' ? 'var(--wine)' : 'var(--sake)');
+
+  // ---- 기기 저장소 (실패해도 앱은 동작) ----
+  function load(key, fallback) {
+    try { const raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : fallback; } catch { return fallback; }
+  }
+  function save(key, value) {
+    try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* 저장 불가 환경 */ }
+  }
+  const getRecent = () => load('recent_foods', []);
+  const addRecent = (f) => save('recent_foods', [f, ...getRecent().filter((x) => x !== f)].slice(0, 15));
+  const getFavs = () => load('favorite_beverages', []);
+  const isFav = (id) => getFavs().includes(id);
+  const toggleFav = (id) => save('favorite_beverages', isFav(id) ? getFavs().filter((x) => x !== id) : [id, ...getFavs()]);
+
+  // ---- 공통 조각 ----
+  const reasonList = (reasons, n) => `<span class="reasons">${reasons.slice(0, n).map((r) => `
+      <span class="r ${r.impact >= 0 ? 'plus' : 'minus'}"><span class="mark">${r.impact >= 0 ? '✓' : '✗'}</span><span>${esc(r.text)}</span></span>`).join('')}</span>`;
+
+  const priceLink = (name) => `
+    <a class="price" href="${esc(engine.priceUrl(name))}" target="_blank" rel="noopener">
+      <span>${esc(name)}</span><span>평균가 보기 ↗</span>
+    </a>`;
+
+  const PRICE_NOTE = '<p class="fine">평균가격은 Wine-Searcher에서 조회 시점 기준으로 표시됩니다. 세전 해외 소매가 평균이라 국내 판매가와 차이가 있을 수 있고, 일부 사케는 등록되어 있지 않을 수 있습니다.</p>';
+
+  function chips(container, items, onPick, activeValue) {
+    container.innerHTML = items.map((v) => `<button class="chip" type="button" data-v="${esc(v)}"${activeValue !== undefined ? ` aria-pressed="${v === activeValue}"` : ''}>${esc(v)}</button>`).join('');
+    container.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => onPick(b.dataset.v)));
+  }
+
+  // ---- 페어링 ----
+  const state = { food: '삼겹살', filter: 'all', example: true };
+  const FILTERS = { all: '전체', wine: '와인', sake: '사케' };
+
+  function renderPairing() {
+    const { food, source, results } = engine.pair(state.food);
+    const shown = results.filter((r) => state.filter === 'all' || r.beverage.type === state.filter);
+    const note = source === 'keyword'
+      ? '<p class="note">등록되지 않은 음식이라 이름으로 맛을 추정했어요. 결과가 대략적일 수 있습니다.</p>' : '';
+    $('pairing-result').innerHTML = `
+      <div class="result-head">
+        <h3>${esc(food.name_ko)}</h3>
+        ${state.example ? '<span class="tag-example">예시 결과</span>' : ''}
+      </div>
+      ${note}
+      <div class="chips" id="filter-chips"></div>
+      <ol class="cards">${shown.map((r, i) => `
+        <li><button class="card" type="button" data-id="${r.beverage.id}">
+          <span class="rank">${i + 1}</span>
+          <span class="card-main">
+            <span class="kind ${r.beverage.type}">${esc(kindLabel(r.beverage))}</span>
+            <span class="bev-name">${esc(r.beverage.name_ko)}</span>
+            <span class="bev-en">${esc(r.beverage.name_en)}</span>
+          </span>
+          <span class="score" style="--score:${scoreVar(r.score)}"><b>${r.score}</b><span>점</span></span>
+          ${reasonList(r.reasons, 2)}
+        </button></li>`).join('')}
+      </ol>`;
+    const labels = Object.values(FILTERS);
+    chips($('filter-chips'), labels, (v) => {
+      state.filter = Object.keys(FILTERS).find((k) => FILTERS[k] === v);
+      renderPairing();
+    }, FILTERS[state.filter]);
+    $('pairing-result').querySelectorAll('.card').forEach((c) =>
+      c.addEventListener('click', () => openDetail(c.dataset.id, food)));
+  }
+
+  function searchFood(name) {
+    const v = name.trim();
+    if (!v) return;
+    state.food = v;
+    state.example = false;
+    $('food-input').value = v;
+    $('food-input').blur();
+    hideSuggest();
+    addRecent(v);
+    renderFoodChips();
+    renderPairing();
+    $('pairing-result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function renderFoodChips() {
+    const recent = getRecent();
+    $('chip-label').textContent = recent.length ? '최근 검색' : '이런 음식은 어때요?';
+    chips($('food-chips'), (recent.length ? recent.slice(0, 8) : SUGGESTIONS), searchFood);
+  }
+
+  const suggest = $('food-suggest');
+  function hideSuggest() { suggest.hidden = true; suggest.innerHTML = ''; }
+  $('food-input').addEventListener('input', (e) => {
+    const matches = engine.searchFoods(e.target.value);
+    if (!matches.length) return hideSuggest();
+    suggest.innerHTML = matches.map((f) => `<li><button type="button" data-v="${esc(f.name_ko)}"><span>${esc(f.name_ko)}</span><span>${esc(f.cuisine)}</span></button></li>`).join('');
+    suggest.hidden = false;
+    suggest.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => searchFood(b.dataset.v)));
+  });
+  document.addEventListener('click', (e) => { if (!e.target.closest('#food-form')) hideSuggest(); });
+  $('food-form').addEventListener('submit', (e) => { e.preventDefault(); searchFood($('food-input').value); });
+
+  // ---- 상세 시트 ----
+  let current = null;
+  function openDetail(id, food) {
+    const b = byId[id];
+    if (!b) return;
+    current = b;
+    const pairing = food ? engine.scorePairing(b, food) : null;
+    const axes = AXES.filter(([, , wineOnly]) => !(wineOnly && b.type === 'sake'));
+    $('sheet-content').innerHTML = `
+      <div>
+        <span class="kind ${b.type}">${esc(kindLabel(b))}</span>
+        <h2 class="detail-title" id="sheet-title">${esc(b.name_ko)}</h2>
+        <span class="bev-en">${esc(b.name_en)}</span>
+      </div>
+      <p>${esc(b.summary)}</p>
+      ${pairing ? `
+        <div class="panel">
+          <h4>궁합 점수 · ${esc(food.name_ko)}</h4>
+          <span class="big-score" style="--score:${scoreVar(pairing.score)}">${pairing.score}점</span>
+          ${reasonList(pairing.reasons, 4)}
+        </div>` : ''}
+      <div class="panel" style="--accent-kind:${kindVar(b)}">
+        <h4>맛 프로파일 <span class="fine">(0~5)</span></h4>
+        <div class="bars">${axes.map(([k, label]) => `
+          <div class="bar"><span>${label}</span><span class="track"><span class="fill" style="display:block;width:${(b.profile[k] / 5) * 100}%"></span></span><span>${b.profile[k].toFixed(1)}</span></div>`).join('')}
+        </div>
+      </div>
+      <div class="panel">
+        <h4>기본 정보</h4>
+        <dl class="info">
+          <dt>대표 산지</dt><dd>${esc(b.regions.join(', '))}</dd>
+          <dt>음용 온도</dt><dd>${esc(b.serving_temp)}</dd>
+        </dl>
+      </div>
+      <div class="panel">
+        <h4>대표 제품 평균가격</h4>
+        ${b.bottles.map(priceLink).join('')}
+        ${PRICE_NOTE}
+      </div>`;
+    syncFavButton();
+    $('sheet').hidden = false;
+    $('sheet').querySelector('.sheet-body').scrollTop = 0;
+    $('sheet-close').focus();
+  }
+  function closeDetail() { $('sheet').hidden = true; current = null; renderMyLog(); }
+  function syncFavButton() {
+    const on = current && isFav(current.id);
+    $('sheet-fav').textContent = on ? '★ 즐겨찾기됨' : '☆ 즐겨찾기';
+    $('sheet-fav').setAttribute('aria-pressed', String(!!on));
+  }
+  $('sheet-close').addEventListener('click', closeDetail);
+  $('sheet-fav').addEventListener('click', () => { if (current) { toggleFav(current.id); syncFavButton(); } });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('sheet').hidden) closeDetail(); });
+
+  // ---- 술 사전 ----
+  function lookup(q) {
+    const v = q.trim();
+    if (!v) return;
+    $('dict-input').value = v;
+    $('dict-input').blur();
+    const b = engine.findBeverage(v);
+    $('dict-result').innerHTML = b ? `
+      <div class="panel">
+        <span class="kind ${b.type}">${esc(kindLabel(b))} · ${esc(b.name_en)}</span>
+        <h4 style="font-family:var(--font-display);font-size:20px">${esc(b.name_ko)}</h4>
+        <p>${esc(b.summary)}</p>
+        <dl class="info">
+          <dt>대표 산지</dt><dd>${esc(b.regions.join(', '))}</dd>
+          <dt>음용 온도</dt><dd>${esc(b.serving_temp)}</dd>
+        </dl>
+        <button class="linkish" type="button" id="dict-more">맛 프로파일·대표 제품 보기 →</button>
+      </div>
+      <div class="panel"><h4>평균가격</h4>${priceLink(b.name_en)}${PRICE_NOTE}</div>` : `
+      <div class="panel">
+        <h4>${esc(v)}</h4>
+        <p>등록된 품종이나 사케 유형이 아닙니다. 제품명이라면 Wine-Searcher에서 정보와 평균가격을 확인해 보세요.</p>
+        <p class="fine">제품 AI 요약은 서버를 연결한 앱 버전에서 제공됩니다.</p>
+      </div>
+      <div class="panel"><h4>평균가격</h4>${priceLink(v)}${PRICE_NOTE}</div>`;
+    if (b) $('dict-more').addEventListener('click', () => openDetail(b.id));
+  }
+  chips($('dict-chips'), DICT_EXAMPLES, lookup);
+  $('dict-form').addEventListener('submit', (e) => { e.preventDefault(); lookup($('dict-input').value); });
+
+  // ---- 내 기록 ----
+  function renderMyLog() {
+    const favs = getFavs().filter((id) => byId[id]);
+    $('fav-list').innerHTML = favs.length
+      ? favs.map((id) => `<li><button type="button" data-id="${id}"><span>★ ${esc(byId[id].name_ko)}</span><span>${esc(kindLabel(byId[id]))}</span></button></li>`).join('')
+      : '<li class="empty">상세 화면에서 ☆ 즐겨찾기를 누르면 여기에 모입니다.</li>';
+    $('fav-list').querySelectorAll('button').forEach((b) => b.addEventListener('click', () => openDetail(b.dataset.id)));
+    const recent = getRecent();
+    if (recent.length) {
+      chips($('recent-chips'), recent, (f) => { location.hash = '#pairing'; searchFood(f); });
+    } else {
+      $('recent-chips').innerHTML = '<span class="empty">아직 검색 기록이 없습니다.</span>';
+    }
+    $('clear-recent').hidden = !recent.length;
+  }
+  $('clear-recent').addEventListener('click', () => { save('recent_foods', []); renderMyLog(); renderFoodChips(); });
+
+  // ---- 탭 (해시) ----
+  const VIEWS = ['pairing', 'dictionary', 'mylog'];
+  function route() {
+    const name = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'pairing';
+    VIEWS.forEach((v) => { $(`view-${v}`).hidden = v !== name; });
+    document.querySelectorAll('.tabbar a').forEach((a) => {
+      if (a.dataset.view === name) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
+    if (name === 'mylog') renderMyLog();
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener('hashchange', route);
+
+  renderFoodChips();
+  renderPairing();
+  route();
+})();
+</script>

@@ -43,8 +43,9 @@ def find_food(query: str) -> Food | None:
     for food in foods():
         if q in _names(food):
             return food
+    # 입력 안에 짧은 별칭이 들어 있는 경우("연어 데리야끼" ⊃ "연어")는 다른 요리일 수 있어 3자 이상만 인정한다.
     for food in foods():
-        if any(q in n or (len(n) >= 2 and n in q) for n in _names(food)):
+        if any(q in n or (len(n) >= 3 and n in q) for n in _names(food)):
             return food
     return None
 
