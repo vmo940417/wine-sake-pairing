@@ -1,26 +1,56 @@
+import { beverages, engine } from './engine';
 import type {
-  BeverageDetail, BeverageType, DictionaryResponse, Food, PairingResponse,
+  BeverageDetail, BeverageType, DictionaryResponse, Food, PairingResponse, PriceLink,
 } from './types';
 
-// 실기기에서 테스트할 때는 .env 에 EXPO_PUBLIC_API_URL=http://<PC의 내부 IP>:8000 을 넣는다.
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL ?? 'http://localhost:8000';
+// 화면 코드는 그대로 두고, 서버 호출 대신 기기 안의 엔진을 쓴다.
+const link = (name: string): PriceLink => ({ label: name, url: engine.priceUrl(name) });
 
-async function get<T>(path: string, params: Record<string, string | undefined> = {}): Promise<T> {
-  const query = Object.entries(params)
-    .filter(([, v]) => v !== undefined && v !== '')
-    .map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v as string)}`)
-    .join('&');
-  const res = await fetch(`${BASE_URL}${path}${query ? `?${query}` : ''}`);
-  if (!res.ok) {
-    throw new Error(`서버 오류 (${res.status})`);
-  }
-  return (await res.json()) as T;
+function detail(id: string): BeverageDetail | null {
+  const b = beverages.find((x) => x.id === id);
+  return b ? { ...b, price_links: b.bottles.map(link) } : null;
 }
 
 export const api = {
-  searchFoods: (q: string) => get<Food[]>('/foods/search', { q }),
-  pairing: (food: string, type?: BeverageType) =>
-    get<PairingResponse>('/pairing', { food, type, limit: '40' }),
-  beverage: (id: string) => get<BeverageDetail>(`/beverages/${encodeURIComponent(id)}`),
-  dictionary: (q: string) => get<DictionaryResponse>('/dictionary', { q }),
+  async searchFoods(q: string): Promise<Food[]> {
+    return engine.searchFoods(q);
+  },
+
+  async pairing(food: string, type?: BeverageType): Promise<PairingResponse> {
+    const res = engine.pair(food);
+    return {
+      food: res.food,
+      food_source: res.source,
+      results: res.results
+        .filter((r) => !type || r.beverage.type === type)
+        .map((r) => ({
+          beverage_id: r.beverage.id,
+          type: r.beverage.type,
+          category: r.beverage.category,
+          name_ko: r.beverage.name_ko,
+          name_en: r.beverage.name_en,
+          score: r.score,
+          reasons: r.reasons,
+          price_links: r.beverage.bottles.map(link),
+        })),
+    };
+  },
+
+  async beverage(id: string): Promise<BeverageDetail> {
+    const b = detail(id);
+    if (!b) throw new Error('등록되지 않은 술입니다');
+    return b;
+  },
+
+  async dictionary(q: string): Promise<DictionaryResponse> {
+    const query = q.trim();
+    const b = engine.findBeverage(query);
+    return {
+      query,
+      beverage: b ? detail(b.id) : null,
+      product: null,
+      product_source: null,
+      price_link: link(b ? b.name_en : query),
+    };
+  },
 };

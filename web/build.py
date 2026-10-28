@@ -1,4 +1,4 @@
-"""휴대폰 브라우저용 단일 HTML 빌드.
+"""휴대폰 브라우저용 단일 HTML 빌드 + 앱용 engine-data.json 생성.
 
 서버의 데이터(JSON)와 키워드 표를 그대로 넣고, 브라우저 엔진(engine.js)이
 Python 엔진과 같은 점수를 내는지 확인한 뒤 dist/index.html 을 만든다.
@@ -80,6 +80,9 @@ def main() -> None:
     tmp = dist / ".parity"
     tmp.mkdir(exist_ok=True)
     check_parity(data, tmp)
+
+    # 모바일 앱(app/)도 같은 데이터·엔진을 쓴다. 생성 파일이므로 직접 고치지 말 것.
+    (WEB / "engine-data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     html = (WEB / "template.html").read_text(encoding="utf-8")
     html = html.replace("/*__ENGINE__*/", (WEB / "engine.js").read_text(encoding="utf-8"))

@@ -30,7 +30,7 @@ server/   FastAPI 백엔드 (Python)
   app/services/         음식 분석(키워드/Claude), 가격 링크, 페어링 조합
   app/main.py           API 엔드포인트
 web/      서버 없는 휴대폰 웹 버전 (단일 HTML)
-app/      Expo(React Native) 모바일 앱, Expo Router
+app/      Expo(React Native) 모바일 앱, Expo Router (서버 없이 동작)
   src/app/(tabs)/       페어링 · 술 사전 · 내 기록 탭
   src/app/pairing.tsx   점수 순위 화면 (전체/와인/사케 필터)
   src/app/beverage/     품종 상세 (맛 프로파일, 궁합 이유, 가격 링크)
@@ -88,14 +88,22 @@ cd server && .venv/bin/python -m pytest
 
 ### 앱
 
+앱은 서버 없이 기기 안에서 점수를 계산합니다 (`web/engine.js` + `web/engine-data.json` 공유).
+
 ```bash
 cd app
 npm install
-cp .env.example .env   # 실기기는 EXPO_PUBLIC_API_URL 을 PC 내부 IP로
 npx expo start
 ```
 
 휴대폰에 Expo Go 앱을 설치하고 터미널의 QR 코드를 찍으면 바로 실행됩니다. `w` 를 누르면 브라우저 미리보기가 열립니다.
+
+### 안드로이드 설치 파일 (APK)
+
+`main` 에 앱 관련 변경이 올라가면 GitHub Actions(`.github/workflows/android-apk.yml`)가 APK를 빌드합니다.
+Actions 탭에서 **Android APK → Run workflow** 로 직접 실행할 수도 있습니다.
+결과는 실행 화면의 Artifacts 와 `apk` 브랜치의 `wine-sake-pairing.apk` 로 받습니다.
+개인 설치용으로 디버그 키 서명이며, 휴대폰에서 "출처를 알 수 없는 앱 설치"를 허용해야 설치됩니다.
 
 ## API
 

@@ -183,4 +183,6 @@
   }
 
   root.PairingEngine = { createEngine, pyRound };
+  // 앱(React Native)과 node 대조 스크립트에서 모듈로 불러올 수 있게 한다.
+  if (typeof module === 'object' && module.exports) module.exports = root.PairingEngine;
 })(typeof window !== 'undefined' ? window : globalThis);
