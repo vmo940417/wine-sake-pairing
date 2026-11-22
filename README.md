@@ -111,8 +111,8 @@ npx expo start
 
 ### 안드로이드 설치 파일 (APK)
 
-`main` 에 앱 관련 변경이 올라가면 GitHub Actions(`.github/workflows/android-apk.yml`)가 APK를 빌드합니다.
-Actions 탭에서 **Android APK → Run workflow** 로 직접 실행할 수도 있습니다.
+기본 배포는 설치형 웹앱이라 APK 자동 빌드는 꺼 두었습니다.
+필요할 때 Actions 탭에서 **Android APK → Run workflow** 로 직접 실행합니다.
 결과는 실행 화면의 Artifacts 와 `apk` 브랜치의 `wine-sake-pairing.apk` 로 받습니다.
 개인 설치용으로 디버그 키 서명이며, 휴대폰에서 "출처를 알 수 없는 앱 설치"를 허용해야 설치됩니다.
 

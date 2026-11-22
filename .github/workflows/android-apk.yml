@@ -4,14 +4,8 @@
 name: Android APK
 
 on:
+  # 웹앱(PWA)을 기본으로 쓰기로 해서 자동 빌드는 끄고, 필요할 때 Actions 탭에서 직접 실행한다.
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "app/**"
-      - "web/engine.js"
-      - "web/engine-data.json"
-      - ".github/workflows/android-apk.yml"
 
 permissions:
   contents: write
