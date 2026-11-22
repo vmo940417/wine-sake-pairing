@@ -150,6 +150,13 @@ def _oak(b: Beverage, f: Food) -> tuple[float, str] | None:
     return None
 
 
+def _regional(b: Beverage, f: Food) -> tuple[float, str] | None:
+    # 같은 지역에서 오랜 세월 함께 발전한 음식과 술 (중식×중국술, 일식×사케, 한식×전통주)
+    if b.home_cuisine and b.home_cuisine == f.cuisine:
+        return 7, f"{f.cuisine}과 같은 지역 술로 오래 함께해 온 조합입니다"
+    return None
+
+
 def _classic(b: Beverage, f: Food) -> tuple[float, str] | None:
     matched = [t for t in b.pairs_with if t in f.tags]
     if not matched:
@@ -160,7 +167,7 @@ def _classic(b: Beverage, f: Food) -> tuple[float, str] | None:
 
 RULES = [
     _weight, _acid_vs_fat, _food_acid, _tannin, _tannin_vs_cream, _tannin_vs_spice_bitter,
-    _spice, _food_sweetness, _umami, _salt, _oak, _classic,
+    _spice, _food_sweetness, _umami, _salt, _oak, _regional, _classic,
 ]
 
 

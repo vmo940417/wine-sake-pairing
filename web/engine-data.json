@@ -41,7 +41,8 @@
     "Caymus Cabernet Sauvignon",
     "Opus One",
     "Chateau Montelena Cabernet Sauvignon"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "merlot",
@@ -81,7 +82,8 @@
     "Duckhorn Merlot",
     "Chateau Petrus",
     "Chateau Angelus"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "pinot_noir",
@@ -125,7 +127,8 @@
     "Louis Jadot Bourgogne Pinot Noir",
     "Felton Road Pinot Noir",
     "Cloudy Bay Pinot Noir"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "syrah",
@@ -167,7 +170,8 @@
     "Penfolds Bin 28 Kalimna Shiraz",
     "E. Guigal Crozes-Hermitage",
     "Penfolds Grange"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "grenache",
@@ -207,7 +211,8 @@
    "bottles": [
     "Chateau de Beaucastel Chateauneuf-du-Pape",
     "E. Guigal Cotes du Rhone"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "malbec",
@@ -243,7 +248,8 @@
    "bottles": [
     "Catena Malbec",
     "Achaval Ferrer Malbec"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "sangiovese",
@@ -281,7 +287,8 @@
    "bottles": [
     "Antinori Tignanello",
     "Castello di Ama Chianti Classico"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "nebbiolo",
@@ -320,7 +327,8 @@
    "bottles": [
     "Produttori del Barbaresco",
     "Gaja Barbaresco"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "tempranillo",
@@ -361,7 +369,8 @@
     "La Rioja Alta Vina Ardanza",
     "Marques de Murrieta Reserva",
     "Vega Sicilia Unico"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "zinfandel",
@@ -400,7 +409,8 @@
    "bottles": [
     "Ridge Lytton Springs",
     "Turley Old Vines Zinfandel"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "gamay",
@@ -438,7 +448,8 @@
    "bottles": [
     "Marcel Lapierre Morgon",
     "Louis Jadot Beaujolais-Villages"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "barbera",
@@ -473,7 +484,8 @@
    "bottles": [
     "Vietti Barbera d'Asti Tre Vigne",
     "Braida Bricco dell'Uccellone"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "chardonnay_oaked",
@@ -515,7 +527,8 @@
    "bottles": [
     "Kistler Chardonnay",
     "Rombauer Chardonnay"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "chablis",
@@ -552,7 +565,8 @@
    "bottles": [
     "William Fevre Chablis",
     "Louis Michel Chablis"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "sauvignon_blanc",
@@ -594,7 +608,8 @@
    "bottles": [
     "Cloudy Bay Sauvignon Blanc",
     "Henri Bourgeois Sancerre"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "riesling_dry",
@@ -634,7 +649,8 @@
    "bottles": [
     "Trimbach Riesling",
     "Grosset Polish Hill Riesling"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "riesling_offdry",
@@ -674,7 +690,8 @@
    "bottles": [
     "Dr. Loosen Blue Slate Riesling Kabinett",
     "J.J. Prum Wehlener Sonnenuhr Kabinett"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "gewurztraminer",
@@ -712,7 +729,8 @@
    "bottles": [
     "Trimbach Gewurztraminer",
     "Hugel Gewurztraminer"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "chenin_blanc",
@@ -751,7 +769,8 @@
    "bottles": [
     "Domaine Huet Vouvray",
     "Ken Forrester Old Vine Reserve Chenin Blanc"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "albarino",
@@ -790,7 +809,8 @@
    "bottles": [
     "Pazo de Senorans Albarino",
     "Martin Codax Albarino"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "pinot_grigio",
@@ -828,7 +848,8 @@
    "bottles": [
     "Livio Felluga Pinot Grigio",
     "Santa Margherita Pinot Grigio"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "viognier",
@@ -865,7 +886,8 @@
    "bottles": [
     "E. Guigal Condrieu",
     "Yalumba The Virgilius Viognier"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "gruner_veltliner",
@@ -904,7 +926,8 @@
    "bottles": [
     "F.X. Pichler Gruner Veltliner",
     "Hirsch Gruner Veltliner"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "rose",
@@ -945,7 +968,8 @@
    "bottles": [
     "Whispering Angel",
     "Chateau Miraval Rose"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "champagne",
@@ -990,7 +1014,8 @@
     "Moet & Chandon Brut Imperial",
     "Bollinger Special Cuvee",
     "Krug Grande Cuvee"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "port",
@@ -1028,7 +1053,8 @@
    "bottles": [
     "Taylor's 10 Year Old Tawny Port",
     "Graham's Six Grapes Port"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "sauternes",
@@ -1068,7 +1094,8 @@
    "bottles": [
     "Chateau Suduiraut",
     "Chateau d'Yquem"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "fino_sherry",
@@ -1109,7 +1136,8 @@
    "bottles": [
     "Tio Pepe Fino",
     "Hidalgo La Gitana Manzanilla"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "sake_junmai",
@@ -1150,7 +1178,8 @@
    ],
    "bottles": [
     "Hakkaisan Tokubetsu Junmai"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_junmai_ginjo",
@@ -1190,7 +1219,8 @@
    "bottles": [
     "Hakkaisan Junmai Ginjo",
     "Dewazakura Dewasansan"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_junmai_daiginjo",
@@ -1232,7 +1262,8 @@
     "Dassai 45",
     "Dassai 23",
     "Kubota Manju"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_honjozo",
@@ -1271,7 +1302,8 @@
    "bottles": [
     "Hakkaisan Tokubetsu Honjozo",
     "Kikusui Funaguchi"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_ginjo",
@@ -1310,7 +1342,8 @@
    "bottles": [
     "Kubota Senju",
     "Kokuryu Ginjo"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_kimoto",
@@ -1354,7 +1387,8 @@
    "bottles": [
     "Daishichi Kimoto Junmai",
     "Tengumai Yamahai Junmai"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_nama",
@@ -1393,7 +1427,8 @@
    ],
    "bottles": [
     "Kikusui Funaguchi"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_nigori",
@@ -1431,7 +1466,8 @@
    "bottles": [
     "Gekkeikan Nigori",
     "Sho Chiku Bai Nigori"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_koshu",
@@ -1471,7 +1507,8 @@
    ],
    "bottles": [
     "Daruma Masamune"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "sake_sparkling",
@@ -1510,7 +1547,8 @@
    "bottles": [
     "Sho Chiku Bai Mio Sparkling Sake",
     "Hakkaisan Awa"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "whisky_sherry_cask",
@@ -1556,7 +1594,8 @@
     "Macallan 12 Year Old Sherry Oak",
     "GlenDronach 12 Year Old",
     "Glenfarclas 15 Year Old"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "whisky_islay_peated",
@@ -1603,7 +1642,8 @@
     "Laphroaig 10 Year Old",
     "Ardbeg 10 Year Old",
     "Lagavulin 16 Year Old"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "bourbon",
@@ -1647,7 +1687,8 @@
     "Maker's Mark",
     "Buffalo Trace",
     "Woodford Reserve"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "japanese_highball",
@@ -1692,7 +1733,8 @@
     "Suntory Toki",
     "Suntory Kakubin",
     "Hibiki Japanese Harmony"
-   ]
+   ],
+   "home_cuisine": "일식"
   },
   {
    "id": "cognac_vsop",
@@ -1738,7 +1780,8 @@
     "Hennessy VSOP",
     "Remy Martin VSOP",
     "Martell VSOP"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "cognac_xo",
@@ -1782,7 +1825,8 @@
     "Hennessy XO",
     "Remy Martin XO",
     "Martell Cordon Bleu"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "baijiu_sauce",
@@ -1827,7 +1871,8 @@
    "bottles": [
     "Kweichow Moutai",
     "Xijiu Junpin"
-   ]
+   ],
+   "home_cuisine": "중식"
   },
   {
    "id": "baijiu_strong",
@@ -1871,7 +1916,8 @@
     "Wuliangye",
     "Shui Jing Fang",
     "Luzhou Laojiao Guojiao 1573"
-   ]
+   ],
+   "home_cuisine": "중식"
   },
   {
    "id": "baijiu_light",
@@ -1915,7 +1961,8 @@
    "bottles": [
     "Fenjiu",
     "Hongxing Erguotou"
-   ]
+   ],
+   "home_cuisine": "중식"
   },
   {
    "id": "huangjiu",
@@ -1960,7 +2007,8 @@
    "bottles": [
     "Pagoda Shaoxing Huadiao",
     "Guyuelongshan Shaoxing"
-   ]
+   ],
+   "home_cuisine": "중식"
   },
   {
    "id": "makgeolli",
@@ -2002,7 +2050,8 @@
    "bottles": [
     "Boksoondoga Makgeolli",
     "Jipyeong Makgeolli"
-   ]
+   ],
+   "home_cuisine": "한식"
   },
   {
    "id": "yakju",
@@ -2048,7 +2097,8 @@
    "bottles": [
     "Hansan Sogokju",
     "Gyeongju Gyodong Beopju"
-   ]
+   ],
+   "home_cuisine": "한식"
   },
   {
    "id": "soju_distilled",
@@ -2093,7 +2143,8 @@
     "Hwayo 25",
     "Hwayo 41",
     "Andong Soju"
-   ]
+   ],
+   "home_cuisine": "한식"
   },
   {
    "id": "bokbunja",
@@ -2133,7 +2184,8 @@
    "bottles": [
     "Bohae Bokbunja",
     "Sunwoonsan Bokbunja"
-   ]
+   ],
+   "home_cuisine": "한식"
   },
   {
    "id": "whisky_scotch_classic",
@@ -2186,7 +2238,8 @@
     "Glenfiddich 12 Year Old",
     "The Balvenie DoubleWood 12 Year Old",
     "Johnnie Walker Black Label 12 Year Old"
-   ]
+   ],
+   "home_cuisine": null
   },
   {
    "id": "soju_diluted",
@@ -2231,7 +2284,8 @@
    "bottles": [
     "Jinro Chamisul",
     "Lotte Chum Churum"
-   ]
+   ],
+   "home_cuisine": "한식"
   }
  ],
  "foods": [
@@ -2989,8 +3043,7 @@
    "name_ko": "돈코츠 라멘",
    "aliases": [
     "라멘",
-    "돈코츠",
-    "라면"
+    "돈코츠"
    ],
    "cuisine": "일식",
    "protein": "pork",
@@ -3038,7 +3091,6 @@
    "id": "sukiyaki",
    "name_ko": "스키야키",
    "aliases": [
-    "샤브샤브",
     "스끼야끼"
    ],
    "cuisine": "일식",
@@ -3165,8 +3217,7 @@
    "aliases": [
     "양갈비",
     "램찹",
-    "양고기",
-    "양꼬치"
+    "양고기"
    ],
    "cuisine": "양식",
    "protein": "red_meat",
@@ -3651,11 +3702,7 @@
    "id": "thai_green_curry",
    "name_ko": "태국 그린커리",
    "aliases": [
-    "그린커리",
-    "커리",
-    "카레",
-    "똠양꿍",
-    "팟타이"
+    "그린커리"
    ],
    "cuisine": "아시아",
    "protein": "poultry",
@@ -3678,11 +3725,7 @@
   {
    "id": "mapo_tofu",
    "name_ko": "마파두부",
-   "aliases": [
-    "마라탕",
-    "마라샹궈",
-    "마라"
-   ],
+   "aliases": [],
    "cuisine": "중식",
    "protein": "pork",
    "profile": {
@@ -3730,7 +3773,6 @@
    "id": "tangsuyuk",
    "name_ko": "탕수육",
    "aliases": [
-    "꿔바로우",
     "탕수"
    ],
    "cuisine": "중식",
@@ -3757,9 +3799,7 @@
    "name_ko": "딤섬 / 만두",
    "aliases": [
     "딤섬",
-    "만두",
-    "샤오롱바오",
-    "교자"
+    "만두"
    ],
    "cuisine": "중식",
    "protein": "pork",
@@ -3783,12 +3823,9 @@
    "id": "chocolate_cake",
    "name_ko": "초콜릿 케이크",
    "aliases": [
-    "초콜릿",
-    "브라우니",
-    "가토 쇼콜라",
-    "다크초콜릿"
+    "가토 쇼콜라"
    ],
-   "cuisine": "디저트",
+   "cuisine": "안주·디저트",
    "protein": "dessert",
    "profile": {
     "fat": 3.5,
@@ -3810,11 +3847,9 @@
    "name_ko": "과일 타르트",
    "aliases": [
     "타르트",
-    "과일",
-    "애플파이",
     "과일 디저트"
    ],
-   "cuisine": "디저트",
+   "cuisine": "안주·디저트",
    "protein": "dessert",
    "profile": {
     "fat": 2.5,
@@ -3835,10 +3870,9 @@
    "id": "cheesecake",
    "name_ko": "치즈케이크",
    "aliases": [
-    "치즈 케이크",
-    "크림브륄레"
+    "치즈 케이크"
    ],
-   "cuisine": "디저트",
+   "cuisine": "안주·디저트",
    "protein": "dessert",
    "profile": {
     "fat": 4.0,
@@ -3885,10 +3919,7 @@
   {
    "id": "kkanpunggi",
    "name_ko": "깐풍기",
-   "aliases": [
-    "깐풍새우",
-    "유린기"
-   ],
+   "aliases": [],
    "cuisine": "중식",
    "protein": "poultry",
    "profile": {
@@ -4015,8 +4046,7 @@
    "id": "yukhoe",
    "name_ko": "육회",
    "aliases": [
-    "육사시미",
-    "타르타르"
+    "육사시미"
    ],
    "cuisine": "한식",
    "protein": "red_meat",
@@ -4039,11 +4069,9 @@
    "name_ko": "견과·건과일 안주",
    "aliases": [
     "견과류",
-    "건과일",
-    "마른안주",
-    "치즈 플래터"
+    "마른안주"
    ],
-   "cuisine": "안주",
+   "cuisine": "안주·디저트",
    "protein": "dessert",
    "profile": {
     "fat": 3.5,
@@ -4059,6 +4087,5902 @@
     "nuts",
     "fruit",
     "salty_snack"
+   ]
+  },
+  {
+   "id": "samgyetang",
+   "name_ko": "삼계탕",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "poultry",
+    "braised"
+   ]
+  },
+  {
+   "id": "gamjatang",
+   "name_ko": "감자탕",
+   "aliases": [
+    "뼈해장국"
+   ],
+   "cuisine": "한식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 3.0,
+    "bitter": 0.5,
+    "intensity": 4.5
+   },
+   "tags": [
+    "pork",
+    "spicy",
+    "braised"
+   ]
+  },
+  {
+   "id": "sundae_gukbap",
+   "name_ko": "순대국밥",
+   "aliases": [
+    "순대국",
+    "국밥",
+    "돼지국밥"
+   ],
+   "cuisine": "한식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 4.0,
+    "spice": 1.0,
+    "bitter": 0.5,
+    "intensity": 3.5
+   },
+   "tags": [
+    "pork",
+    "braised"
+   ]
+  },
+  {
+   "id": "sundae",
+   "name_ko": "순대",
+   "aliases": [
+    "모둠순대"
+   ],
+   "cuisine": "한식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "pork",
+    "salty_snack"
+   ]
+  },
+  {
+   "id": "gopchang",
+   "name_ko": "곱창구이",
+   "aliases": [
+    "곱창",
+    "막창",
+    "대창",
+    "소곱창"
+   ],
+   "cuisine": "한식",
+   "protein": "pork",
+   "profile": {
+    "fat": 5.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 1.0,
+    "bitter": 1.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled",
+    "pork"
+   ]
+  },
+  {
+   "id": "dakdoritang",
+   "name_ko": "닭볶음탕",
+   "aliases": [
+    "닭도리탕"
+   ],
+   "cuisine": "한식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 3.5,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "poultry",
+    "spicy",
+    "braised"
+   ]
+  },
+  {
+   "id": "jjimdak",
+   "name_ko": "찜닭",
+   "aliases": [
+    "안동찜닭"
+   ],
+   "cuisine": "한식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 3.0,
+    "umami": 3.5,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "poultry",
+    "sweet_soy",
+    "braised"
+   ]
+  },
+  {
+   "id": "agujjim",
+   "name_ko": "아구찜",
+   "aliases": [
+    "아귀찜",
+    "해물찜"
+   ],
+   "cuisine": "한식",
+   "protein": "fish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 4.0,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "fish",
+    "spicy",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "galchi_jorim",
+   "name_ko": "갈치조림",
+   "aliases": [
+    "생선조림",
+    "고등어조림"
+   ],
+   "cuisine": "한식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 1.5,
+    "umami": 3.5,
+    "spice": 3.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fish",
+    "braised",
+    "spicy"
+   ]
+  },
+  {
+   "id": "galchi_gui",
+   "name_ko": "갈치구이",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "grilled_fish",
+    "fish"
+   ]
+  },
+  {
+   "id": "golbaengi",
+   "name_ko": "골뱅이무침",
+   "aliases": [
+    "골뱅이",
+    "골뱅이소면"
+   ],
+   "cuisine": "한식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.0,
+    "salt": 3.0,
+    "acid": 3.0,
+    "sweet": 2.5,
+    "umami": 2.5,
+    "spice": 3.5,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "shellfish",
+    "spicy",
+    "sour"
+   ]
+  },
+  {
+   "id": "kkomak",
+   "name_ko": "꼬막무침",
+   "aliases": [
+    "꼬막",
+    "꼬막비빔밥"
+   ],
+   "cuisine": "한식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.0,
+    "salt": 3.0,
+    "acid": 1.5,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "shellfish",
+    "spicy"
+   ]
+  },
+  {
+   "id": "honghaptang",
+   "name_ko": "홍합탕",
+   "aliases": [
+    "홍합"
+   ],
+   "cuisine": "한식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.0,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "shellfish"
+   ]
+  },
+  {
+   "id": "yukjeon",
+   "name_ko": "육전",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "jeon",
+    "fried"
+   ]
+  },
+  {
+   "id": "kimchijeon",
+   "name_ko": "김치전",
+   "aliases": [
+    "부침개",
+    "김치부침개",
+    "장떡"
+   ],
+   "cuisine": "한식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "jeon",
+    "fried",
+    "fermented",
+    "spicy"
+   ]
+  },
+  {
+   "id": "budaejjigae",
+   "name_ko": "부대찌개",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 4.0,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 4.0,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "spicy",
+    "cured_meat",
+    "pork"
+   ]
+  },
+  {
+   "id": "seolleongtang",
+   "name_ko": "설렁탕",
+   "aliases": [
+    "곰탕",
+    "사골국"
+   ],
+   "cuisine": "한식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 2.0,
+    "salt": 1.5,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "braised"
+   ]
+  },
+  {
+   "id": "galbitang",
+   "name_ko": "갈비탕",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "braised"
+   ]
+  },
+  {
+   "id": "mulhoe",
+   "name_ko": "물회",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "raw_fish",
+   "profile": {
+    "fat": 0.5,
+    "salt": 2.5,
+    "acid": 3.0,
+    "sweet": 2.5,
+    "umami": 2.5,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "raw_fish",
+    "sour",
+    "spicy"
+   ]
+  },
+  {
+   "id": "sannakji",
+   "name_ko": "산낙지",
+   "aliases": [
+    "낙지탕탕이",
+    "탕탕이"
+   ],
+   "cuisine": "한식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 0.5,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": [
+    "shellfish",
+    "raw_fish"
+   ]
+  },
+  {
+   "id": "dakbal",
+   "name_ko": "닭발",
+   "aliases": [
+    "불닭발",
+    "무뼈닭발"
+   ],
+   "cuisine": "한식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 2.0,
+    "umami": 2.5,
+    "spice": 5.0,
+    "bitter": 0.0,
+    "intensity": 5.0
+   },
+   "tags": [
+    "poultry",
+    "spicy"
+   ]
+  },
+  {
+   "id": "sukhoe",
+   "name_ko": "오징어숙회",
+   "aliases": [
+    "숙회",
+    "문어숙회",
+    "데친 문어"
+   ],
+   "cuisine": "한식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 0.5,
+    "salt": 1.5,
+    "acid": 1.5,
+    "sweet": 1.5,
+    "umami": 2.5,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "shellfish"
+   ]
+  },
+  {
+   "id": "ganjang_chicken",
+   "name_ko": "간장치킨",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fried",
+    "poultry",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "kkomjangeo",
+   "name_ko": "곰장어구이",
+   "aliases": [
+    "꼼장어",
+    "먹장어"
+   ],
+   "cuisine": "한식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 3.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled_fish",
+    "spicy"
+   ]
+  },
+  {
+   "id": "tteokgalbi",
+   "name_ko": "떡갈비",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "ramyeon",
+   "name_ko": "라면",
+   "aliases": [
+    "라볶이",
+    "신라면"
+   ],
+   "cuisine": "한식",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.0,
+    "salt": 4.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "spicy"
+   ]
+  },
+  {
+   "id": "kimbap",
+   "name_ko": "김밥",
+   "aliases": [
+    "참치김밥"
+   ],
+   "cuisine": "한식",
+   "protein": "carb",
+   "profile": {
+    "fat": 1.5,
+    "salt": 2.0,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "vegetable"
+   ]
+  },
+  {
+   "id": "chadol",
+   "name_ko": "차돌박이",
+   "aliases": [
+    "차돌"
+   ],
+   "cuisine": "한식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.5,
+    "salt": 1.5,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "grilled"
+   ]
+  },
+  {
+   "id": "hanu_gui",
+   "name_ko": "한우 구이",
+   "aliases": [
+    "한우",
+    "소고기 구이",
+    "꽃등심",
+    "등심구이",
+    "안창살",
+    "갈비살"
+   ],
+   "cuisine": "한식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.5,
+    "salt": 1.5,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled",
+    "steak"
+   ]
+  },
+  {
+   "id": "moksal",
+   "name_ko": "목살 구이",
+   "aliases": [
+    "목살",
+    "항정살",
+    "가브리살"
+   ],
+   "cuisine": "한식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled",
+    "pork"
+   ]
+  },
+  {
+   "id": "haemultang",
+   "name_ko": "해물탕",
+   "aliases": [
+    "매운탕",
+    "알탕",
+    "해물전골"
+   ],
+   "cuisine": "한식",
+   "protein": "fish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 3.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "shellfish",
+    "spicy",
+    "fish"
+   ]
+  },
+  {
+   "id": "dubu_kimchi",
+   "name_ko": "두부김치",
+   "aliases": [],
+   "cuisine": "한식",
+   "protein": "pork",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "tofu",
+    "fermented",
+    "pork",
+    "spicy"
+   ]
+  },
+  {
+   "id": "eomuk_skewer",
+   "name_ko": "어묵꼬치",
+   "aliases": [
+    "어묵",
+    "꼬치어묵"
+   ],
+   "cuisine": "한식",
+   "protein": "fish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "fish",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "buldojang",
+   "name_ko": "불도장",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 5.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "shellfish",
+    "braised",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "yusanseul",
+   "name_ko": "유산슬",
+   "aliases": [
+    "유산슬밥"
+   ],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "shellfish",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "palbochae",
+   "name_ko": "팔보채",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 4.0,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "shellfish",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "kkansyo",
+   "name_ko": "깐쇼새우",
+   "aliases": [
+    "깐쇼"
+   ],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 1.5,
+    "sweet": 3.0,
+    "umami": 2.5,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fried",
+    "shellfish",
+    "sweet_soy",
+    "spicy"
+   ]
+  },
+  {
+   "id": "kkanpung_shrimp",
+   "name_ko": "깐풍새우",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 2.5,
+    "umami": 2.5,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fried",
+    "shellfish",
+    "spicy",
+    "sour"
+   ]
+  },
+  {
+   "id": "chili_shrimp",
+   "name_ko": "칠리새우",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.0,
+    "acid": 2.0,
+    "sweet": 3.5,
+    "umami": 2.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fried",
+    "shellfish",
+    "sour"
+   ]
+  },
+  {
+   "id": "cream_shrimp",
+   "name_ko": "크림새우",
+   "aliases": [
+    "마요새우"
+   ],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.5,
+    "salt": 1.5,
+    "acid": 0.5,
+    "sweet": 3.0,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "shellfish",
+    "cream_sauce"
+   ]
+  },
+  {
+   "id": "gochujapchae",
+   "name_ko": "고추잡채",
+   "aliases": [
+    "꽃빵"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 2.0,
+    "bitter": 0.5,
+    "intensity": 3.5
+   },
+   "tags": [
+    "pork",
+    "asian"
+   ]
+  },
+  {
+   "id": "yangjangpi",
+   "name_ko": "양장피",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.0,
+    "salt": 2.5,
+    "acid": 3.0,
+    "sweet": 2.0,
+    "umami": 2.5,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "shellfish",
+    "sour",
+    "salad"
+   ]
+  },
+  {
+   "id": "jajangmyeon",
+   "name_ko": "짜장면",
+   "aliases": [
+    "자장면",
+    "간짜장",
+    "짜장밥",
+    "쟁반짜장"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "pork",
+    "asian"
+   ]
+  },
+  {
+   "id": "bokkeumbap",
+   "name_ko": "볶음밥",
+   "aliases": [
+    "중국집 볶음밥",
+    "새우볶음밥"
+   ],
+   "cuisine": "중식",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "asian"
+   ]
+  },
+  {
+   "id": "guobaorou",
+   "name_ko": "꿔바로우",
+   "aliases": [
+    "찹쌀탕수육"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 1.5,
+    "acid": 3.0,
+    "sweet": 3.5,
+    "umami": 1.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fried",
+    "pork",
+    "sour"
+   ]
+  },
+  {
+   "id": "yurinji",
+   "name_ko": "유린기",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 2.5,
+    "sweet": 1.5,
+    "umami": 2.5,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fried",
+    "poultry",
+    "sour"
+   ]
+  },
+  {
+   "id": "lajogi",
+   "name_ko": "라조기",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 3.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fried",
+    "poultry",
+    "spicy"
+   ]
+  },
+  {
+   "id": "lazi_ji",
+   "name_ko": "라즈지",
+   "aliases": [
+    "라쯔지",
+    "사천 매운 닭튀김"
+   ],
+   "cuisine": "중식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 5.0,
+    "bitter": 0.5,
+    "intensity": 4.5
+   },
+   "tags": [
+    "fried",
+    "poultry",
+    "spicy"
+   ]
+  },
+  {
+   "id": "malatang",
+   "name_ko": "마라탕",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.0,
+    "salt": 4.0,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 5.0,
+    "bitter": 1.0,
+    "intensity": 5.0
+   },
+   "tags": [
+    "spicy",
+    "asian"
+   ]
+  },
+  {
+   "id": "malaxiangguo",
+   "name_ko": "마라샹궈",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 4.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 5.0,
+    "bitter": 1.0,
+    "intensity": 5.0
+   },
+   "tags": [
+    "spicy",
+    "asian"
+   ]
+  },
+  {
+   "id": "hotpot",
+   "name_ko": "훠궈",
+   "aliases": [
+    "중국식 샤브샤브",
+    "마라 훠궈"
+   ],
+   "cuisine": "중식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 3.5,
+    "bitter": 0.5,
+    "intensity": 4.5
+   },
+   "tags": [
+    "spicy",
+    "asian"
+   ]
+  },
+  {
+   "id": "yangkkochi",
+   "name_ko": "양꼬치",
+   "aliases": [
+    "쯔란 양꼬치",
+    "양고기 꼬치"
+   ],
+   "cuisine": "중식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 1.5,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "lamb",
+    "grilled"
+   ]
+  },
+  {
+   "id": "menbosha",
+   "name_ko": "멘보샤",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.5,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "xiaolongbao",
+   "name_ko": "샤오롱바오",
+   "aliases": [
+    "소룡포"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "pork",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "gunmandu",
+   "name_ko": "군만두",
+   "aliases": [
+    "교자",
+    "야끼만두",
+    "교자만두"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried",
+    "pork"
+   ]
+  },
+  {
+   "id": "siumai",
+   "name_ko": "슈마이",
+   "aliases": [
+    "샤오마이"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "pork",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "chungwon",
+   "name_ko": "춘권",
+   "aliases": [
+    "스프링롤",
+    "중국식 춘권"
+   ],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried"
+   ]
+  },
+  {
+   "id": "tantanmen",
+   "name_ko": "탄탄면",
+   "aliases": [
+    "딴딴면"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 1.0,
+    "umami": 4.0,
+    "spice": 3.5,
+    "bitter": 0.5,
+    "intensity": 4.5
+   },
+   "tags": [
+    "spicy",
+    "nuts",
+    "pork"
+   ]
+  },
+  {
+   "id": "niuroumian",
+   "name_ko": "우육면",
+   "aliases": [
+    "대만 우육면"
+   ],
+   "cuisine": "중식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "braised",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "yuxiang",
+   "name_ko": "어향가지",
+   "aliases": [
+    "위샹치에즈",
+    "가지튀김"
+   ],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "spicy",
+    "sour",
+    "asian"
+   ]
+  },
+  {
+   "id": "tomato_egg",
+   "name_ko": "토마토 달걀볶음",
+   "aliases": [
+    "토마토계란볶음",
+    "시홍스차오지단"
+   ],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.0,
+    "acid": 2.5,
+    "sweet": 2.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "tomato_sauce"
+   ]
+  },
+  {
+   "id": "ohyang",
+   "name_ko": "오향장육",
+   "aliases": [],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "pork",
+    "braised",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "haepari",
+   "name_ko": "해파리냉채",
+   "aliases": [
+    "냉채"
+   ],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 0.5,
+    "salt": 2.5,
+    "acid": 3.0,
+    "sweet": 2.0,
+    "umami": 2.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "shellfish",
+    "sour",
+    "salad"
+   ]
+  },
+  {
+   "id": "gongbao",
+   "name_ko": "궁보계정",
+   "aliases": [
+    "꿍바오지딩",
+    "궁보치킨"
+   ],
+   "cuisine": "중식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "poultry",
+    "spicy",
+    "nuts"
+   ]
+  },
+  {
+   "id": "huiguorou",
+   "name_ko": "회과육",
+   "aliases": [
+    "후이궈러우"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "pork",
+    "spicy"
+   ]
+  },
+  {
+   "id": "suanlatang",
+   "name_ko": "산라탕",
+   "aliases": [
+    "쑤안라탕"
+   ],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.0,
+    "acid": 3.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "sour",
+    "spicy",
+    "tofu"
+   ]
+  },
+  {
+   "id": "tangcuyu",
+   "name_ko": "탕추위",
+   "aliases": [
+    "탕수생선",
+    "생선탕수"
+   ],
+   "cuisine": "중식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.0,
+    "acid": 3.0,
+    "sweet": 3.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fish",
+    "fried",
+    "sour"
+   ]
+  },
+  {
+   "id": "steamed_fish",
+   "name_ko": "광둥식 생선찜",
+   "aliases": [
+    "청증생선",
+    "생선찜 중식",
+    "우럭찜"
+   ],
+   "cuisine": "중식",
+   "protein": "fish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "fish",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "chasiu",
+   "name_ko": "차샤오",
+   "aliases": [
+    "차슈 바베큐",
+    "중국식 바비큐",
+    "차사오"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 3.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "pork",
+    "bbq",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "haesam",
+   "name_ko": "해삼 요리",
+   "aliases": [
+    "해삼",
+    "해삼주스",
+    "홍소해삼"
+   ],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "shellfish",
+    "braised",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "jeonbok_oyster",
+   "name_ko": "전복 굴소스볶음",
+   "aliases": [
+    "전복요리",
+    "전복 굴소스"
+   ],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 4.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "shellfish",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "oyster_beef",
+   "name_ko": "소고기 굴소스볶음",
+   "aliases": [
+    "굴소스 소고기",
+    "우육 굴소스"
+   ],
+   "cuisine": "중식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.5,
+    "umami": 4.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "soy_sauce",
+    "asian"
+   ]
+  },
+  {
+   "id": "chowmein",
+   "name_ko": "차우멘",
+   "aliases": [
+    "볶음면",
+    "중식 볶음면",
+    "초면"
+   ],
+   "cuisine": "중식",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "soy_sauce",
+    "asian"
+   ]
+  },
+  {
+   "id": "shuizhuyu",
+   "name_ko": "수자육",
+   "aliases": [
+    "수자어",
+    "쉐이주위",
+    "수주육"
+   ],
+   "cuisine": "중식",
+   "protein": "fish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 5.0,
+    "bitter": 0.5,
+    "intensity": 5.0
+   },
+   "tags": [
+    "fish",
+    "spicy"
+   ]
+  },
+  {
+   "id": "liangpi",
+   "name_ko": "량피",
+   "aliases": [
+    "중국 냉피",
+    "량피 비빔"
+   ],
+   "cuisine": "중식",
+   "protein": "carb",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.0,
+    "acid": 2.5,
+    "sweet": 1.0,
+    "umami": 2.5,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "sour",
+    "spicy"
+   ]
+  },
+  {
+   "id": "pidan_tofu",
+   "name_ko": "피단두부",
+   "aliases": [
+    "송화단",
+    "피단"
+   ],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 1.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "tofu",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "egg_drop_soup",
+   "name_ko": "계란탕",
+   "aliases": [
+    "달걀탕",
+    "중국식 계란국"
+   ],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 1.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": []
+  },
+  {
+   "id": "kkanpungi_tofu",
+   "name_ko": "마늘 깐풍두부",
+   "aliases": [
+    "깐풍두부"
+   ],
+   "cuisine": "중식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 2.5,
+    "umami": 2.5,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fried",
+    "tofu",
+    "spicy",
+    "sour"
+   ]
+  },
+  {
+   "id": "gyudon",
+   "name_ko": "규동",
+   "aliases": [
+    "소고기덮밥",
+    "규동 덮밥"
+   ],
+   "cuisine": "일식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "oyakodon",
+   "name_ko": "오야코동",
+   "aliases": [
+    "닭고기 달걀덮밥"
+   ],
+   "cuisine": "일식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 2.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "poultry",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "katsudon",
+   "name_ko": "가츠동",
+   "aliases": [
+    "돈카츠덮밥",
+    "돈부리"
+   ],
+   "cuisine": "일식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fried",
+    "pork",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "kaisendon",
+   "name_ko": "카이센동",
+   "aliases": [
+    "해산물덮밥",
+    "해물덮밥",
+    "지라시스시"
+   ],
+   "cuisine": "일식",
+   "protein": "raw_fish",
+   "profile": {
+    "fat": 2.0,
+    "salt": 2.0,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "raw_fish",
+    "sushi"
+   ]
+  },
+  {
+   "id": "unadon",
+   "name_ko": "우나동",
+   "aliases": [
+    "장어덮밥",
+    "히츠마부시",
+    "우나쥬"
+   ],
+   "cuisine": "일식",
+   "protein": "fish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 3.0,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled_fish",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "karaage",
+   "name_ko": "가라아게",
+   "aliases": [
+    "일본식 닭튀김",
+    "치킨 가라아게"
+   ],
+   "cuisine": "일식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.5,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "poultry"
+   ]
+  },
+  {
+   "id": "okonomiyaki",
+   "name_ko": "오코노미야키",
+   "aliases": [],
+   "cuisine": "일식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.5,
+    "acid": 1.0,
+    "sweet": 2.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "jeon",
+    "sweet_soy",
+    "pork"
+   ]
+  },
+  {
+   "id": "takoyaki",
+   "name_ko": "타코야키",
+   "aliases": [],
+   "cuisine": "일식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "shellfish",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "shabu",
+   "name_ko": "샤브샤브",
+   "aliases": [
+    "샤부샤부",
+    "일본식 샤브샤브"
+   ],
+   "cuisine": "일식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 2.0,
+    "salt": 2.0,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "udon",
+   "name_ko": "우동",
+   "aliases": [
+    "카케우동",
+    "키츠네우동",
+    "냄비우동"
+   ],
+   "cuisine": "일식",
+   "protein": "carb",
+   "profile": {
+    "fat": 1.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "soba",
+   "name_ko": "소바",
+   "aliases": [
+    "메밀소바",
+    "자루소바",
+    "판모밀"
+   ],
+   "cuisine": "일식",
+   "protein": "carb",
+   "profile": {
+    "fat": 0.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.5,
+    "intensity": 2.0
+   },
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "yakisoba",
+   "name_ko": "야키소바",
+   "aliases": [],
+   "cuisine": "일식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 1.0,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "pork",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "yakitori_shio",
+   "name_ko": "야키토리 (소금)",
+   "aliases": [
+    "시오 야키토리",
+    "닭꼬치 소금",
+    "네기마"
+   ],
+   "cuisine": "일식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 1.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "grilled",
+    "poultry"
+   ]
+  },
+  {
+   "id": "tsukune",
+   "name_ko": "츠쿠네",
+   "aliases": [
+    "닭고기 완자 꼬치"
+   ],
+   "cuisine": "일식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "grilled",
+    "poultry",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "kushikatsu",
+   "name_ko": "쿠시카츠",
+   "aliases": [
+    "쿠시아게",
+    "꼬치튀김"
+   ],
+   "cuisine": "일식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.5,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 1.5,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "pork"
+   ]
+  },
+  {
+   "id": "edamame",
+   "name_ko": "에다마메",
+   "aliases": [
+    "풋콩"
+   ],
+   "cuisine": "일식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 1.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 1.0
+   },
+   "tags": [
+    "salty_snack",
+    "vegetable"
+   ]
+  },
+  {
+   "id": "hiyayakko",
+   "name_ko": "히야얏코",
+   "aliases": [
+    "냉두부",
+    "연두부"
+   ],
+   "cuisine": "일식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 1.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.0
+   },
+   "tags": [
+    "tofu",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "chawanmushi",
+   "name_ko": "자완무시",
+   "aliases": [
+    "일본식 달걀찜"
+   ],
+   "cuisine": "일식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": []
+  },
+  {
+   "id": "saba_miso",
+   "name_ko": "고등어 미소니",
+   "aliases": [
+    "사바미소",
+    "고등어 된장조림"
+   ],
+   "cuisine": "일식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fish",
+    "miso",
+    "braised"
+   ]
+  },
+  {
+   "id": "buri_teriyaki",
+   "name_ko": "방어 데리야키",
+   "aliases": [
+    "부리 데리야키",
+    "데리야키 생선"
+   ],
+   "cuisine": "일식",
+   "protein": "fish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled_fish",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "gindara",
+   "name_ko": "은대구 미소구이",
+   "aliases": [
+    "긴다라",
+    "은대구 사이쿄야키",
+    "은대구구이"
+   ],
+   "cuisine": "일식",
+   "protein": "fish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 2.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "grilled_fish",
+    "miso"
+   ]
+  },
+  {
+   "id": "nikujaga",
+   "name_ko": "니쿠자가",
+   "aliases": [
+    "일본식 소고기감자조림"
+   ],
+   "cuisine": "일식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 2.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "braised",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "kare",
+   "name_ko": "카레라이스",
+   "aliases": [
+    "일본 카레",
+    "카레",
+    "카레 덮밥"
+   ],
+   "cuisine": "일식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "curry"
+   ]
+  },
+  {
+   "id": "katsukare",
+   "name_ko": "카츠카레",
+   "aliases": [
+    "돈카츠 카레"
+   ],
+   "cuisine": "일식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.5,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fried",
+    "curry",
+    "pork"
+   ]
+  },
+  {
+   "id": "omurice",
+   "name_ko": "오므라이스",
+   "aliases": [],
+   "cuisine": "일식",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 1.5,
+    "sweet": 2.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "tomato_sauce"
+   ]
+  },
+  {
+   "id": "shoyu_ramen",
+   "name_ko": "쇼유 라멘",
+   "aliases": [
+    "간장 라멘"
+   ],
+   "cuisine": "일식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 4.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "pork",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "miso_ramen",
+   "name_ko": "미소 라멘",
+   "aliases": [
+    "된장 라멘"
+   ],
+   "cuisine": "일식",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 4.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 4.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "pork",
+    "miso"
+   ]
+  },
+  {
+   "id": "hamachi",
+   "name_ko": "방어회",
+   "aliases": [
+    "히라마사",
+    "부리 사시미",
+    "잿방어"
+   ],
+   "cuisine": "일식",
+   "protein": "raw_fish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 1.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "raw_fish"
+   ]
+  },
+  {
+   "id": "uni",
+   "name_ko": "성게알 (우니)",
+   "aliases": [
+    "우니",
+    "성게"
+   ],
+   "cuisine": "일식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 1.5,
+    "umami": 4.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.5
+   },
+   "tags": [
+    "shellfish",
+    "raw_fish"
+   ]
+  },
+  {
+   "id": "ikura",
+   "name_ko": "연어알 (이쿠라)",
+   "aliases": [
+    "이쿠라",
+    "연어알"
+   ],
+   "cuisine": "일식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "raw_fish",
+    "caviar"
+   ]
+  },
+  {
+   "id": "tamagoyaki",
+   "name_ko": "다마고야키",
+   "aliases": [
+    "일본식 달걀말이"
+   ],
+   "cuisine": "일식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 2.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": []
+  },
+  {
+   "id": "inari",
+   "name_ko": "유부초밥",
+   "aliases": [
+    "이나리"
+   ],
+   "cuisine": "일식",
+   "protein": "carb",
+   "profile": {
+    "fat": 1.5,
+    "salt": 2.0,
+    "acid": 1.0,
+    "sweet": 2.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "sushi",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "aburi",
+   "name_ko": "아부리 초밥",
+   "aliases": [
+    "불초밥",
+    "아부리",
+    "토치 초밥"
+   ],
+   "cuisine": "일식",
+   "protein": "raw_fish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.0,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.5
+   },
+   "tags": [
+    "sushi",
+    "raw_fish"
+   ]
+  },
+  {
+   "id": "hambagu",
+   "name_ko": "함박스테이크",
+   "aliases": [
+    "함바그",
+    "햄버그스테이크"
+   ],
+   "cuisine": "일식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 2.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "korokke",
+   "name_ko": "고로케",
+   "aliases": [
+    "크로켓"
+   ],
+   "cuisine": "일식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried"
+   ]
+  },
+  {
+   "id": "ebi_fry",
+   "name_ko": "에비후라이",
+   "aliases": [
+    "새우 프라이"
+   ],
+   "cuisine": "일식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.0,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "yakiniku",
+   "name_ko": "야키니쿠",
+   "aliases": [
+    "일본식 고기구이",
+    "와규 구이"
+   ],
+   "cuisine": "일식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "mentaiko",
+   "name_ko": "명란구이",
+   "aliases": [
+    "명란",
+    "멘타이코",
+    "명란젓"
+   ],
+   "cuisine": "일식",
+   "protein": "fish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 4.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fish",
+    "salty_snack"
+   ]
+  },
+  {
+   "id": "shishamo",
+   "name_ko": "시샤모구이",
+   "aliases": [
+    "열빙어",
+    "시샤모"
+   ],
+   "cuisine": "일식",
+   "protein": "fish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 1.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "grilled_fish"
+   ]
+  },
+  {
+   "id": "ikayaki",
+   "name_ko": "이카야키",
+   "aliases": [
+    "오징어구이",
+    "일본식 오징어구이"
+   ],
+   "cuisine": "일식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "grilled",
+    "shellfish",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "yosenabe",
+   "name_ko": "요세나베",
+   "aliases": [
+    "나베",
+    "해물나베",
+    "모츠나베"
+   ],
+   "cuisine": "일식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "shellfish",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "gambas",
+   "name_ko": "감바스 알 아히요",
+   "aliases": [
+    "감바스"
+   ],
+   "cuisine": "양식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.5,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 0.0,
+    "umami": 2.5,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "shellfish",
+    "herbs"
+   ]
+  },
+  {
+   "id": "vongole",
+   "name_ko": "봉골레 파스타",
+   "aliases": [
+    "봉골레"
+   ],
+   "cuisine": "양식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "pasta",
+    "shellfish",
+    "herbs"
+   ]
+  },
+  {
+   "id": "aglio",
+   "name_ko": "알리오 올리오",
+   "aliases": [
+    "오일 파스타"
+   ],
+   "cuisine": "양식",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 2.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "pasta",
+    "herbs"
+   ]
+  },
+  {
+   "id": "lasagna",
+   "name_ko": "라자냐",
+   "aliases": [],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 2.5,
+    "sweet": 1.5,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "tomato_sauce",
+    "pasta",
+    "cheese"
+   ]
+  },
+  {
+   "id": "gnocchi",
+   "name_ko": "뇨끼",
+   "aliases": [
+    "크림 뇨끼",
+    "트러플 크림 뇨끼"
+   ],
+   "cuisine": "양식",
+   "protein": "carb",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "cream_sauce"
+   ]
+  },
+  {
+   "id": "paella",
+   "name_ko": "파에야",
+   "aliases": [
+    "빠에야",
+    "해산물 빠에야"
+   ],
+   "cuisine": "양식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "shellfish",
+    "herbs"
+   ]
+  },
+  {
+   "id": "bourguignon",
+   "name_ko": "비프 부르기뇽",
+   "aliases": [
+    "뵈프 부르기뇽",
+    "소고기 와인찜"
+   ],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.5
+   },
+   "tags": [
+    "braised",
+    "stew",
+    "mushroom"
+   ]
+  },
+  {
+   "id": "burger",
+   "name_ko": "수제 햄버거",
+   "aliases": [
+    "햄버거",
+    "버거",
+    "치즈버거"
+   ],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.5,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 1.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled",
+    "cheese"
+   ]
+  },
+  {
+   "id": "fish_chips",
+   "name_ko": "피시 앤 칩스",
+   "aliases": [
+    "피쉬앤칩스"
+   ],
+   "cuisine": "양식",
+   "protein": "fish",
+   "profile": {
+    "fat": 4.5,
+    "salt": 3.0,
+    "acid": 1.5,
+    "sweet": 0.0,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "fish"
+   ]
+  },
+  {
+   "id": "schnitzel",
+   "name_ko": "슈니첼",
+   "aliases": [
+    "비너 슈니첼",
+    "돈가스 슈니첼"
+   ],
+   "cuisine": "양식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 0.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "pork"
+   ]
+  },
+  {
+   "id": "moules",
+   "name_ko": "홍합 화이트와인찜",
+   "aliases": [
+    "물 마리니에르",
+    "홍합찜",
+    "벨기에 홍합"
+   ],
+   "cuisine": "양식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.5,
+    "acid": 1.5,
+    "sweet": 0.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "shellfish",
+    "herbs",
+    "butter"
+   ]
+  },
+  {
+   "id": "caprese",
+   "name_ko": "카프레제",
+   "aliases": [
+    "카프레제 샐러드"
+   ],
+   "cuisine": "양식",
+   "protein": "cheese",
+   "profile": {
+    "fat": 2.5,
+    "salt": 1.5,
+    "acid": 2.5,
+    "sweet": 1.0,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": [
+    "salad",
+    "cheese",
+    "herbs"
+   ]
+  },
+  {
+   "id": "burrata",
+   "name_ko": "부라타 샐러드",
+   "aliases": [
+    "부라타"
+   ],
+   "cuisine": "양식",
+   "protein": "cheese",
+   "profile": {
+    "fat": 3.5,
+    "salt": 1.5,
+    "acid": 2.0,
+    "sweet": 1.0,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "cheese",
+    "salad"
+   ]
+  },
+  {
+   "id": "cheese_platter",
+   "name_ko": "치즈 플래터",
+   "aliases": [
+    "모둠 치즈",
+    "치즈 모둠"
+   ],
+   "cuisine": "양식",
+   "protein": "cheese",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "cheese",
+    "hard_cheese",
+    "nuts"
+   ]
+  },
+  {
+   "id": "fondue",
+   "name_ko": "치즈 퐁듀",
+   "aliases": [
+    "퐁듀"
+   ],
+   "cuisine": "양식",
+   "protein": "cheese",
+   "profile": {
+    "fat": 5.0,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "cheese"
+   ]
+  },
+  {
+   "id": "quiche",
+   "name_ko": "키슈",
+   "aliases": [
+    "키쉬"
+   ],
+   "cuisine": "양식",
+   "protein": "cheese",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "cheese",
+    "butter"
+   ]
+  },
+  {
+   "id": "tartare",
+   "name_ko": "스테이크 타르타르",
+   "aliases": [
+    "비프 타르타르",
+    "타르타르"
+   ],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": []
+  },
+  {
+   "id": "coq_au_vin",
+   "name_ko": "코코뱅",
+   "aliases": [
+    "닭고기 와인찜",
+    "꼬꼬뱅"
+   ],
+   "cuisine": "양식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "braised",
+    "mushroom",
+    "poultry"
+   ]
+  },
+  {
+   "id": "osso_buco",
+   "name_ko": "오소부코",
+   "aliases": [
+    "송아지 정강이찜"
+   ],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 1.5,
+    "sweet": 1.0,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "braised",
+    "tomato_sauce"
+   ]
+  },
+  {
+   "id": "pork_belly_roast",
+   "name_ko": "포크 벨리 로스트",
+   "aliases": [
+    "통삼겹 오븐구이",
+    "오븐 삼겹살"
+   ],
+   "cuisine": "양식",
+   "protein": "pork",
+   "profile": {
+    "fat": 5.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "roast",
+    "pork"
+   ]
+  },
+  {
+   "id": "roast_beef",
+   "name_ko": "로스트비프",
+   "aliases": [],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.5
+   },
+   "tags": [
+    "roast"
+   ]
+  },
+  {
+   "id": "mushroom_soup",
+   "name_ko": "양송이 수프",
+   "aliases": [
+    "크림수프",
+    "버섯 수프"
+   ],
+   "cuisine": "양식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "cream_sauce",
+    "mushroom"
+   ]
+  },
+  {
+   "id": "clam_chowder",
+   "name_ko": "클램 차우더",
+   "aliases": [
+    "조개 차우더"
+   ],
+   "cuisine": "양식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "cream_sauce",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "ceviche",
+   "name_ko": "세비체",
+   "aliases": [],
+   "cuisine": "양식",
+   "protein": "raw_fish",
+   "profile": {
+    "fat": 0.5,
+    "salt": 2.0,
+    "acid": 4.0,
+    "sweet": 1.0,
+    "umami": 2.0,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "raw_fish",
+    "sour",
+    "herbs"
+   ]
+  },
+  {
+   "id": "tacos",
+   "name_ko": "타코",
+   "aliases": [
+    "멕시칸 타코",
+    "부리또"
+   ],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "spicy",
+    "herbs"
+   ]
+  },
+  {
+   "id": "club_sandwich",
+   "name_ko": "클럽 샌드위치",
+   "aliases": [
+    "샌드위치",
+    "파니니"
+   ],
+   "cuisine": "양식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": []
+  },
+  {
+   "id": "eggs_benedict",
+   "name_ko": "에그 베네딕트",
+   "aliases": [
+    "브런치"
+   ],
+   "cuisine": "양식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "butter",
+    "cured_meat"
+   ]
+  },
+  {
+   "id": "bouillabaisse",
+   "name_ko": "부야베스",
+   "aliases": [
+    "해산물 스튜",
+    "프랑스 해산물 수프"
+   ],
+   "cuisine": "양식",
+   "protein": "fish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 1.5,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fish",
+    "shellfish",
+    "stew",
+    "herbs",
+    "tomato_sauce"
+   ]
+  },
+  {
+   "id": "lamb_stew",
+   "name_ko": "양고기 스튜",
+   "aliases": [
+    "램 스튜",
+    "아이리시 스튜"
+   ],
+   "cuisine": "양식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "lamb",
+    "stew",
+    "braised"
+   ]
+  },
+  {
+   "id": "porchetta",
+   "name_ko": "포르케타",
+   "aliases": [],
+   "cuisine": "양식",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "roast",
+    "pork",
+    "herbs"
+   ]
+  },
+  {
+   "id": "buffalo_wings",
+   "name_ko": "버팔로 윙",
+   "aliases": [
+    "치킨윙",
+    "핫윙"
+   ],
+   "cuisine": "양식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.5,
+    "acid": 2.0,
+    "sweet": 1.0,
+    "umami": 2.5,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fried",
+    "poultry",
+    "spicy"
+   ]
+  },
+  {
+   "id": "quattro",
+   "name_ko": "콰트로 포르마지 피자",
+   "aliases": [
+    "고르곤졸라 피자",
+    "4치즈 피자"
+   ],
+   "cuisine": "양식",
+   "protein": "cheese",
+   "profile": {
+    "fat": 4.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 1.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "pizza",
+    "cheese",
+    "blue_cheese"
+   ]
+  },
+  {
+   "id": "tuna_steak",
+   "name_ko": "참치 스테이크",
+   "aliases": [],
+   "cuisine": "양식",
+   "protein": "fish",
+   "profile": {
+    "fat": 2.0,
+    "salt": 2.0,
+    "acid": 1.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fish",
+    "grilled_fish"
+   ]
+  },
+  {
+   "id": "duck_confit",
+   "name_ko": "오리 콩피",
+   "aliases": [
+    "덕 콩피"
+   ],
+   "cuisine": "양식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 5.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "duck",
+    "roast"
+   ]
+  },
+  {
+   "id": "ratatouille",
+   "name_ko": "라타투이",
+   "aliases": [
+    "채소 스튜"
+   ],
+   "cuisine": "양식",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 2.0,
+    "salt": 2.0,
+    "acid": 2.5,
+    "sweet": 1.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.5
+   },
+   "tags": [
+    "vegetable",
+    "tomato_sauce",
+    "herbs"
+   ]
+  },
+  {
+   "id": "pho",
+   "name_ko": "쌀국수",
+   "aliases": [
+    "포",
+    "베트남 쌀국수",
+    "소고기 쌀국수"
+   ],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "herbs",
+    "asian"
+   ]
+  },
+  {
+   "id": "padthai",
+   "name_ko": "팟타이",
+   "aliases": [
+    "태국 볶음면"
+   ],
+   "cuisine": "아시아",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 3.0,
+    "umami": 3.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "asian",
+    "nuts",
+    "sour"
+   ]
+  },
+  {
+   "id": "tomyum",
+   "name_ko": "똠얌꿍",
+   "aliases": [
+    "똠양꿍",
+    "똠얌"
+   ],
+   "cuisine": "아시아",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.5,
+    "acid": 4.0,
+    "sweet": 1.5,
+    "umami": 3.5,
+    "spice": 4.0,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "spicy",
+    "sour",
+    "shellfish",
+    "asian"
+   ]
+  },
+  {
+   "id": "bunja",
+   "name_ko": "분짜",
+   "aliases": [],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 2.5,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled",
+    "pork",
+    "sour",
+    "herbs"
+   ]
+  },
+  {
+   "id": "nasigoreng",
+   "name_ko": "나시고렝",
+   "aliases": [
+    "인도네시아 볶음밥"
+   ],
+   "cuisine": "아시아",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "asian",
+    "spicy"
+   ]
+  },
+  {
+   "id": "tandoori",
+   "name_ko": "탄두리 치킨",
+   "aliases": [
+    "탄두리"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 1.5,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 2.5,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "grilled",
+    "poultry",
+    "spicy",
+    "curry"
+   ]
+  },
+  {
+   "id": "butter_chicken",
+   "name_ko": "버터치킨 커리",
+   "aliases": [
+    "버터치킨",
+    "무르그 마카니"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 1.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "curry",
+    "cream_sauce",
+    "poultry"
+   ]
+  },
+  {
+   "id": "banhmi",
+   "name_ko": "반미",
+   "aliases": [
+    "반미 샌드위치"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "pork",
+    "herbs",
+    "sour"
+   ]
+  },
+  {
+   "id": "goicuon",
+   "name_ko": "월남쌈",
+   "aliases": [
+    "고이꾸온",
+    "베트남 스프링롤",
+    "라이스페이퍼 쌈"
+   ],
+   "cuisine": "아시아",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 0.5,
+    "salt": 2.0,
+    "acid": 2.5,
+    "sweet": 1.5,
+    "umami": 2.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": [
+    "shellfish",
+    "herbs",
+    "salad"
+   ]
+  },
+  {
+   "id": "somtam",
+   "name_ko": "쏨땀",
+   "aliases": [
+    "파파야 샐러드"
+   ],
+   "cuisine": "아시아",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 0.5,
+    "salt": 3.0,
+    "acid": 4.0,
+    "sweet": 2.5,
+    "umami": 2.5,
+    "spice": 4.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "salad",
+    "sour",
+    "spicy"
+   ]
+  },
+  {
+   "id": "massaman",
+   "name_ko": "마싸만 커리",
+   "aliases": [
+    "마사만 커리"
+   ],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 3.0,
+    "umami": 3.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "curry",
+    "nuts"
+   ]
+  },
+  {
+   "id": "red_curry",
+   "name_ko": "레드커리",
+   "aliases": [
+    "태국 레드커리",
+    "깽펫"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 3.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "curry",
+    "spicy"
+   ]
+  },
+  {
+   "id": "satay",
+   "name_ko": "사테",
+   "aliases": [
+    "사테꼬치",
+    "땅콩소스 꼬치"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled",
+    "nuts",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "miegoreng",
+   "name_ko": "미고렝",
+   "aliases": [
+    "인도네시아 볶음면"
+   ],
+   "cuisine": "아시아",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "asian",
+    "spicy",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "laksa",
+   "name_ko": "락사",
+   "aliases": [
+    "커리 락사"
+   ],
+   "cuisine": "아시아",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.5,
+    "acid": 1.0,
+    "sweet": 1.5,
+    "umami": 4.0,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "curry",
+    "spicy",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "rendang",
+   "name_ko": "른당",
+   "aliases": [
+    "비프 른당",
+    "렌당"
+   ],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.5,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "curry",
+    "braised"
+   ]
+  },
+  {
+   "id": "khaopad",
+   "name_ko": "카오팟",
+   "aliases": [
+    "태국 볶음밥"
+   ],
+   "cuisine": "아시아",
+   "protein": "carb",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "asian"
+   ]
+  },
+  {
+   "id": "krapao",
+   "name_ko": "팟카파오",
+   "aliases": [
+    "바질 볶음",
+    "카파오무쌉"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 3.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "spicy",
+    "herbs",
+    "pork"
+   ]
+  },
+  {
+   "id": "mooping",
+   "name_ko": "무삥",
+   "aliases": [
+    "태국 돼지꼬치"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled",
+    "pork",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "larb",
+   "name_ko": "랍",
+   "aliases": [
+    "랍무",
+    "라브",
+    "태국 고기 샐러드"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 2.0,
+    "salt": 3.0,
+    "acid": 3.5,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 3.5,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "salad",
+    "sour",
+    "spicy",
+    "herbs"
+   ]
+  },
+  {
+   "id": "bunbohue",
+   "name_ko": "분보후에",
+   "aliases": [],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 2.0,
+    "salt": 3.5,
+    "acid": 1.5,
+    "sweet": 1.0,
+    "umami": 4.0,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "spicy",
+    "herbs"
+   ]
+  },
+  {
+   "id": "banhxeo",
+   "name_ko": "반쎄오",
+   "aliases": [
+    "베트남 부침개"
+   ],
+   "cuisine": "아시아",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 1.5,
+    "sweet": 1.5,
+    "umami": 2.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "jeon",
+    "fried",
+    "herbs"
+   ]
+  },
+  {
+   "id": "chagio",
+   "name_ko": "짜조",
+   "aliases": [
+    "베트남 튀김만두",
+    "넴"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 2.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "pork"
+   ]
+  },
+  {
+   "id": "comtam",
+   "name_ko": "껌땀",
+   "aliases": [
+    "베트남 돼지갈비 덮밥"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 2.5,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled",
+    "pork",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "biryani",
+   "name_ko": "비리야니",
+   "aliases": [
+    "브리야니"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "curry",
+    "spicy"
+   ]
+  },
+  {
+   "id": "tikka",
+   "name_ko": "치킨 티카 마살라",
+   "aliases": [
+    "티카마살라",
+    "티카 마살라"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "curry",
+    "tomato_sauce",
+    "cream_sauce"
+   ]
+  },
+  {
+   "id": "saag_paneer",
+   "name_ko": "팔락 파니르",
+   "aliases": [
+    "사그 파니르",
+    "시금치 커리"
+   ],
+   "cuisine": "아시아",
+   "protein": "cheese",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 1.5,
+    "bitter": 1.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "curry",
+    "cheese",
+    "vegetable"
+   ]
+  },
+  {
+   "id": "dal",
+   "name_ko": "달 커리",
+   "aliases": [
+    "렌틸 커리",
+    "달"
+   ],
+   "cuisine": "아시아",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 2.0,
+    "salt": 2.5,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "curry"
+   ]
+  },
+  {
+   "id": "samosa",
+   "name_ko": "사모사",
+   "aliases": [],
+   "cuisine": "아시아",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 2.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fried",
+    "curry"
+   ]
+  },
+  {
+   "id": "keema",
+   "name_ko": "키마 커리",
+   "aliases": [
+    "다진고기 커리"
+   ],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "curry",
+    "spicy"
+   ]
+  },
+  {
+   "id": "rogan_josh",
+   "name_ko": "로건 조시",
+   "aliases": [
+    "양고기 커리",
+    "램 커리"
+   ],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 1.0,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 3.0,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "curry",
+    "lamb",
+    "spicy"
+   ]
+  },
+  {
+   "id": "chicken_rice",
+   "name_ko": "하이난 치킨라이스",
+   "aliases": [
+    "치킨라이스",
+    "카오만까이"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "poultry"
+   ]
+  },
+  {
+   "id": "chili_crab",
+   "name_ko": "칠리크랩",
+   "aliases": [
+    "싱가포르 칠리크랩"
+   ],
+   "cuisine": "아시아",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 3.0,
+    "umami": 3.5,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "crab",
+    "shellfish",
+    "spicy",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "bakkutteh",
+   "name_ko": "바쿠테",
+   "aliases": [
+    "육골차"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 2.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.5,
+    "spice": 0.5,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "pork",
+    "braised"
+   ]
+  },
+  {
+   "id": "nasilemak",
+   "name_ko": "나시르막",
+   "aliases": [],
+   "cuisine": "아시아",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "spicy",
+    "fried"
+   ]
+  },
+  {
+   "id": "char_kway_teow",
+   "name_ko": "차퀘이테우",
+   "aliases": [
+    "말레이 볶음 쌀국수"
+   ],
+   "cuisine": "아시아",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 1.5,
+    "umami": 3.5,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "asian",
+    "sweet_soy",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "kebab",
+   "name_ko": "케밥",
+   "aliases": [
+    "되네르 케밥",
+    "케밥 랩"
+   ],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 1.5,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled",
+    "lamb",
+    "herbs"
+   ]
+  },
+  {
+   "id": "shawarma",
+   "name_ko": "샤와르마",
+   "aliases": [
+    "치킨 샤와르마"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 1.5,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "grilled",
+    "poultry",
+    "herbs"
+   ]
+  },
+  {
+   "id": "falafel",
+   "name_ko": "팔라펠",
+   "aliases": [],
+   "cuisine": "아시아",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.5,
+    "salt": 2.5,
+    "acid": 1.5,
+    "sweet": 0.5,
+    "umami": 2.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried",
+    "herbs"
+   ]
+  },
+  {
+   "id": "hummus",
+   "name_ko": "후무스",
+   "aliases": [
+    "후무스 플래터",
+    "병아리콩 딥"
+   ],
+   "cuisine": "아시아",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.0,
+    "acid": 1.5,
+    "sweet": 0.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.0
+   },
+   "tags": [
+    "salty_snack",
+    "herbs"
+   ]
+  },
+  {
+   "id": "luroufan",
+   "name_ko": "루러우판",
+   "aliases": [
+    "대만 돼지고기 덮밥",
+    "루로우판"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "pork",
+    "braised",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "guabao",
+   "name_ko": "과바오",
+   "aliases": [
+    "대만 버거",
+    "꽈바오"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "pork",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "jipai",
+   "name_ko": "지파이",
+   "aliases": [
+    "대만 닭튀김",
+    "대왕 닭튀김"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "fried",
+    "poultry"
+   ]
+  },
+  {
+   "id": "cakho",
+   "name_ko": "까코",
+   "aliases": [
+    "베트남 생선조림"
+   ],
+   "cuisine": "아시아",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 4.0,
+    "acid": 0.0,
+    "sweet": 3.0,
+    "umami": 3.5,
+    "spice": 1.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fish",
+    "braised",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "tomkha",
+   "name_ko": "똠카까이",
+   "aliases": [
+    "코코넛 치킨 수프",
+    "똠카"
+   ],
+   "cuisine": "아시아",
+   "protein": "poultry",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 2.5,
+    "sweet": 1.5,
+    "umami": 3.0,
+    "spice": 2.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "sour",
+    "poultry"
+   ]
+  },
+  {
+   "id": "padseeew",
+   "name_ko": "팟씨유",
+   "aliases": [
+    "간장 쌀국수 볶음"
+   ],
+   "cuisine": "아시아",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "sweet_soy",
+    "asian"
+   ]
+  },
+  {
+   "id": "lumpia",
+   "name_ko": "룸피아",
+   "aliases": [
+    "필리핀 춘권"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 1.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried",
+    "pork"
+   ]
+  },
+  {
+   "id": "adobo",
+   "name_ko": "아도보",
+   "aliases": [
+    "필리핀 아도보",
+    "치킨 아도보"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.5,
+    "acid": 2.5,
+    "sweet": 1.0,
+    "umami": 3.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "braised",
+    "pork",
+    "sour",
+    "soy_sauce"
+   ]
+  },
+  {
+   "id": "sinigang",
+   "name_ko": "시니강",
+   "aliases": [
+    "필리핀 신맛 수프"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 2.0,
+    "salt": 3.0,
+    "acid": 4.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 1.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "sour",
+    "pork"
+   ]
+  },
+  {
+   "id": "lechon",
+   "name_ko": "레촌",
+   "aliases": [
+    "필리핀 통돼지구이"
+   ],
+   "cuisine": "아시아",
+   "protein": "pork",
+   "profile": {
+    "fat": 5.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "roast",
+    "pork"
+   ]
+  },
+  {
+   "id": "dried_squid",
+   "name_ko": "마른오징어",
+   "aliases": [
+    "오징어",
+    "진미채",
+    "한치"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.0,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 1.5,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "salty_snack",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "nogari",
+   "name_ko": "노가리",
+   "aliases": [
+    "먹태",
+    "황태구이",
+    "노가리 구이"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "fish",
+   "profile": {
+    "fat": 1.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "salty_snack",
+    "fish"
+   ]
+  },
+  {
+   "id": "fries",
+   "name_ko": "감자튀김",
+   "aliases": [
+    "프렌치프라이",
+    "감튀"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 1.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "fried",
+    "salty_snack"
+   ]
+  },
+  {
+   "id": "nachos",
+   "name_ko": "나초",
+   "aliases": [
+    "나초 치즈",
+    "나쵸"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "cheese",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.5,
+    "acid": 1.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 1.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "salty_snack",
+    "cheese",
+    "fried"
+   ]
+  },
+  {
+   "id": "sausage",
+   "name_ko": "소시지 구이",
+   "aliases": [
+    "소시지",
+    "소세지",
+    "모둠 소시지"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "pork",
+   "profile": {
+    "fat": 4.5,
+    "salt": 4.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "cured_meat",
+    "pork",
+    "grilled"
+   ]
+  },
+  {
+   "id": "jerky",
+   "name_ko": "육포",
+   "aliases": [
+    "비프 저키",
+    "저키"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 1.0,
+    "salt": 4.0,
+    "acid": 0.0,
+    "sweet": 2.0,
+    "umami": 3.5,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "salty_snack",
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "popcorn",
+   "name_ko": "버터 팝콘",
+   "aliases": [
+    "팝콘"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "carb",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 1.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": [
+    "salty_snack",
+    "butter"
+   ]
+  },
+  {
+   "id": "peanuts",
+   "name_ko": "땅콩",
+   "aliases": [
+    "볶은 땅콩",
+    "믹스넛",
+    "아몬드"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.0
+   },
+   "tags": [
+    "nuts",
+    "salty_snack"
+   ]
+  },
+  {
+   "id": "olives",
+   "name_ko": "올리브",
+   "aliases": [
+    "그린 올리브",
+    "블랙 올리브"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 2.0,
+    "sweet": 0.0,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 1.5,
+    "intensity": 2.5
+   },
+   "tags": [
+    "salty_snack",
+    "herbs"
+   ]
+  },
+  {
+   "id": "fruit_plate",
+   "name_ko": "과일 플레이트",
+   "aliases": [
+    "과일",
+    "과일 안주",
+    "모둠 과일"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 0.0,
+    "salt": 0.0,
+    "acid": 2.5,
+    "sweet": 3.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "fruit",
+    "dessert"
+   ]
+  },
+  {
+   "id": "corn_cheese",
+   "name_ko": "콘치즈",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "cheese",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 2.5,
+    "umami": 2.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "cheese"
+   ]
+  },
+  {
+   "id": "gyeranmari",
+   "name_ko": "계란말이",
+   "aliases": [
+    "달걀말이"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 1.5
+   },
+   "tags": []
+  },
+  {
+   "id": "cheese_stick",
+   "name_ko": "치즈스틱",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "cheese",
+   "profile": {
+    "fat": 4.5,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 2.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried",
+    "cheese"
+   ]
+  },
+  {
+   "id": "onion_rings",
+   "name_ko": "어니언링",
+   "aliases": [
+    "양파링"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 4.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 1.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "fried"
+   ]
+  },
+  {
+   "id": "gim_bugak",
+   "name_ko": "김부각",
+   "aliases": [
+    "부각",
+    "김스낵"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.0,
+    "salt": 2.5,
+    "acid": 0.0,
+    "sweet": 1.0,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "salty_snack",
+    "fried"
+   ]
+  },
+  {
+   "id": "pretzel",
+   "name_ko": "프레첼",
+   "aliases": [
+    "브레첼"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "carb",
+   "profile": {
+    "fat": 1.5,
+    "salt": 3.5,
+    "acid": 0.0,
+    "sweet": 0.5,
+    "umami": 1.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.0
+   },
+   "tags": [
+    "salty_snack"
+   ]
+  },
+  {
+   "id": "chips",
+   "name_ko": "감자칩",
+   "aliases": [
+    "포테이토칩",
+    "과자"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 1.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "salty_snack",
+    "fried"
+   ]
+  },
+  {
+   "id": "dried_fruit",
+   "name_ko": "건과일",
+   "aliases": [
+    "말린 무화과",
+    "대추",
+    "곶감"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 0.5,
+    "salt": 0.0,
+    "acid": 1.0,
+    "sweet": 4.0,
+    "umami": 0.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fruit",
+    "dessert"
+   ]
+  },
+  {
+   "id": "mushroom_grill",
+   "name_ko": "버섯구이",
+   "aliases": [
+    "모둠 버섯구이",
+    "표고버섯구이"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "vegetable",
+   "profile": {
+    "fat": 1.0,
+    "salt": 2.0,
+    "acid": 0.0,
+    "sweet": 0.0,
+    "umami": 3.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.0
+   },
+   "tags": [
+    "grilled",
+    "mushroom"
+   ]
+  },
+  {
+   "id": "tiramisu",
+   "name_ko": "티라미수",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 0.5,
+    "acid": 0.5,
+    "sweet": 3.5,
+    "umami": 0.5,
+    "spice": 0.0,
+    "bitter": 2.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "dessert",
+    "chocolate"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name_ko": "마카롱",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 2.0,
+    "salt": 0.5,
+    "acid": 1.0,
+    "sweet": 4.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "dessert",
+    "nuts"
+   ]
+  },
+  {
+   "id": "creme_brulee",
+   "name_ko": "크렘 브륄레",
+   "aliases": [
+    "크림브륄레"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 4.0,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 1.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "panna_cotta",
+   "name_ko": "판나코타",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 0.5,
+    "acid": 1.0,
+    "sweet": 3.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "dessert",
+    "fruit"
+   ]
+  },
+  {
+   "id": "icecream",
+   "name_ko": "바닐라 아이스크림",
+   "aliases": [
+    "아이스크림",
+    "젤라또",
+    "젤라토"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.0,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "dark_chocolate",
+   "name_ko": "다크초콜릿",
+   "aliases": [
+    "초콜릿",
+    "카카오",
+    "초콜렛"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.0,
+    "salt": 0.0,
+    "acid": 0.5,
+    "sweet": 2.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 3.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "chocolate",
+    "dessert"
+   ]
+  },
+  {
+   "id": "apple_pie",
+   "name_ko": "애플파이",
+   "aliases": [
+    "사과파이"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.0,
+    "salt": 1.0,
+    "acid": 1.5,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fruit",
+    "dessert"
+   ]
+  },
+  {
+   "id": "pecan_pie",
+   "name_ko": "피칸 파이",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 4.0,
+    "salt": 1.0,
+    "acid": 0.0,
+    "sweet": 4.5,
+    "umami": 0.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 4.0
+   },
+   "tags": [
+    "nuts",
+    "dessert"
+   ]
+  },
+  {
+   "id": "canele",
+   "name_ko": "까눌레",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 2.5,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 3.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 1.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name_ko": "크루아상",
+   "aliases": [
+    "크로아상"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 4.0,
+    "salt": 1.0,
+    "acid": 0.5,
+    "sweet": 1.5,
+    "umami": 1.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "butter"
+   ]
+  },
+  {
+   "id": "financier",
+   "name_ko": "피낭시에",
+   "aliases": [
+    "마들렌"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 4.0,
+    "salt": 1.0,
+    "acid": 0.0,
+    "sweet": 3.5,
+    "umami": 0.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "butter",
+    "nuts",
+    "dessert"
+   ]
+  },
+  {
+   "id": "yakgwa",
+   "name_ko": "약과",
+   "aliases": [
+    "한과",
+    "유과",
+    "강정"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 4.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "injeolmi",
+   "name_ko": "인절미",
+   "aliases": [
+    "떡",
+    "찹쌀떡"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 1.0,
+    "salt": 1.0,
+    "acid": 0.0,
+    "sweet": 3.0,
+    "umami": 0.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "dessert",
+    "nuts"
+   ]
+  },
+  {
+   "id": "hotteok",
+   "name_ko": "호떡",
+   "aliases": [
+    "씨앗호떡"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "dessert",
+    "nuts",
+    "fried"
+   ]
+  },
+  {
+   "id": "bingsu",
+   "name_ko": "팥빙수",
+   "aliases": [
+    "빙수",
+    "망고빙수"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 1.0,
+    "salt": 0.5,
+    "acid": 0.5,
+    "sweet": 4.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "dessert",
+    "fruit"
+   ]
+  },
+  {
+   "id": "daifuku",
+   "name_ko": "다이후쿠",
+   "aliases": [
+    "모찌",
+    "딸기 모찌"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 0.5,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "dorayaki",
+   "name_ko": "도라야키",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 2.0,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 4.0,
+    "umami": 0.5,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "matcha_dessert",
+   "name_ko": "말차 디저트",
+   "aliases": [
+    "말차 케이크",
+    "녹차 디저트",
+    "말차 라떼"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 2.5,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 3.0,
+    "umami": 1.0,
+    "spice": 0.0,
+    "bitter": 2.5,
+    "intensity": 2.5
+   },
+   "tags": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "mango_sticky",
+   "name_ko": "망고 찹쌀밥",
+   "aliases": [
+    "카오니아오 마무앙",
+    "망고 스티키 라이스"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 2.5,
+    "salt": 1.0,
+    "acid": 1.0,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "fruit",
+    "dessert"
+   ]
+  },
+  {
+   "id": "egg_tart",
+   "name_ko": "에그타르트",
+   "aliases": [
+    "포르투갈 에그타르트"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 3.5,
+    "umami": 0.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 2.5
+   },
+   "tags": [
+    "dessert",
+    "butter"
+   ]
+  },
+  {
+   "id": "churros",
+   "name_ko": "츄러스",
+   "aliases": [
+    "추로스"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 4.0,
+    "salt": 0.5,
+    "acid": 0.0,
+    "sweet": 3.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "fried",
+    "dessert"
+   ]
+  },
+  {
+   "id": "waffle",
+   "name_ko": "와플",
+   "aliases": [
+    "벨기에 와플"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.0,
+    "salt": 1.0,
+    "acid": 0.0,
+    "sweet": 3.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "dessert",
+    "butter"
+   ]
+  },
+  {
+   "id": "crepe",
+   "name_ko": "크레페",
+   "aliases": [
+    "크레이프"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.0,
+    "salt": 0.5,
+    "acid": 1.0,
+    "sweet": 3.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.0
+   },
+   "tags": [
+    "dessert",
+    "fruit"
+   ]
+  },
+  {
+   "id": "strawberry_cake",
+   "name_ko": "딸기 생크림 케이크",
+   "aliases": [
+    "생크림 케이크",
+    "딸기케이크"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 0.5,
+    "acid": 1.5,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "dessert",
+    "fruit"
+   ]
+  },
+  {
+   "id": "lemon_tart",
+   "name_ko": "레몬 타르트",
+   "aliases": [
+    "레몬 케이크"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.0,
+    "salt": 0.5,
+    "acid": 3.5,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "dessert",
+    "fruit"
+   ]
+  },
+  {
+   "id": "choco_mousse",
+   "name_ko": "초콜릿 무스",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 4.0,
+    "salt": 0.5,
+    "acid": 0.5,
+    "sweet": 3.5,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 2.0,
+    "intensity": 3.5
+   },
+   "tags": [
+    "chocolate",
+    "dessert"
+   ]
+  },
+  {
+   "id": "brownie",
+   "name_ko": "브라우니",
+   "aliases": [],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 4.0,
+    "salt": 1.0,
+    "acid": 0.0,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.0,
+    "bitter": 2.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "chocolate",
+    "dessert",
+    "nuts"
+   ]
+  },
+  {
+   "id": "carrot_cake",
+   "name_ko": "당근 케이크",
+   "aliases": [
+    "캐롯 케이크"
+   ],
+   "cuisine": "안주·디저트",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 1.0,
+    "acid": 0.5,
+    "sweet": 4.0,
+    "umami": 0.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 3.0
+   },
+   "tags": [
+    "dessert",
+    "nuts"
    ]
   }
  ],
@@ -4543,5 +10467,139 @@
   "spice": 0.5,
   "bitter": 0.5,
   "intensity": 3
- }
+ },
+ "cuisineHints": [
+  [
+   [
+    "짜장",
+    "짬뽕",
+    "탕수",
+    "깐풍",
+    "깐쇼",
+    "마라",
+    "훠궈",
+    "딤섬",
+    "샤오롱",
+    "유산슬",
+    "팔보채",
+    "라조",
+    "고추잡채",
+    "양장피",
+    "불도장",
+    "춘장",
+    "굴소스",
+    "꿔바로우",
+    "북경",
+    "동파",
+    "중국",
+    "멘보샤",
+    "탄탄",
+    "우육면",
+    "어향",
+    "쯔란",
+    "양꼬치",
+    "꽃빵"
+   ],
+   "중식"
+  ],
+  [
+   [
+    "스시",
+    "초밥",
+    "사시미",
+    "라멘",
+    "우동",
+    "소바",
+    "돈부리",
+    "가라아게",
+    "데리야끼",
+    "야키",
+    "오코노미",
+    "타코야키",
+    "미소",
+    "규동",
+    "가츠",
+    "카츠",
+    "텐동",
+    "덴푸라",
+    "이자카야",
+    "일본",
+    "오뎅",
+    "샤브"
+   ],
+   "일식"
+  ],
+  [
+   [
+    "파스타",
+    "스파게티",
+    "스테이크",
+    "피자",
+    "리조또",
+    "그라탕",
+    "버거",
+    "스튜",
+    "치즈",
+    "감바스",
+    "라자냐",
+    "뇨끼",
+    "파에야",
+    "슈니첼",
+    "브런치",
+    "샌드위치",
+    "바게트",
+    "프렌치",
+    "이탈리안"
+   ],
+   "양식"
+  ],
+  [
+   [
+    "쌀국수",
+    "팟타이",
+    "똠",
+    "분짜",
+    "나시",
+    "커리",
+    "카레",
+    "탄두리",
+    "반미",
+    "월남쌈",
+    "베트남",
+    "태국",
+    "인도"
+   ],
+   "아시아"
+  ],
+  [
+   [
+    "찌개",
+    "국밥",
+    "탕",
+    "전골",
+    "김치",
+    "된장",
+    "고추장",
+    "불고기",
+    "갈비",
+    "삼겹",
+    "족발",
+    "보쌈",
+    "나물",
+    "비빔",
+    "떡",
+    "전",
+    "볶음",
+    "조림",
+    "무침",
+    "젓갈",
+    "막걸리",
+    "한식",
+    "곱창",
+    "순대",
+    "닭갈비"
+   ],
+   "한식"
+  ]
+ ]
 }

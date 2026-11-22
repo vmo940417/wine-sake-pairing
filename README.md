@@ -19,14 +19,14 @@
 
 ## 점수 엔진 공유 (오늘술상이 쓰는 파일)
 
-`web/engine.js`(Python 엔진의 브라우저 이식본)와 `web/engine-data.json`(술 스타일 54종 · 음식 72종)은
+`web/engine.js`(Python 엔진의 브라우저 이식본)와 `web/engine-data.json`(술 스타일 54종 · 음식 323종)은
 오늘술상(vmo 저장소 `liquor-app/pairing-engine.js`, `pairing-data.js`)과 모바일 앱(`app/`)이 함께 씁니다.
 
 ```bash
 python3 web/build.py   # Python 엔진과 결과 대조 → engine-data.json 생성 → 이사 안내 페이지 빌드
 ```
 
-빌드 스크립트는 DB 음식 72종 + 키워드 추정 음식 5종 × 술 54종(4,158개 조합)의 점수와 이유가 Python 엔진과 완전히 같은지 확인하고, 다르면 빌드를 멈춥니다.
+빌드 스크립트는 DB 음식 323종 + 키워드 추정 음식 5종 × 술 54종(17,712개 조합)의 점수와 이유가 Python 엔진과 완전히 같은지 확인하고, 다르면 빌드를 멈춥니다.
 점수 규칙을 바꿀 때는 `server/app/engine/scoring.py` 와 `web/engine.js` 를 함께 고친 뒤 빌드하고, 오늘술상 쪽 두 파일도 다시 복사하세요.
 
 ## 구성
@@ -34,7 +34,7 @@ python3 web/build.py   # Python 엔진과 결과 대조 → engine-data.json 생
 ```
 server/   FastAPI 백엔드 (Python)
   data/beverages.json   술 52종 (와인 28·사케 10·위스키 4·꼬냑 2·중국술 4·전통주 4), 맛 프로파일·도수·설명·대표 병
-  data/foods.json       한식·일식·양식·중식·디저트 72종, 맛 프로파일
+  data/foods.json       음식 323종 (한식 60·중식 52·일식 52·양식 57·아시아 51·안주·디저트 51), 맛 프로파일
   app/engine/scoring.py 규칙 기반 페어링 점수 엔진
   app/services/         음식 분석(키워드/Claude), 가격 링크, 페어링 조합
   app/main.py           API 엔드포인트
@@ -61,13 +61,14 @@ app/      Expo(React Native) 모바일 앱, Expo Router (서버 없이 동작)
 | 감칠맛 | 사케 감칠맛 × 음식 감칠맛 가점, 강한 감칠맛 × 탄닌 감점 |
 | 짠맛 | 산도·단맛과 균형 가점 |
 | 오크 | 섬세한 음식 감점, 구이·바비큐 가점 |
+| 같은 지역 | 중식×중국술, 일식×사케·하이볼, 한식×전통주 가점 |
 | 검증된 조합 | 품종별 클래식 페어링 태그 일치 시 가점 |
 
 가중치는 `server/app/engine/scoring.py` 에서 조정하고, `server/tests/test_api.py` 의 클래식 조합 테스트로 회귀를 확인합니다.
 
 ## 음식 입력 처리
 
-1. 음식 DB(이름·별칭)에서 찾습니다.
+1. 음식 DB(이름·별칭)에서 찾습니다. 한 글자 오타도 허용합니다 ("유실슬" → 유산슬).
 2. 없으면 `ANTHROPIC_API_KEY` 가 설정된 경우 Claude가 맛 프로파일을 추정합니다 (결과는 서버 메모리에 캐시).
 3. 키가 없거나 실패하면 이름의 키워드(돼지·회·매운·튀김 등)로 대략 추정합니다. 결과 화면에 추정 방식이 표시됩니다.
 

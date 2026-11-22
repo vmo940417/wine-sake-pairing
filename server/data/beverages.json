@@ -1149,7 +1149,8 @@
     ],
     "bottles": [
       "Hakkaisan Tokubetsu Junmai"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_junmai_ginjo",
@@ -1189,7 +1190,8 @@
     "bottles": [
       "Hakkaisan Junmai Ginjo",
       "Dewazakura Dewasansan"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_junmai_daiginjo",
@@ -1231,7 +1233,8 @@
       "Dassai 45",
       "Dassai 23",
       "Kubota Manju"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_honjozo",
@@ -1270,7 +1273,8 @@
     "bottles": [
       "Hakkaisan Tokubetsu Honjozo",
       "Kikusui Funaguchi"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_ginjo",
@@ -1309,7 +1313,8 @@
     "bottles": [
       "Kubota Senju",
       "Kokuryu Ginjo"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_kimoto",
@@ -1353,7 +1358,8 @@
     "bottles": [
       "Daishichi Kimoto Junmai",
       "Tengumai Yamahai Junmai"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_nama",
@@ -1392,7 +1398,8 @@
     ],
     "bottles": [
       "Kikusui Funaguchi"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_nigori",
@@ -1430,7 +1437,8 @@
     "bottles": [
       "Gekkeikan Nigori",
       "Sho Chiku Bai Nigori"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_koshu",
@@ -1470,7 +1478,8 @@
     ],
     "bottles": [
       "Daruma Masamune"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "sake_sparkling",
@@ -1509,7 +1518,8 @@
     "bottles": [
       "Sho Chiku Bai Mio Sparkling Sake",
       "Hakkaisan Awa"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "whisky_sherry_cask",
@@ -1691,7 +1701,8 @@
       "Suntory Toki",
       "Suntory Kakubin",
       "Hibiki Japanese Harmony"
-    ]
+    ],
+    "home_cuisine": "일식"
   },
   {
     "id": "cognac_vsop",
@@ -1826,7 +1837,8 @@
     "bottles": [
       "Kweichow Moutai",
       "Xijiu Junpin"
-    ]
+    ],
+    "home_cuisine": "중식"
   },
   {
     "id": "baijiu_strong",
@@ -1870,7 +1882,8 @@
       "Wuliangye",
       "Shui Jing Fang",
       "Luzhou Laojiao Guojiao 1573"
-    ]
+    ],
+    "home_cuisine": "중식"
   },
   {
     "id": "baijiu_light",
@@ -1914,7 +1927,8 @@
     "bottles": [
       "Fenjiu",
       "Hongxing Erguotou"
-    ]
+    ],
+    "home_cuisine": "중식"
   },
   {
     "id": "huangjiu",
@@ -1959,7 +1973,8 @@
     "bottles": [
       "Pagoda Shaoxing Huadiao",
       "Guyuelongshan Shaoxing"
-    ]
+    ],
+    "home_cuisine": "중식"
   },
   {
     "id": "makgeolli",
@@ -2001,7 +2016,8 @@
     "bottles": [
       "Boksoondoga Makgeolli",
       "Jipyeong Makgeolli"
-    ]
+    ],
+    "home_cuisine": "한식"
   },
   {
     "id": "yakju",
@@ -2047,7 +2063,8 @@
     "bottles": [
       "Hansan Sogokju",
       "Gyeongju Gyodong Beopju"
-    ]
+    ],
+    "home_cuisine": "한식"
   },
   {
     "id": "soju_distilled",
@@ -2092,7 +2109,8 @@
       "Hwayo 25",
       "Hwayo 41",
       "Andong Soju"
-    ]
+    ],
+    "home_cuisine": "한식"
   },
   {
     "id": "bokbunja",
@@ -2132,7 +2150,8 @@
     "bottles": [
       "Bohae Bokbunja",
       "Sunwoonsan Bokbunja"
-    ]
+    ],
+    "home_cuisine": "한식"
   },
   {
     "id": "whisky_scotch_classic",
@@ -2230,6 +2249,7 @@
     "bottles": [
       "Jinro Chamisul",
       "Lotte Chum Churum"
-    ]
+    ],
+    "home_cuisine": "한식"
   }
 ]

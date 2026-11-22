@@ -137,3 +137,28 @@ def test_dictionary_uses_llm_summary_when_available(monkeypatch):
     assert res["product_source"] == "ai"
     assert res["beverage"]["id"] == "sake_junmai_daiginjo"
     assert res["price_link"]["url"].endswith("/find/dassai+23")
+
+
+def test_every_cuisine_has_at_least_50_foods():
+    from collections import Counter
+    counts = Counter(f.cuisine for f in repository.foods())
+    for cuisine in ["한식", "중식", "일식", "양식", "아시아", "안주·디저트"]:
+        assert counts[cuisine] >= 50, (cuisine, counts[cuisine])
+
+
+def test_one_typo_still_finds_dish():
+    assert repository.find_food("유실슬").id == "yusanseul"
+    assert repository.find_food("깐쇼세우").id == "kkansyo"
+
+
+def test_same_region_bonus_for_chinese_food_and_liquor():
+    huangjiu = repository.get_beverage("huangjiu")
+    score, reasons = score_pairing(huangjiu, repository.find_food("불도장"))
+    assert any("같은 지역" in r.text for r in reasons)
+    assert top("불도장", 1) == ["huangjiu"]
+    assert any(b.startswith("baijiu") for b in top("훠궈", 3))
+
+
+def test_unknown_chinese_dish_is_recognised_as_chinese():
+    res = client.get("/pairing", params={"food": "해삼 굴소스 볶음"}).json()
+    assert res["food_source"] == "keyword" and res["food"]["cuisine"] == "중식"

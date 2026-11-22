@@ -31,6 +31,19 @@ KEYWORDS: list[tuple[tuple[str, ...], str | None, list[str], dict[str, float]]] 
     (("커리", "카레"), None, ["curry", "spicy", "asian"], {"spice": 2.5, "intensity": 1}),
 ]
 
+# 이름으로 음식 문화 추정 (같은 지역 술 가점에 쓰임). 먼저 맞는 것이 우선.
+CUISINE_HINTS: list[tuple[tuple[str, ...], str]] = [
+    (("짜장", "짬뽕", "탕수", "깐풍", "깐쇼", "마라", "훠궈", "딤섬", "샤오롱", "유산슬", "팔보채", "라조", "고추잡채", "양장피",
+      "불도장", "춘장", "굴소스", "꿔바로우", "북경", "동파", "중국", "멘보샤", "탄탄", "우육면", "어향", "쯔란", "양꼬치", "꽃빵"), "중식"),
+    (("스시", "초밥", "사시미", "라멘", "우동", "소바", "돈부리", "가라아게", "데리야끼", "야키", "오코노미", "타코야키", "미소",
+      "규동", "가츠", "카츠", "텐동", "덴푸라", "이자카야", "일본", "오뎅", "샤브"), "일식"),
+    (("파스타", "스파게티", "스테이크", "피자", "리조또", "그라탕", "버거", "스튜", "치즈", "감바스", "라자냐", "뇨끼",
+      "파에야", "슈니첼", "브런치", "샌드위치", "바게트", "프렌치", "이탈리안"), "양식"),
+    (("쌀국수", "팟타이", "똠", "분짜", "나시", "커리", "카레", "탄두리", "반미", "월남쌈", "베트남", "태국", "인도"), "아시아"),
+    (("찌개", "국밥", "탕", "전골", "김치", "된장", "고추장", "불고기", "갈비", "삼겹", "족발", "보쌈", "나물", "비빔", "떡",
+      "전", "볶음", "조림", "무침", "젓갈", "막걸리", "한식", "곱창", "순대", "닭갈비"), "한식"),
+]
+
 BASE = {"fat": 2, "salt": 2.5, "acid": 0.5, "sweet": 1, "umami": 2.5, "spice": 0.5, "bitter": 0.5, "intensity": 3}
 
 
@@ -48,9 +61,11 @@ def parse_food(name: str) -> Food:
         for axis, delta in adjust.items():
             profile[axis] += delta
     profile = {k: max(0.0, min(5.0, v)) for k, v in profile.items()}
+    cuisine = next((c for words, c in CUISINE_HINTS if any(w in text for w in words)), "")
     return Food(
         id=f"custom:{name}",
         name_ko=name,
+        cuisine=cuisine,
         protein=protein or "vegetable",
         profile=FoodProfile(**profile),
         tags=tags,

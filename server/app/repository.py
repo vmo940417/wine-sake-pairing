@@ -47,7 +47,33 @@ def find_food(query: str) -> Food | None:
     for food in foods():
         if any(q in n or (len(n) >= 3 and n in q) for n in _names(food)):
             return food
+    # 한 글자 오타 허용 ("유실슬" → 유산슬). 3자 이상일 때만, 가장 먼저 맞는 음식.
+    if len(q) >= 3:
+        for food in foods():
+            if any(len(n) >= 3 and _one_edit(q, n) for n in _names(food)):
+                return food
     return None
+
+
+def _one_edit(a: str, b: str) -> bool:
+    """두 글자열이 한 글자 바꾸기·넣기·빼기로 같아지면 True."""
+    if a == b or abs(len(a) - len(b)) > 1:
+        return a == b
+    if len(a) > len(b):
+        a, b = b, a
+    i = j = diff = 0
+    while i < len(a) and j < len(b):
+        if a[i] != b[j]:
+            diff += 1
+            if diff > 1:
+                return False
+            if len(a) == len(b):
+                i += 1
+            j += 1
+        else:
+            i += 1
+            j += 1
+    return diff + (len(b) - j) <= 1
 
 
 def search_foods(query: str, limit: int = 8) -> list[Food]:

@@ -35,6 +35,7 @@ class Beverage(BaseModel):
     serving_temp: str
     pairs_with: list[str] = []
     bottles: list[str] = []
+    home_cuisine: str | None = None  # 함께 발전해 온 음식 문화 (중식·일식·한식)
 
 
 class FoodProfile(BaseModel):

@@ -31,6 +31,7 @@ def build_data() -> dict:
         "tagLabels": TAG_LABELS,
         "keywords": [[list(w), p, t, a] for w, p, t, a in food_parser.KEYWORDS],
         "keywordBase": food_parser.BASE,
+        "cuisineHints": [[list(w), c] for w, c in food_parser.CUISINE_HINTS],
     }
 
 
