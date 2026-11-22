@@ -32,7 +32,7 @@ def search_foods(q: str = Query(min_length=1, max_length=50)):
 def get_pairing(
     food: str = Query(min_length=1, max_length=50),
     type: BeverageType | None = None,
-    limit: int = Query(20, ge=1, le=50),
+    limit: int = Query(20, ge=1, le=60),
 ):
     """음식 → 와인 품종·사케 유형을 페어링 점수 높은 순으로."""
     return pair(food, type, limit)

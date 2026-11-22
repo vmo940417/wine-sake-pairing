@@ -29,6 +29,10 @@ def top(food: str, n: int = 3) -> list[str]:
     ("토마토 파스타", "sangiovese"),
     ("초콜릿 케이크", "port"),
     ("샐러드", "sauvignon_blanc"),
+    ("해물파전", "makgeolli"),
+    ("대게찜", "huangjiu"),
+    ("동파육", "baijiu_sauce"),
+    ("초콜릿 케이크", "cognac_xo"),
 ])
 def test_classic_pairings_rank_near_top(food, expected):
     assert expected in top(food)
@@ -42,12 +46,22 @@ def test_tannic_red_scores_low_with_raw_fish():
     assert any(r.impact < 0 and "탄닌" in r.text for r in reasons)
 
 
-def test_results_sorted_and_mix_wine_and_sake():
-    res = client.get("/pairing", params={"food": "삼겹살", "limit": 38}).json()
+def test_results_sorted():
+    res = client.get("/pairing", params={"food": "삼겹살", "limit": 60}).json()
     scores = [r["score"] for r in res["results"]]
     assert scores == sorted(scores, reverse=True)
-    assert {r["type"] for r in res["results"]} == {"wine", "sake"}
     assert res["food_source"] == "db"
+
+
+def test_all_beverage_types_present():
+    res = client.get("/pairing", params={"food": "삼겹살", "limit": 60}).json()
+    assert {r["type"] for r in res["results"]} == {"wine", "sake", "whisky", "brandy", "chinese", "korean"}
+
+
+def test_spirits_not_penalised_for_low_acidity_with_fatty_food():
+    bourbon = repository.get_beverage("bourbon")
+    score, reasons = score_pairing(bourbon, repository.find_food("삼겹살"))
+    assert not any("산도가 낮아" in r.text for r in reasons)
 
 
 def test_type_filter():

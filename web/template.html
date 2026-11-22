@@ -14,6 +14,10 @@
     --soft: #F3EDEB;
     --wine: #7A1F3D;
     --sake: #2F5D8A;
+    --whisky: #9A5A12;
+    --brandy: #7A4426;
+    --chinese: #A8321E;
+    --korean: #3F6B3A;
     --on-accent: #FFFFFF;
     --good: #2E7D4F;
     --ok: #66872A;
@@ -27,14 +31,14 @@
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       --bg: #151012; --surface: #201719; --ink: #F2EAEC; --muted: #B3A3A8; --line: #3A2D31; --soft: #2A1F22;
-      --wine: #E58AA6; --sake: #8DB7E3; --on-accent: #1A1012;
+      --wine: #E58AA6; --sake: #8DB7E3; --whisky: #E2A85C; --brandy: #D69A74; --chinese: #EE8A72; --korean: #9CCB8C; --on-accent: #1A1012;
       --good: #63C08A; --ok: #AFC660; --warn: #E2B455; --bad: #F08A72;
       color-scheme: dark;
     }
   }
   :root[data-theme="dark"] {
     --bg: #151012; --surface: #201719; --ink: #F2EAEC; --muted: #B3A3A8; --line: #3A2D31; --soft: #2A1F22;
-    --wine: #E58AA6; --sake: #8DB7E3; --on-accent: #1A1012;
+    --wine: #E58AA6; --sake: #8DB7E3; --whisky: #E2A85C; --brandy: #D69A74; --chinese: #EE8A72; --korean: #9CCB8C; --on-accent: #1A1012;
     --good: #63C08A; --ok: #AFC660; --warn: #E2B455; --bad: #F08A72;
     color-scheme: dark;
   }
@@ -126,6 +130,10 @@
   .kind { font-size: 12px; font-weight: 700; }
   .kind.wine { color: var(--wine); }
   .kind.sake { color: var(--sake); }
+  .kind.whisky { color: var(--whisky); }
+  .kind.brandy { color: var(--brandy); }
+  .kind.chinese { color: var(--chinese); }
+  .kind.korean { color: var(--korean); }
   .kind, .bev-name, .bev-en { display: block; }
   .bev-name { font-family: var(--font-display); font-size: 17px; font-weight: 700; line-height: 1.35; margin: 2px 0 0; }
   .bev-en { font-size: 12px; color: var(--muted); }
@@ -216,7 +224,7 @@
 
 <header class="topbar">
   <h1 class="brand"><em>먹는거</em> 먼저</h1>
-  <small>와인·사케 페어링</small>
+  <small>술 페어링</small>
   <button class="btn install" id="install-btn" type="button" hidden>앱 설치</button>
 </header>
 
@@ -224,7 +232,7 @@
   <section class="view" id="view-pairing" aria-label="페어링">
     <div>
       <h2 class="lead">어떤 음식을 드시나요?</h2>
-      <p class="sub">음식을 입력하면 어울리는 와인 품종과 사케를 점수 순으로 보여드려요.</p>
+      <p class="sub">음식을 입력하면 어울리는 와인, 사케, 위스키, 꼬냑, 중국술, 전통주를 점수 순으로 보여드려요.</p>
     </div>
     <form class="search" id="food-form" autocomplete="off">
       <div class="search-row">
@@ -243,11 +251,11 @@
   <section class="view" id="view-dictionary" aria-label="술 사전" hidden>
     <div>
       <h2 class="lead">술 사전</h2>
-      <p class="sub">품종이나 사케 등급을 입력하면 특징을 알려드려요. 제품명은 Wine-Searcher로 연결합니다.</p>
+      <p class="sub">품종이나 술 종류를 입력하면 특징을 알려드려요. 제품명은 Wine-Searcher로 연결합니다.</p>
     </div>
     <form class="search" id="dict-form" autocomplete="off">
       <div class="search-row">
-        <input id="dict-input" type="search" enterkeyhint="search" placeholder="예: 피노 누아, 다이긴조" aria-label="술 이름">
+        <input id="dict-input" type="search" enterkeyhint="search" placeholder="예: 피노 누아, 다이긴조, 마오타이" aria-label="술 이름">
         <button class="btn" type="submit">검색</button>
       </div>
     </form>
@@ -303,17 +311,18 @@
   const byId = Object.fromEntries(DATA.beverages.map((b) => [b.id, b]));
   const $ = (id) => document.getElementById(id);
 
-  const SUGGESTIONS = ['삼겹살', '스테이크', '광어회', '초밥', '떡볶이', '후라이드 치킨', '토마토 파스타', '된장찌개'];
-  const DICT_EXAMPLES = ['피노 누아', '바롤로', '샴페인', '다이긴조', '기모토', 'Dassai 23', 'Opus One'];
+  const SUGGESTIONS = ['삼겹살', '스테이크', '광어회', '해물파전', '동파육', '떡볶이', '후라이드 치킨', '초콜릿 케이크'];
+  const DICT_EXAMPLES = ['피노 누아', '샴페인', '다이긴조', '아일라', '꼬냑 XO', '마오타이', '막걸리', 'Opus One'];
   const AXES = [
     ['acidity', '산도'], ['sweetness', '당도'], ['body', '바디'], ['tannin', '탄닌', true],
-    ['umami', '감칠맛'], ['aroma', '향 강도'], ['alcohol', '알코올'], ['oak', '오크', true],
+    ['umami', '감칠맛'], ['aroma', '향 강도'], ['alcohol', '알코올'], ['oak', '오크'],
   ];
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
-  const kindLabel = (b) => `${b.type === 'wine' ? '와인' : '사케'} · ${b.category}`;
+  const TYPE_LABELS = { wine: '와인', sake: '사케', whisky: '위스키', brandy: '꼬냑', chinese: '중국술', korean: '전통주' };
+  const kindLabel = (b) => `${TYPE_LABELS[b.type]} · ${b.category}`;
   const scoreVar = (s) => (s >= 85 ? 'var(--good)' : s >= 70 ? 'var(--ok)' : s >= 55 ? 'var(--warn)' : 'var(--bad)');
-  const kindVar = (b) => (b.type === 'wine' ? 'var(--wine)' : 'var(--sake)');
+  const kindVar = (b) => `var(--${b.type})`;
 
   // ---- 기기 저장소 (실패해도 앱은 동작) ----
   function load(key, fallback) {
@@ -346,7 +355,7 @@
 
   // ---- 페어링 ----
   const state = { food: '삼겹살', filter: 'all', example: true };
-  const FILTERS = { all: '전체', wine: '와인', sake: '사케' };
+  const FILTERS = { all: '전체', ...TYPE_LABELS };
 
   function renderPairing() {
     const { food, source, results } = engine.pair(state.food);
@@ -420,7 +429,8 @@
     if (!b) return;
     current = b;
     const pairing = food ? engine.scorePairing(b, food) : null;
-    const axes = AXES.filter(([, , wineOnly]) => !(wineOnly && b.type === 'sake'));
+    // 탄닌은 와인에만, 오크는 오크통 숙성이 기본인 술에만 보여준다.
+    const axes = AXES.filter(([k]) => (k === 'tannin' ? b.type === 'wine' : k === 'oak' ? ['wine', 'whisky', 'brandy'].includes(b.type) : true));
     $('sheet-content').innerHTML = `
       <div>
         <span class="kind ${b.type}">${esc(kindLabel(b))}</span>
@@ -444,7 +454,8 @@
         <h4>기본 정보</h4>
         <dl class="info">
           <dt>대표 산지</dt><dd>${esc(b.regions.join(', '))}</dd>
-          <dt>음용 온도</dt><dd>${esc(b.serving_temp)}</dd>
+          <dt>도수</dt><dd>약 ${b.abv}%</dd>
+          <dt>음용 방법</dt><dd>${esc(b.serving_temp)}</dd>
         </dl>
       </div>
       <div class="panel">
@@ -481,7 +492,8 @@
         <p>${esc(b.summary)}</p>
         <dl class="info">
           <dt>대표 산지</dt><dd>${esc(b.regions.join(', '))}</dd>
-          <dt>음용 온도</dt><dd>${esc(b.serving_temp)}</dd>
+          <dt>도수</dt><dd>약 ${b.abv}%</dd>
+          <dt>음용 방법</dt><dd>${esc(b.serving_temp)}</dd>
         </dl>
         <button class="linkish" type="button" id="dict-more">맛 프로파일·대표 제품 보기 →</button>
       </div>

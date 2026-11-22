@@ -4,6 +4,7 @@
    "id": "cabernet_sauvignon",
    "type": "wine",
    "category": "레드",
+   "abv": 14.0,
    "name_ko": "카베르네 소비뇽",
    "name_en": "Cabernet Sauvignon",
    "aliases": [
@@ -46,6 +47,7 @@
    "id": "merlot",
    "type": "wine",
    "category": "레드",
+   "abv": 14.0,
    "name_ko": "메를로",
    "name_en": "Merlot",
    "aliases": [
@@ -85,6 +87,7 @@
    "id": "pinot_noir",
    "type": "wine",
    "category": "레드",
+   "abv": 13.0,
    "name_ko": "피노 누아",
    "name_en": "Pinot Noir",
    "aliases": [
@@ -128,6 +131,7 @@
    "id": "syrah",
    "type": "wine",
    "category": "레드",
+   "abv": 14.5,
    "name_ko": "시라 / 쉬라즈",
    "name_en": "Syrah / Shiraz",
    "aliases": [
@@ -169,6 +173,7 @@
    "id": "grenache",
    "type": "wine",
    "category": "레드",
+   "abv": 14.5,
    "name_ko": "그르나슈",
    "name_en": "Grenache",
    "aliases": [
@@ -208,6 +213,7 @@
    "id": "malbec",
    "type": "wine",
    "category": "레드",
+   "abv": 14.0,
    "name_ko": "말벡",
    "name_en": "Malbec",
    "aliases": [
@@ -243,6 +249,7 @@
    "id": "sangiovese",
    "type": "wine",
    "category": "레드",
+   "abv": 13.5,
    "name_ko": "산지오베제",
    "name_en": "Sangiovese",
    "aliases": [
@@ -280,6 +287,7 @@
    "id": "nebbiolo",
    "type": "wine",
    "category": "레드",
+   "abv": 14.0,
    "name_ko": "네비올로",
    "name_en": "Nebbiolo",
    "aliases": [
@@ -318,6 +326,7 @@
    "id": "tempranillo",
    "type": "wine",
    "category": "레드",
+   "abv": 14.0,
    "name_ko": "템프라니요",
    "name_en": "Tempranillo",
    "aliases": [
@@ -358,6 +367,7 @@
    "id": "zinfandel",
    "type": "wine",
    "category": "레드",
+   "abv": 15.0,
    "name_ko": "진판델",
    "name_en": "Zinfandel",
    "aliases": [
@@ -396,6 +406,7 @@
    "id": "gamay",
    "type": "wine",
    "category": "레드",
+   "abv": 12.5,
    "name_ko": "가메",
    "name_en": "Gamay",
    "aliases": [
@@ -433,6 +444,7 @@
    "id": "barbera",
    "type": "wine",
    "category": "레드",
+   "abv": 13.5,
    "name_ko": "바르베라",
    "name_en": "Barbera",
    "aliases": [
@@ -467,6 +479,7 @@
    "id": "chardonnay_oaked",
    "type": "wine",
    "category": "화이트",
+   "abv": 14.0,
    "name_ko": "샤르도네 (오크 숙성)",
    "name_en": "Chardonnay (Oaked)",
    "aliases": [
@@ -508,6 +521,7 @@
    "id": "chablis",
    "type": "wine",
    "category": "화이트",
+   "abv": 12.5,
    "name_ko": "샤블리 (언오크 샤르도네)",
    "name_en": "Chablis / Unoaked Chardonnay",
    "aliases": [
@@ -544,6 +558,7 @@
    "id": "sauvignon_blanc",
    "type": "wine",
    "category": "화이트",
+   "abv": 13.0,
    "name_ko": "소비뇽 블랑",
    "name_en": "Sauvignon Blanc",
    "aliases": [
@@ -585,6 +600,7 @@
    "id": "riesling_dry",
    "type": "wine",
    "category": "화이트",
+   "abv": 12.5,
    "name_ko": "리슬링 (드라이)",
    "name_en": "Riesling (Dry)",
    "aliases": [
@@ -624,6 +640,7 @@
    "id": "riesling_offdry",
    "type": "wine",
    "category": "화이트",
+   "abv": 9.0,
    "name_ko": "리슬링 (오프드라이·카비넷)",
    "name_en": "Riesling (Off-dry / Kabinett)",
    "aliases": [
@@ -663,6 +680,7 @@
    "id": "gewurztraminer",
    "type": "wine",
    "category": "화이트",
+   "abv": 13.5,
    "name_ko": "게뷔르츠트라미너",
    "name_en": "Gewurztraminer",
    "aliases": [
@@ -700,6 +718,7 @@
    "id": "chenin_blanc",
    "type": "wine",
    "category": "화이트",
+   "abv": 13.0,
    "name_ko": "슈냉 블랑",
    "name_en": "Chenin Blanc",
    "aliases": [
@@ -738,6 +757,7 @@
    "id": "albarino",
    "type": "wine",
    "category": "화이트",
+   "abv": 12.5,
    "name_ko": "알바리뇨",
    "name_en": "Albarino",
    "aliases": [
@@ -776,6 +796,7 @@
    "id": "pinot_grigio",
    "type": "wine",
    "category": "화이트",
+   "abv": 12.5,
    "name_ko": "피노 그리지오 / 피노 그리",
    "name_en": "Pinot Grigio / Pinot Gris",
    "aliases": [
@@ -813,6 +834,7 @@
    "id": "viognier",
    "type": "wine",
    "category": "화이트",
+   "abv": 14.0,
    "name_ko": "비오니에",
    "name_en": "Viognier",
    "aliases": [
@@ -849,6 +871,7 @@
    "id": "gruner_veltliner",
    "type": "wine",
    "category": "화이트",
+   "abv": 12.5,
    "name_ko": "그뤼너 펠트리너",
    "name_en": "Gruner Veltliner",
    "aliases": [
@@ -887,6 +910,7 @@
    "id": "rose",
    "type": "wine",
    "category": "로제",
+   "abv": 12.5,
    "name_ko": "드라이 로제",
    "name_en": "Dry Rose",
    "aliases": [
@@ -927,6 +951,7 @@
    "id": "champagne",
    "type": "wine",
    "category": "스파클링",
+   "abv": 12.0,
    "name_ko": "샴페인 / 전통방식 스파클링",
    "name_en": "Champagne / Traditional Method",
    "aliases": [
@@ -971,6 +996,7 @@
    "id": "port",
    "type": "wine",
    "category": "주정강화",
+   "abv": 20.0,
    "name_ko": "포트",
    "name_en": "Port",
    "aliases": [
@@ -1008,6 +1034,7 @@
    "id": "sauternes",
    "type": "wine",
    "category": "스위트",
+   "abv": 14.0,
    "name_ko": "소테른 (귀부 스위트)",
    "name_en": "Sauternes",
    "aliases": [
@@ -1047,6 +1074,7 @@
    "id": "fino_sherry",
    "type": "wine",
    "category": "주정강화",
+   "abv": 15.0,
    "name_ko": "피노 셰리",
    "name_en": "Fino Sherry",
    "aliases": [
@@ -1087,6 +1115,7 @@
    "id": "sake_junmai",
    "type": "sake",
    "category": "준마이",
+   "abv": 15.5,
    "name_ko": "준마이 (순미주)",
    "name_en": "Junmai",
    "aliases": [
@@ -1127,6 +1156,7 @@
    "id": "sake_junmai_ginjo",
    "type": "sake",
    "category": "준마이 긴조",
+   "abv": 15.5,
    "name_ko": "준마이 긴조",
    "name_en": "Junmai Ginjo",
    "aliases": [
@@ -1166,6 +1196,7 @@
    "id": "sake_junmai_daiginjo",
    "type": "sake",
    "category": "준마이 다이긴조",
+   "abv": 16.0,
    "name_ko": "준마이 다이긴조",
    "name_en": "Junmai Daiginjo",
    "aliases": [
@@ -1207,6 +1238,7 @@
    "id": "sake_honjozo",
    "type": "sake",
    "category": "혼조조",
+   "abv": 15.5,
    "name_ko": "혼조조",
    "name_en": "Honjozo",
    "aliases": [
@@ -1245,6 +1277,7 @@
    "id": "sake_ginjo",
    "type": "sake",
    "category": "긴조",
+   "abv": 15.5,
    "name_ko": "긴조",
    "name_en": "Ginjo",
    "aliases": [
@@ -1283,6 +1316,7 @@
    "id": "sake_kimoto",
    "type": "sake",
    "category": "기모토·야마하이",
+   "abv": 16.0,
    "name_ko": "기모토 / 야마하이",
    "name_en": "Kimoto / Yamahai",
    "aliases": [
@@ -1326,6 +1360,7 @@
    "id": "sake_nama",
    "type": "sake",
    "category": "나마자케",
+   "abv": 17.0,
    "name_ko": "나마자케 (생주)",
    "name_en": "Namazake",
    "aliases": [
@@ -1364,6 +1399,7 @@
    "id": "sake_nigori",
    "type": "sake",
    "category": "니고리",
+   "abv": 14.0,
    "name_ko": "니고리 (탁주형)",
    "name_en": "Nigori",
    "aliases": [
@@ -1401,6 +1437,7 @@
    "id": "sake_koshu",
    "type": "sake",
    "category": "고슈",
+   "abv": 17.0,
    "name_ko": "고슈 (숙성 사케)",
    "name_en": "Koshu (Aged Sake)",
    "aliases": [
@@ -1440,6 +1477,7 @@
    "id": "sake_sparkling",
    "type": "sake",
    "category": "스파클링 사케",
+   "abv": 6.0,
    "name_ko": "스파클링 사케",
    "name_en": "Sparkling Sake",
    "aliases": [
@@ -1472,6 +1510,629 @@
    "bottles": [
     "Sho Chiku Bai Mio Sparkling Sake",
     "Hakkaisan Awa"
+   ]
+  },
+  {
+   "id": "whisky_sherry_cask",
+   "type": "whisky",
+   "category": "싱글몰트 (셰리 캐스크)",
+   "abv": 43.0,
+   "name_ko": "셰리 캐스크 싱글몰트",
+   "name_en": "Sherry Cask Single Malt",
+   "aliases": [
+    "셰리 캐스크",
+    "셰리캐스크",
+    "맥캘란",
+    "macallan",
+    "글렌드로낙",
+    "스페이사이드",
+    "싱글몰트"
+   ],
+   "profile": {
+    "acidity": 1.0,
+    "tannin": 0.5,
+    "body": 4.0,
+    "sweetness": 2.0,
+    "alcohol": 5.0,
+    "umami": 0.5,
+    "aroma": 4.5,
+    "oak": 4.0
+   },
+   "summary": "스페인 셰리를 담았던 오크통에서 숙성해 건포도, 말린 무화과, 다크초콜릿, 견과 향이 진한 위스키. 초콜릿·견과·숙성 치즈와 잘 맞습니다.",
+   "regions": [
+    "스페이사이드",
+    "하이랜드"
+   ],
+   "serving_temp": "니트 또는 물 몇 방울 (상온)",
+   "pairs_with": [
+    "chocolate",
+    "nuts",
+    "hard_cheese",
+    "blue_cheese",
+    "dessert",
+    "braised"
+   ],
+   "bottles": [
+    "Macallan 12 Year Old Sherry Oak",
+    "GlenDronach 12 Year Old",
+    "Glenfarclas 15 Year Old"
+   ]
+  },
+  {
+   "id": "whisky_islay_peated",
+   "type": "whisky",
+   "category": "아일라 (피트)",
+   "abv": 46.0,
+   "name_ko": "아일라 피티드 위스키",
+   "name_en": "Islay Peated Whisky",
+   "aliases": [
+    "아일라",
+    "islay",
+    "피트",
+    "피티드",
+    "라프로익",
+    "laphroaig",
+    "아드벡",
+    "ardbeg",
+    "라가불린",
+    "lagavulin"
+   ],
+   "profile": {
+    "acidity": 1.0,
+    "tannin": 0.5,
+    "body": 4.0,
+    "sweetness": 1.0,
+    "alcohol": 5.0,
+    "umami": 1.0,
+    "aroma": 5.0,
+    "oak": 3.0
+   },
+   "summary": "이탄(피트)으로 몰트를 말려 훈연, 요오드, 바닷바람 향이 강한 위스키. 굴, 훈제 음식, 숯불구이, 블루치즈처럼 강한 맛과 어울립니다.",
+   "regions": [
+    "아일라"
+   ],
+   "serving_temp": "니트 또는 물 몇 방울 (상온)",
+   "pairs_with": [
+    "oyster",
+    "smoked",
+    "bbq",
+    "grilled",
+    "blue_cheese"
+   ],
+   "bottles": [
+    "Laphroaig 10 Year Old",
+    "Ardbeg 10 Year Old",
+    "Lagavulin 16 Year Old"
+   ]
+  },
+  {
+   "id": "bourbon",
+   "type": "whisky",
+   "category": "버번",
+   "abv": 45.0,
+   "name_ko": "버번 위스키",
+   "name_en": "Bourbon",
+   "aliases": [
+    "버번",
+    "bourbon",
+    "메이커스 마크",
+    "버팔로 트레이스",
+    "우드포드",
+    "아메리칸 위스키"
+   ],
+   "profile": {
+    "acidity": 1.0,
+    "tannin": 0.5,
+    "body": 4.0,
+    "sweetness": 2.5,
+    "alcohol": 5.0,
+    "umami": 0.0,
+    "aroma": 4.0,
+    "oak": 4.5
+   },
+   "summary": "옥수수를 주원료로 새 오크통에서 숙성해 바닐라, 캐러멜, 구운 오크 향이 달콤한 위스키. 바비큐, 달콤짭짤한 양념 고기와 잘 맞습니다.",
+   "regions": [
+    "켄터키",
+    "테네시"
+   ],
+   "serving_temp": "니트, 온더록 (상온~차게)",
+   "pairs_with": [
+    "bbq",
+    "grilled",
+    "sweet_soy",
+    "pork",
+    "chocolate"
+   ],
+   "bottles": [
+    "Maker's Mark",
+    "Buffalo Trace",
+    "Woodford Reserve"
+   ]
+  },
+  {
+   "id": "japanese_highball",
+   "type": "whisky",
+   "category": "재패니즈 위스키 하이볼",
+   "abv": 8.0,
+   "name_ko": "재패니즈 위스키 하이볼",
+   "name_en": "Japanese Whisky Highball",
+   "aliases": [
+    "하이볼",
+    "highball",
+    "재패니즈 위스키",
+    "일본 위스키",
+    "산토리",
+    "suntory",
+    "가쿠빈",
+    "히비키"
+   ],
+   "profile": {
+    "acidity": 2.0,
+    "tannin": 0.5,
+    "body": 2.0,
+    "sweetness": 1.0,
+    "alcohol": 2.0,
+    "umami": 0.5,
+    "aroma": 3.0,
+    "oak": 2.0
+   },
+   "summary": "가볍고 부드러운 일본 블렌디드 위스키를 탄산수에 타 알코올이 7~9% 정도로 내려간 하이볼. 튀김, 꼬치구이, 짭짤한 안주와 일상적으로 잘 맞습니다.",
+   "regions": [
+    "일본"
+   ],
+   "serving_temp": "얼음 + 탄산수 1:3~4 (차게)",
+   "pairs_with": [
+    "fried",
+    "grilled",
+    "salty_snack",
+    "sweet_soy",
+    "poultry"
+   ],
+   "bottles": [
+    "Suntory Toki",
+    "Suntory Kakubin",
+    "Hibiki Japanese Harmony"
+   ]
+  },
+  {
+   "id": "cognac_vsop",
+   "type": "brandy",
+   "category": "꼬냑 VS·VSOP",
+   "abv": 40.0,
+   "name_ko": "꼬냑 VS·VSOP",
+   "name_en": "Cognac VS / VSOP",
+   "aliases": [
+    "꼬냑",
+    "코냑",
+    "cognac",
+    "vsop",
+    "브랜디",
+    "brandy",
+    "헤네시",
+    "hennessy",
+    "레미 마르탱"
+   ],
+   "profile": {
+    "acidity": 1.0,
+    "tannin": 0.5,
+    "body": 3.5,
+    "sweetness": 2.0,
+    "alcohol": 5.0,
+    "umami": 0.0,
+    "aroma": 4.5,
+    "oak": 3.0
+   },
+   "summary": "포도 증류주를 오크통에서 2~4년 이상 숙성한 꼬냑. 살구, 바닐라, 꽃 향이 있어 오리, 과일 디저트, 부드러운 치즈와 맞습니다.",
+   "regions": [
+    "꼬냑 (그랑드 샹파뉴 등)"
+   ],
+   "serving_temp": "니트 (상온), 튤립 잔",
+   "pairs_with": [
+    "duck",
+    "dessert",
+    "fruit",
+    "cheese",
+    "chocolate"
+   ],
+   "bottles": [
+    "Hennessy VSOP",
+    "Remy Martin VSOP",
+    "Martell VSOP"
+   ]
+  },
+  {
+   "id": "cognac_xo",
+   "type": "brandy",
+   "category": "꼬냑 XO",
+   "abv": 40.0,
+   "name_ko": "꼬냑 XO",
+   "name_en": "Cognac XO",
+   "aliases": [
+    "xo",
+    "엑스오",
+    "꼬냑 xo",
+    "코냑 xo",
+    "아르마냑",
+    "armagnac"
+   ],
+   "profile": {
+    "acidity": 1.0,
+    "tannin": 0.5,
+    "body": 5.0,
+    "sweetness": 2.5,
+    "alcohol": 5.0,
+    "umami": 1.0,
+    "aroma": 5.0,
+    "oak": 4.0
+   },
+   "summary": "10년 이상 숙성 원액을 블렌딩한 최상급 꼬냑. 말린 과일, 시가 상자, 견과, 숙성 향(랑시오)이 깊어 다크초콜릿, 견과, 블루치즈, 푸아그라와 맞습니다.",
+   "regions": [
+    "꼬냑 (그랑드 샹파뉴 등)"
+   ],
+   "serving_temp": "니트 (상온), 튤립 잔",
+   "pairs_with": [
+    "chocolate",
+    "nuts",
+    "blue_cheese",
+    "hard_cheese",
+    "foie_gras",
+    "dessert"
+   ],
+   "bottles": [
+    "Hennessy XO",
+    "Remy Martin XO",
+    "Martell Cordon Bleu"
+   ]
+  },
+  {
+   "id": "baijiu_sauce",
+   "type": "chinese",
+   "category": "백주 (장향형)",
+   "abv": 53.0,
+   "name_ko": "장향형 백주 (마오타이)",
+   "name_en": "Sauce-aroma Baijiu",
+   "aliases": [
+    "마오타이",
+    "모태주",
+    "moutai",
+    "장향형",
+    "장향",
+    "백주",
+    "바이주",
+    "baijiu",
+    "고량주"
+   ],
+   "profile": {
+    "acidity": 1.5,
+    "tannin": 0.0,
+    "body": 4.5,
+    "sweetness": 1.0,
+    "alcohol": 5.0,
+    "umami": 3.5,
+    "aroma": 5.0,
+    "oak": 0.0
+   },
+   "summary": "수수를 여러 차례 발효·증류해 간장처럼 구수하고 깊은 향이 나는 백주. 기름지고 진한 양념의 중국 요리, 오래 조린 고기와 맞습니다.",
+   "regions": [
+    "구이저우 (마오타이진)"
+   ],
+   "serving_temp": "상온, 작은 잔으로 조금씩",
+   "pairs_with": [
+    "braised",
+    "sweet_soy",
+    "pork",
+    "asian",
+    "spicy"
+   ],
+   "bottles": [
+    "Kweichow Moutai",
+    "Xijiu Junpin"
+   ]
+  },
+  {
+   "id": "baijiu_strong",
+   "type": "chinese",
+   "category": "백주 (농향형)",
+   "abv": 52.0,
+   "name_ko": "농향형 백주 (오량액)",
+   "name_en": "Strong-aroma Baijiu",
+   "aliases": [
+    "오량액",
+    "우량예",
+    "wuliangye",
+    "수정방",
+    "국교1573",
+    "농향형",
+    "농향",
+    "노주노교"
+   ],
+   "profile": {
+    "acidity": 1.5,
+    "tannin": 0.0,
+    "body": 4.0,
+    "sweetness": 1.5,
+    "alcohol": 5.0,
+    "umami": 1.5,
+    "aroma": 5.0,
+    "oak": 0.0
+   },
+   "summary": "파인애플, 배 같은 과일 향이 화려하고 달콤한 여운이 긴 백주. 쓰촨 요리처럼 맵고 기름진 음식과 함께 마시는 경우가 많습니다.",
+   "regions": [
+    "쓰촨 (이빈·루저우)"
+   ],
+   "serving_temp": "상온, 작은 잔으로 조금씩",
+   "pairs_with": [
+    "spicy",
+    "asian",
+    "fried",
+    "pork"
+   ],
+   "bottles": [
+    "Wuliangye",
+    "Shui Jing Fang",
+    "Luzhou Laojiao Guojiao 1573"
+   ]
+  },
+  {
+   "id": "baijiu_light",
+   "type": "chinese",
+   "category": "백주 (청향형)",
+   "abv": 53.0,
+   "name_ko": "청향형 백주 (분주·이과두주)",
+   "name_en": "Light-aroma Baijiu",
+   "aliases": [
+    "분주",
+    "펀주",
+    "fenjiu",
+    "이과두주",
+    "얼궈터우",
+    "erguotou",
+    "청향형",
+    "청향"
+   ],
+   "profile": {
+    "acidity": 1.0,
+    "tannin": 0.0,
+    "body": 2.5,
+    "sweetness": 0.5,
+    "alcohol": 5.0,
+    "umami": 0.5,
+    "aroma": 3.0,
+    "oak": 0.0
+   },
+   "summary": "깔끔하고 가벼운 곡물 향의 백주. 양꼬치, 튀김, 짭짤한 안주와 가볍게 곁들이기 좋습니다.",
+   "regions": [
+    "산시 (펀양)",
+    "베이징"
+   ],
+   "serving_temp": "상온 또는 차게",
+   "pairs_with": [
+    "lamb",
+    "fried",
+    "salty_snack",
+    "grilled"
+   ],
+   "bottles": [
+    "Fenjiu",
+    "Hongxing Erguotou"
+   ]
+  },
+  {
+   "id": "huangjiu",
+   "type": "chinese",
+   "category": "황주 (소흥주)",
+   "abv": 16.0,
+   "name_ko": "소흥주 (황주)",
+   "name_en": "Shaoxing Huangjiu",
+   "aliases": [
+    "소흥주",
+    "사오싱",
+    "shaoxing",
+    "황주",
+    "huangjiu",
+    "화조주",
+    "화디아오",
+    "노주"
+   ],
+   "profile": {
+    "acidity": 2.5,
+    "tannin": 0.0,
+    "body": 3.5,
+    "sweetness": 2.0,
+    "alcohol": 3.5,
+    "umami": 4.0,
+    "aroma": 4.0,
+    "oak": 0.0
+   },
+   "summary": "찹쌀로 빚어 오래 숙성한 호박색 발효주(14~18%). 캐러멜, 대추, 간장 같은 감칠맛이 있어 게 요리, 동파육, 간장 조림과 전통적인 짝입니다.",
+   "regions": [
+    "저장성 (사오싱)"
+   ],
+   "serving_temp": "따뜻하게 (40~50℃), 말린 매실이나 생강을 곁들여",
+   "pairs_with": [
+    "crab",
+    "shellfish",
+    "braised",
+    "sweet_soy",
+    "soy_sauce",
+    "pork"
+   ],
+   "bottles": [
+    "Pagoda Shaoxing Huadiao",
+    "Guyuelongshan Shaoxing"
+   ]
+  },
+  {
+   "id": "makgeolli",
+   "type": "korean",
+   "category": "막걸리",
+   "abv": 6.0,
+   "name_ko": "막걸리",
+   "name_en": "Makgeolli",
+   "aliases": [
+    "막걸리",
+    "makgeolli",
+    "탁주",
+    "생막걸리",
+    "복순도가"
+   ],
+   "profile": {
+    "acidity": 3.5,
+    "tannin": 0.0,
+    "body": 3.0,
+    "sweetness": 2.5,
+    "alcohol": 1.5,
+    "umami": 2.5,
+    "aroma": 2.5,
+    "oak": 0.0
+   },
+   "summary": "쌀을 누룩으로 발효해 걸러낸 탁주(6~8%). 새콤달콤하고 걸쭉해 전, 튀김, 매운 볶음 요리의 기름기와 매운맛을 부드럽게 받아줍니다.",
+   "regions": [
+    "전국"
+   ],
+   "serving_temp": "차게 (5~8℃), 마시기 전에 살살 섞어서",
+   "pairs_with": [
+    "jeon",
+    "fried",
+    "spicy",
+    "fermented",
+    "asian",
+    "salty_snack"
+   ],
+   "bottles": [
+    "Boksoondoga Makgeolli",
+    "Jipyeong Makgeolli"
+   ]
+  },
+  {
+   "id": "yakju",
+   "type": "korean",
+   "category": "약주·청주",
+   "abv": 15.0,
+   "name_ko": "약주·전통 청주",
+   "name_en": "Yakju / Cheongju",
+   "aliases": [
+    "약주",
+    "청주",
+    "소곡주",
+    "한산소곡주",
+    "교동법주",
+    "법주",
+    "백화수복"
+   ],
+   "profile": {
+    "acidity": 3.0,
+    "tannin": 0.0,
+    "body": 3.0,
+    "sweetness": 2.0,
+    "alcohol": 3.0,
+    "umami": 3.5,
+    "aroma": 3.0,
+    "oak": 0.0
+   },
+   "summary": "막걸리를 맑게 거른 전통 발효주(13~18%). 곡물의 감칠맛과 은은한 단맛이 있어 생선회, 전, 간장 조림, 한정식 차림과 잘 맞습니다.",
+   "regions": [
+    "충남 서천 (한산)",
+    "경주",
+    "전국"
+   ],
+   "serving_temp": "차게 또는 상온",
+   "pairs_with": [
+    "jeon",
+    "raw_fish",
+    "braised",
+    "soy_sauce",
+    "grilled_fish",
+    "tofu"
+   ],
+   "bottles": [
+    "Hansan Sogokju",
+    "Gyeongju Gyodong Beopju"
+   ]
+  },
+  {
+   "id": "soju_distilled",
+   "type": "korean",
+   "category": "증류식 소주",
+   "abv": 25.0,
+   "name_ko": "증류식 소주 (화요·안동소주)",
+   "name_en": "Distilled Soju",
+   "aliases": [
+    "화요",
+    "hwayo",
+    "안동소주",
+    "일품진로",
+    "증류식 소주",
+    "증류소주",
+    "전통소주"
+   ],
+   "profile": {
+    "acidity": 0.5,
+    "tannin": 0.0,
+    "body": 2.5,
+    "sweetness": 0.5,
+    "alcohol": 4.5,
+    "umami": 1.0,
+    "aroma": 3.0,
+    "oak": 0.5
+   },
+   "summary": "쌀을 발효해 증류한 전통 소주(25~45%). 깔끔한 곡물 향으로 삼겹살, 수육, 회, 홍어처럼 기름지거나 향이 강한 한식과 잘 맞습니다.",
+   "regions": [
+    "경북 안동",
+    "경기 여주"
+   ],
+   "serving_temp": "차게 또는 온더록",
+   "pairs_with": [
+    "grilled",
+    "pork",
+    "raw_fish",
+    "fermented",
+    "braised"
+   ],
+   "bottles": [
+    "Hwayo 25",
+    "Hwayo 41",
+    "Andong Soju"
+   ]
+  },
+  {
+   "id": "bokbunja",
+   "type": "korean",
+   "category": "과실주",
+   "abv": 15.0,
+   "name_ko": "복분자주",
+   "name_en": "Bokbunja (Black Raspberry Wine)",
+   "aliases": [
+    "복분자",
+    "복분자주",
+    "bokbunja",
+    "과실주",
+    "오미자주"
+   ],
+   "profile": {
+    "acidity": 3.0,
+    "tannin": 1.0,
+    "body": 3.0,
+    "sweetness": 3.5,
+    "alcohol": 3.0,
+    "umami": 0.0,
+    "aroma": 4.0,
+    "oak": 0.0
+   },
+   "summary": "산딸기류 복분자로 빚은 달콤한 과실주(13~15%). 장어구이처럼 달콤짭짤한 양념 요리, 과일 디저트와 잘 맞습니다.",
+   "regions": [
+    "전북 고창"
+   ],
+   "serving_temp": "차게 (8~10℃)",
+   "pairs_with": [
+    "grilled_fish",
+    "sweet_soy",
+    "dessert",
+    "fruit"
+   ],
+   "bottles": [
+    "Bohae Bokbunja",
+    "Sunwoonsan Bokbunja"
    ]
   }
  ],
@@ -1844,6 +2505,7 @@
     "intensity": 3.0
    },
    "tags": [
+    "jeon",
     "fried",
     "shellfish"
    ]
@@ -1940,7 +2602,8 @@
    "tags": [
     "shellfish",
     "soy_sauce",
-    "fermented"
+    "fermented",
+    "crab"
    ]
   },
   {
@@ -3093,6 +3756,212 @@
     "dessert",
     "fruit"
    ]
+  },
+  {
+   "id": "dongpo",
+   "name_ko": "동파육",
+   "aliases": [
+    "동포러우",
+    "홍소육",
+    "중국식 돼지고기 조림"
+   ],
+   "cuisine": "중식",
+   "protein": "pork",
+   "profile": {
+    "fat": 5.0,
+    "salt": 3.0,
+    "acid": 0.5,
+    "sweet": 3.0,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 4.5
+   },
+   "tags": [
+    "pork",
+    "braised",
+    "sweet_soy",
+    "asian"
+   ]
+  },
+  {
+   "id": "kkanpunggi",
+   "name_ko": "깐풍기",
+   "aliases": [
+    "깐풍새우",
+    "유린기"
+   ],
+   "cuisine": "중식",
+   "protein": "poultry",
+   "profile": {
+    "fat": 4.0,
+    "salt": 3.0,
+    "acid": 2.0,
+    "sweet": 3.0,
+    "umami": 2.5,
+    "spice": 2.5,
+    "bitter": 0.0,
+    "intensity": 4.0
+   },
+   "tags": [
+    "fried",
+    "poultry",
+    "spicy",
+    "asian",
+    "sour"
+   ]
+  },
+  {
+   "id": "jjamppong",
+   "name_ko": "짬뽕",
+   "aliases": [
+    "해물짬뽕",
+    "짬뽕밥"
+   ],
+   "cuisine": "중식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 2.5,
+    "salt": 4.0,
+    "acid": 0.5,
+    "sweet": 1.0,
+    "umami": 4.0,
+    "spice": 4.5,
+    "bitter": 0.0,
+    "intensity": 5.0
+   },
+   "tags": [
+    "spicy",
+    "shellfish",
+    "asian"
+   ]
+  },
+  {
+   "id": "crab_steamed",
+   "name_ko": "대게찜 / 꽃게찜",
+   "aliases": [
+    "대게",
+    "킹크랩",
+    "꽃게찜",
+    "게찜",
+    "털게"
+   ],
+   "cuisine": "한식",
+   "protein": "shellfish",
+   "profile": {
+    "fat": 1.5,
+    "salt": 2.0,
+    "acid": 0.5,
+    "sweet": 1.5,
+    "umami": 4.0,
+    "spice": 0.0,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "shellfish",
+    "crab"
+   ]
+  },
+  {
+   "id": "smoked_salmon",
+   "name_ko": "훈제연어",
+   "aliases": [
+    "훈제 연어",
+    "스모크 연어"
+   ],
+   "cuisine": "양식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.5,
+    "salt": 3.5,
+    "acid": 0.5,
+    "sweet": 0.5,
+    "umami": 3.0,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.5
+   },
+   "tags": [
+    "smoked",
+    "salmon",
+    "fish"
+   ]
+  },
+  {
+   "id": "hongeo_samhap",
+   "name_ko": "홍어삼합",
+   "aliases": [
+    "홍어",
+    "삼합"
+   ],
+   "cuisine": "한식",
+   "protein": "fish",
+   "profile": {
+    "fat": 3.0,
+    "salt": 3.5,
+    "acid": 2.0,
+    "sweet": 0.5,
+    "umami": 4.0,
+    "spice": 1.5,
+    "bitter": 1.0,
+    "intensity": 5.0
+   },
+   "tags": [
+    "fermented",
+    "pork",
+    "braised"
+   ]
+  },
+  {
+   "id": "yukhoe",
+   "name_ko": "육회",
+   "aliases": [
+    "육사시미",
+    "타르타르"
+   ],
+   "cuisine": "한식",
+   "protein": "red_meat",
+   "profile": {
+    "fat": 2.5,
+    "salt": 2.5,
+    "acid": 0.5,
+    "sweet": 2.0,
+    "umami": 3.0,
+    "spice": 0.5,
+    "bitter": 0.0,
+    "intensity": 2.5
+   },
+   "tags": [
+    "sweet_soy"
+   ]
+  },
+  {
+   "id": "nuts_platter",
+   "name_ko": "견과·건과일 안주",
+   "aliases": [
+    "견과류",
+    "건과일",
+    "마른안주",
+    "치즈 플래터"
+   ],
+   "cuisine": "안주",
+   "protein": "dessert",
+   "profile": {
+    "fat": 3.5,
+    "salt": 1.5,
+    "acid": 0.5,
+    "sweet": 2.5,
+    "umami": 1.5,
+    "spice": 0.0,
+    "bitter": 0.5,
+    "intensity": 3.0
+   },
+   "tags": [
+    "nuts",
+    "fruit",
+    "salty_snack"
+   ]
   }
  ],
  "tagLabels": {
@@ -3146,7 +4015,10 @@
   "sushi": "초밥",
   "tofu": "두부",
   "cheese": "치즈",
-  "fermented": "발효 음식"
+  "fermented": "발효 음식",
+  "smoked": "훈제 요리",
+  "jeon": "전·부침개",
+  "crab": "게 요리"
  },
  "keywords": [
   [
@@ -3432,6 +4304,20 @@
    {
     "intensity": 0.5,
     "bitter": 0.5
+   }
+  ],
+  [
+   [
+    "훈제",
+    "스모크"
+   ],
+   null,
+   [
+    "smoked"
+   ],
+   {
+    "intensity": 1,
+    "salt": 0.5
    }
   ],
   [

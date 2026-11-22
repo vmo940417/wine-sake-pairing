@@ -1,4 +1,4 @@
-export type BeverageType = 'wine' | 'sake';
+export type BeverageType = 'wine' | 'sake' | 'whisky' | 'brandy' | 'chinese' | 'korean';
 
 export type PriceLink = { label: string; url: string };
 
@@ -19,6 +19,7 @@ export type BeverageDetail = {
   id: string;
   type: BeverageType;
   category: string;
+  abv: number;
   name_ko: string;
   name_en: string;
   aliases: string[];

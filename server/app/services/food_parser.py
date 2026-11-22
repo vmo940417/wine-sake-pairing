@@ -21,6 +21,7 @@ KEYWORDS: list[tuple[tuple[str, ...], str | None, list[str], dict[str, float]]] 
     (("매운", "매콤", "고추장", "고춧가루", "불닭", "마라", "떡볶이", "볶음", "짬뽕", "김치"), None, ["spicy", "asian"], {"spice": 3.5, "intensity": 1}),
     (("튀김", "까스", "카츠", "프라이", "파전", "부침", "커틀릿"), None, ["fried"], {"fat": 2}),
     (("구이", "숯불", "바비큐", "bbq", "그릴"), None, ["grilled"], {"intensity": 0.5, "bitter": 0.5}),
+    (("훈제", "스모크"), None, ["smoked"], {"intensity": 1, "salt": 0.5}),
     (("찜", "조림", "수육", "탕", "전골", "스튜"), None, ["braised"], {"umami": 1}),
     (("간장", "데리야끼", "양념", "불고기", "갈비"), None, ["sweet_soy"], {"sweet": 2, "salt": 1, "umami": 1}),
     (("된장", "미소", "청국장"), None, ["miso", "fermented"], {"umami": 2, "salt": 1.5}),

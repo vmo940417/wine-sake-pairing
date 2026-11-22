@@ -1,3 +1,5 @@
+import type { BeverageType } from './types';
+
 export const colors = {
   background: '#FAF7F5',
   card: '#FFFFFF',
@@ -18,5 +20,12 @@ export function scoreColor(score: number): string {
   return '#B3402A';
 }
 
-export const typeColor = (type: 'wine' | 'sake') => (type === 'wine' ? colors.wine : colors.sake);
-export const typeLabel = (type: 'wine' | 'sake') => (type === 'wine' ? '🍷 와인' : '🍶 사케');
+const TYPE_COLORS: Record<BeverageType, string> = {
+  wine: colors.wine, sake: colors.sake, whisky: '#9A5A12', brandy: '#7A4426', chinese: '#A8321E', korean: '#3F6B3A',
+};
+const TYPE_LABELS: Record<BeverageType, string> = {
+  wine: '🍷 와인', sake: '🍶 사케', whisky: '🥃 위스키', brandy: '🥃 꼬냑', chinese: '🏮 중국술', korean: '🍶 전통주',
+};
+
+export const typeColor = (type: BeverageType) => TYPE_COLORS[type];
+export const typeLabel = (type: BeverageType) => TYPE_LABELS[type];

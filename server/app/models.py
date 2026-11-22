@@ -2,7 +2,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-BeverageType = Literal["wine", "sake"]
+BeverageType = Literal["wine", "sake", "whisky", "brandy", "chinese", "korean"]
 Protein = Literal[
     "red_meat", "pork", "poultry", "fish", "raw_fish", "shellfish",
     "vegetable", "cheese", "dessert", "carb",
@@ -25,6 +25,7 @@ class Beverage(BaseModel):
     id: str
     type: BeverageType
     category: str
+    abv: float  # 대표 알코올 도수(%)
     name_ko: str
     name_en: str
     aliases: list[str] = []

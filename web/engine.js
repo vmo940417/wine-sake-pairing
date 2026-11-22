@@ -4,6 +4,7 @@
   const BASE_SCORE = 62;
   const MAX_REASONS = 4;
   const SEAFOOD = new Set(['fish', 'raw_fish', 'shellfish']);
+  const SPIRIT_ABV = 20;
 
   // Python round() 와 같은 결과: 이진 부동소수의 정확한 값 기준으로 반올림하고, 정확히 절반일 때만 짝수 쪽으로.
   function pyRound(x, digits = 0) {
@@ -25,9 +26,11 @@
           ? [penalty, '술이 음식보다 무거워 음식 맛을 덮을 수 있습니다']
           : [penalty, '음식 맛이 강해 술이 묻힐 수 있습니다'];
       },
-      function acidVsFat(b, f) {
+      function acidVsFat(b, f, food, bev) {
         if (f.fat < 3) return null;
-        const delta = (b.acidity - 3) * f.fat * 0.9;
+        // 도수 20% 이상 증류주는 알코올이 기름기를 씻어 주므로 산도가 낮아도 감점하지 않는다.
+        const acidity = bev.abv >= SPIRIT_ABV ? Math.max(b.acidity, 3) : b.acidity;
+        const delta = (acidity - 3) * f.fat * 0.9;
         if (delta > 0) return [delta, '높은 산도가 기름진 맛을 씻어줍니다'];
         if (delta < 0) return [delta, '산도가 낮아 기름진 맛이 입에 남습니다'];
         return null;

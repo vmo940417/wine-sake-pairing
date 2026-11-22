@@ -9,6 +9,7 @@ BASE_SCORE = 62.0
 MAX_REASONS = 4
 
 SEAFOOD = {"fish", "raw_fish", "shellfish"}
+SPIRIT_ABV = 20
 
 TAG_LABELS = {
     "grilled": "구이", "steak": "스테이크", "lamb": "양고기", "hard_cheese": "숙성 치즈",
@@ -24,6 +25,7 @@ TAG_LABELS = {
     "caviar": "캐비아", "chocolate": "초콜릿", "blue_cheese": "블루치즈", "dessert": "디저트",
     "nuts": "견과류", "foie_gras": "푸아그라", "fruit": "과일", "miso": "된장",
     "sushi": "초밥", "tofu": "두부", "cheese": "치즈", "fermented": "발효 음식",
+    "smoked": "훈제 요리", "jeon": "전·부침개", "crab": "게 요리",
 }
 
 
@@ -40,7 +42,9 @@ def _weight(b: Beverage, f: Food) -> tuple[float, str] | None:
 def _acid_vs_fat(b: Beverage, f: Food) -> tuple[float, str] | None:
     if f.profile.fat < 3:
         return None
-    delta = (b.profile.acidity - 3) * f.profile.fat * 0.9
+    # 도수 20% 이상 증류주는 알코올이 기름기를 씻어 주므로 산도가 낮아도 감점하지 않는다.
+    acidity = max(b.profile.acidity, 3) if b.abv >= SPIRIT_ABV else b.profile.acidity
+    delta = (acidity - 3) * f.profile.fat * 0.9
     if delta > 0:
         return delta, "높은 산도가 기름진 맛을 씻어줍니다"
     if delta < 0:
