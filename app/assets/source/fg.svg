@@ -10,7 +10,7 @@
   <g>
     <path d="M556 560 H748 L730 690 C726 712 708 724 686 724 H618 C596 724 578 712 574 690 Z" fill="#F7EBDD"/>
     <ellipse cx="652" cy="560" rx="96" ry="22" fill="#F7EBDD"/>
-    <ellipse cx="652" cy="562" rx="80" ry="15" fill="#4F86C6"/>
-    <path d="M572 620 C620 632 684 632 732 620" stroke="#4F86C6" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <ellipse cx="652" cy="562" rx="80" ry="15" fill="#D9B44A"/>
+    <path d="M572 620 C620 632 684 632 732 620" stroke="#D9B44A" stroke-width="10" fill="none" stroke-linecap="round"/>
   </g>
 </g></svg>
