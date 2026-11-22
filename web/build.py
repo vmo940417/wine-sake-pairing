@@ -180,10 +180,13 @@ def build_site(page: str, site: Path) -> None:
     index = SITE_HEAD + page + SITE_TAIL
     (site / "index.html").write_text(index, encoding="utf-8")
     (site / "manifest.webmanifest").write_text(json.dumps(MANIFEST, ensure_ascii=False, indent=1), encoding="utf-8")
-    version = hashlib.sha256(index.encode()).hexdigest()[:10]
-    (site / "sw.js").write_text(SERVICE_WORKER.replace("__VERSION__", version), encoding="utf-8")
-    for icon in (WEB / "icons").iterdir():
+    # 페이지나 아이콘 중 하나라도 바뀌면 캐시 버전이 바뀌어 설치된 기기도 새 파일을 받는다.
+    digest = hashlib.sha256(index.encode())
+    for icon in sorted((WEB / "icons").iterdir()):
         shutil.copy(icon, site / icon.name)
+        digest.update(icon.read_bytes())
+    version = digest.hexdigest()[:10]
+    (site / "sw.js").write_text(SERVICE_WORKER.replace("__VERSION__", version), encoding="utf-8")
     (site / ".nojekyll").write_text("", encoding="utf-8")
     print(f"dist/site/ (PWA, 캐시 버전 {version})")
 
