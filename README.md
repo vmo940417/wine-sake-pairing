@@ -7,29 +7,27 @@
 |---|---|---|---|
 | ![](docs/screenshots/1_home.png) | ![](docs/screenshots/2_pairing.png) | ![](docs/screenshots/3_detail.png) | ![](docs/screenshots/4_dictionary.png) |
 
-## 설치형 웹앱 (링크·QR로 공유)
+## 오늘술상으로 이사
 
-**https://vmo940417.github.io/wine-sake-pairing/**
+이 앱의 페어링 기능은 술 정보 앱 "술이 먼저야"와 합쳐 **오늘술상**이 되었습니다.
 
-`main` 에 웹 관련 변경이 올라가면 `.github/workflows/pages.yml` 이 GitHub Pages 에 배포합니다.
-받는 사람은 가입이나 앱스토어 없이 링크를 열면 바로 쓸 수 있고, 홈 화면에 설치하면 앱처럼 전체 화면으로 열리며 오프라인에서도 동작합니다.
-공유용 QR 카드는 `docs/qr-card.png` 입니다.
+**https://vmo940417.github.io/vmo/liquor-app/** (코드: vmo 저장소 `liquor-app/`)
 
-- 안드로이드: 크롬에서 링크 열기 → 화면 위 **앱 설치** 버튼, 또는 오른쪽 위 ⋮ → **앱 설치**
-- 아이폰: 사파리에서 링크 열기 → 공유 버튼 → **홈 화면에 추가**
+- 예전 주소 https://vmo940417.github.io/wine-sake-pairing/ 은 오늘술상으로 바로 넘어갑니다. 예전에 설치한 웹앱의 서비스워커와 캐시는 스스로 지워집니다.
+- claude.ai 웹 버전 링크도 같은 이사 안내 페이지로 바꿨습니다 (`web/moved.html`).
+- 공유용 QR 카드: `docs/qr-card.png` (오늘술상 주소)
 
-## 휴대폰 웹 버전 (서버 불필요)
+## 점수 엔진 공유 (오늘술상이 쓰는 파일)
 
-`web/` 은 서버 없이 휴대폰 브라우저에서 바로 쓰는 단일 HTML 버전입니다.
-데이터와 점수 엔진(`web/engine.js`, Python 엔진의 이식본)이 페이지 안에 들어 있어 오프라인으로도 동작합니다.
-DB에 없는 음식은 키워드로 추정하며, 제품 AI 요약은 서버 버전에서만 제공됩니다.
+`web/engine.js`(Python 엔진의 브라우저 이식본)와 `web/engine-data.json`(술 스타일 54종 · 음식 72종)은
+오늘술상(vmo 저장소 `liquor-app/pairing-engine.js`, `pairing-data.js`)과 모바일 앱(`app/`)이 함께 씁니다.
 
 ```bash
-python3 web/build.py   # Python 엔진과 결과 대조 후 web/dist/index.html 생성
+python3 web/build.py   # Python 엔진과 결과 대조 → engine-data.json 생성 → 이사 안내 페이지 빌드
 ```
 
-빌드 스크립트는 DB 음식 64종 + 키워드 추정 음식 5종 × 술 38종의 점수와 이유가 Python 엔진과 완전히 같은지 확인하고, 다르면 빌드를 멈춥니다.
-점수 규칙을 바꿀 때는 `server/app/engine/scoring.py` 와 `web/engine.js` 를 함께 고치세요.
+빌드 스크립트는 DB 음식 72종 + 키워드 추정 음식 5종 × 술 54종(4,158개 조합)의 점수와 이유가 Python 엔진과 완전히 같은지 확인하고, 다르면 빌드를 멈춥니다.
+점수 규칙을 바꿀 때는 `server/app/engine/scoring.py` 와 `web/engine.js` 를 함께 고친 뒤 빌드하고, 오늘술상 쪽 두 파일도 다시 복사하세요.
 
 ## 구성
 
@@ -40,7 +38,7 @@ server/   FastAPI 백엔드 (Python)
   app/engine/scoring.py 규칙 기반 페어링 점수 엔진
   app/services/         음식 분석(키워드/Claude), 가격 링크, 페어링 조합
   app/main.py           API 엔드포인트
-web/      서버 없는 휴대폰 웹 버전 (단일 HTML)
+web/      브라우저용 점수 엔진·공유 데이터, 옛 주소 이사 안내 페이지
 app/      Expo(React Native) 모바일 앱, Expo Router (서버 없이 동작)
   src/app/(tabs)/       페어링 · 술 사전 · 내 기록 탭
   src/app/pairing.tsx   점수 순위 화면 (전체/와인/사케 필터)

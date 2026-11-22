@@ -1,11 +1,11 @@
-"""휴대폰 브라우저용 단일 HTML 빌드 + 설치형 웹앱(GitHub Pages) + 앱용 engine-data.json 생성.
+"""점수 엔진 대조 + engine-data.json 생성, 그리고 '먹는거 먼저' 옛 주소용 이사 안내 페이지 빌드.
 
 서버의 데이터(JSON)와 키워드 표를 그대로 넣고, 브라우저 엔진(engine.js)이
 Python 엔진과 같은 점수를 내는지 확인한 뒤 dist/index.html 을 만든다.
 
     python3 web/build.py
 """
-import hashlib
+import base64
 import json
 import shutil
 import subprocess
@@ -75,6 +75,18 @@ def check_parity(data: dict, tmp: Path) -> None:
     )
 
 
+NEW_HOME = "https://vmo940417.github.io/vmo/liquor-app/"
+
+
+def moved_page() -> str:
+    """'먹는거 먼저' → '오늘술상' 이사 안내 페이지 (claude.ai 웹 버전과 GitHub Pages 공통)."""
+    html = (WEB / "moved.html").read_text(encoding="utf-8")
+    icon = base64.b64encode((WEB / "icons" / "sulsang-192.png").read_bytes()).decode()
+    return (html.replace("__ICON__", f"data:image/png;base64,{icon}")
+            .replace("__QR__", (WEB / "icons" / "qr-sulsang.svg").read_text(encoding="utf-8"))
+            .replace("__URL__", NEW_HOME))
+
+
 def main() -> None:
     data = build_data()
     dist = WEB / "dist"
@@ -83,112 +95,59 @@ def main() -> None:
     tmp.mkdir(exist_ok=True)
     check_parity(data, tmp)
 
-    # 모바일 앱(app/)도 같은 데이터·엔진을 쓴다. 생성 파일이므로 직접 고치지 말 것.
+    # 오늘술상(vmo 저장소 liquor-app)과 모바일 앱(app/)이 쓰는 데이터. 생성 파일이므로 직접 고치지 말 것.
     (WEB / "engine-data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
-    html = (WEB / "template.html").read_text(encoding="utf-8")
-    html = html.replace("/*__ENGINE__*/", (WEB / "engine.js").read_text(encoding="utf-8"))
-    # </script> 가 데이터 안에 들어가도 스크립트가 끊기지 않게 이스케이프
-    html = html.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
-    (dist / "index.html").write_text(html, encoding="utf-8")
-    print(f"dist/index.html ({len(html.encode()) // 1024}KB)")
-    build_site(html, dist / "site")
+    page = moved_page()
+    (dist / "index.html").write_text(page, encoding="utf-8")
+    print(f"dist/index.html (이사 안내, {len(page.encode()) // 1024}KB)")
+    build_site(page, dist / "site")
 
 
-SITE_HEAD = """<!doctype html>
+SITE_HEAD = f"""<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="음식을 먼저 입력하면 어울리는 와인 품종과 사케를 점수 순으로 보여주는 페어링 앱">
-<meta name="theme-color" content="#7A1F3D">
-<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1F3F94">
+<meta http-equiv="refresh" content="0; url={NEW_HOME}">
+<link rel="canonical" href="{NEW_HOME}">
 <link rel="icon" href="favicon-32.png" sizes="32x32">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="먹는거 먼저">
 <style>
-  :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
-  body { margin: 0; }
-  [hidden] { display: none !important; }
+  :root {{ padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }}
+  body {{ margin: 0; }}
 </style>
+<script>location.replace({json.dumps(NEW_HOME)});</script>
 </head>
 <body>
 """
 
 SITE_TAIL = """
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
-  }
-</script>
 </body>
 </html>
 """
 
-MANIFEST = {
-    "name": "먹는거 먼저",
-    "short_name": "먹는거 먼저",
-    "description": "음식을 먼저 입력하면 어울리는 와인 품종과 사케를 점수 순으로 보여줍니다.",
-    "lang": "ko",
-    "start_url": "./",
-    "scope": "./",
-    "display": "standalone",
-    "background_color": "#FBF8F6",
-    "theme_color": "#7A1F3D",
-    "icons": [
-        {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-        {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
-    ],
-}
-
-# 같은 출처 파일은 먼저 캐시에서 보여주고 뒤에서 새로 받아 둔다. 오프라인에서도 열린다.
-SERVICE_WORKER = """const CACHE = 'meokneungeo-__VERSION__';
-const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
-
-self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
-});
-
-self.addEventListener('activate', (e) => {
-  e.waitUntil(caches.keys()
-    .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
-    .then(() => self.clients.claim()));
-});
-
-self.addEventListener('fetch', (e) => {
-  const url = new URL(e.request.url);
-  const cacheable = url.origin === location.origin || url.hostname.endsWith('fonts.googleapis.com') || url.hostname.endsWith('fonts.gstatic.com');
-  if (e.request.method !== 'GET' || !cacheable) return;
-  e.respondWith(caches.open(CACHE).then(async (cache) => {
-    const cached = await cache.match(e.request, { ignoreSearch: true });
-    const fresh = fetch(e.request).then((res) => {
-      if (res.ok || res.type === 'opaque') cache.put(e.request, res.clone());
-      return res;
-    }).catch(() => cached);
-    return cached || fresh;
-  }));
-});
+# 예전에 설치된 '먹는거 먼저' 웹앱의 서비스워커를 지운다: 캐시를 비우고 스스로 해제한 뒤 열린 화면을 새로 고쳐 이사 안내(→ 오늘술상)로 보낸다.
+SERVICE_WORKER = """self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', (e) => e.waitUntil((async () => {
+  for (const key of await caches.keys()) await caches.delete(key);
+  await self.registration.unregister();
+  for (const client of await self.clients.matchAll({ type: 'window' })) client.navigate(client.url);
+})()));
 """
 
 
 def build_site(page: str, site: Path) -> None:
-    """GitHub Pages 에 올리는 설치형 웹앱(PWA). 모든 경로는 상대 경로라 하위 폴더 주소에서도 동작한다."""
+    """GitHub Pages(wine-sake-pairing/): 오늘술상으로 바로 넘기고, 못 넘기면 이사 안내를 보여준다."""
     if site.exists():
         shutil.rmtree(site)
     site.mkdir(parents=True)
-    index = SITE_HEAD + page + SITE_TAIL
-    (site / "index.html").write_text(index, encoding="utf-8")
-    (site / "manifest.webmanifest").write_text(json.dumps(MANIFEST, ensure_ascii=False, indent=1), encoding="utf-8")
-    # 페이지나 아이콘 중 하나라도 바뀌면 캐시 버전이 바뀌어 설치된 기기도 새 파일을 받는다.
-    digest = hashlib.sha256(index.encode())
-    for icon in sorted((WEB / "icons").iterdir()):
-        shutil.copy(icon, site / icon.name)
-        digest.update(icon.read_bytes())
-    version = digest.hexdigest()[:10]
-    (site / "sw.js").write_text(SERVICE_WORKER.replace("__VERSION__", version), encoding="utf-8")
+    (site / "index.html").write_text(SITE_HEAD + page + SITE_TAIL, encoding="utf-8")
+    (site / "sw.js").write_text(SERVICE_WORKER, encoding="utf-8")
+    for name in ("favicon-32.png",):
+        shutil.copy(WEB / "icons" / name, site / name)
     (site / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"dist/site/ (PWA, 캐시 버전 {version})")
+    print("dist/site/ (오늘술상으로 이동)")
 
 
 if __name__ == "__main__":
