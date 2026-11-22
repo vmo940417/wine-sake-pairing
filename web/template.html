@@ -67,7 +67,8 @@
   }
   .brand { font-family: var(--font-display); font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin: 0; }
   .brand em { font-style: normal; color: var(--wine); }
-  .topbar small { color: var(--muted); font-size: 12px; }
+  .topbar small { color: var(--muted); font-size: 12px; margin-right: auto; }
+  .btn.install { padding: 6px 12px; font-size: 13px; border-radius: 999px; align-self: center; }
 
   main {
     max-width: 640px; margin: 0 auto;
@@ -216,6 +217,7 @@
 <header class="topbar">
   <h1 class="brand"><em>먹는거</em> 먼저</h1>
   <small>와인·사케 페어링</small>
+  <button class="btn install" id="install-btn" type="button" hidden>앱 설치</button>
 </header>
 
 <main>
@@ -524,6 +526,22 @@
     window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
+
+  // ---- 홈 화면 설치 (웹앱으로 열렸을 때만 브라우저가 이벤트를 보낸다) ----
+  let installPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    installPrompt = e;
+    $('install-btn').hidden = false;
+  });
+  $('install-btn').addEventListener('click', async () => {
+    if (!installPrompt) return;
+    installPrompt.prompt();
+    await installPrompt.userChoice;
+    installPrompt = null;
+    $('install-btn').hidden = true;
+  });
+  window.addEventListener('appinstalled', () => { $('install-btn').hidden = true; });
 
   renderFoodChips();
   renderPairing();

@@ -1,0 +1,53 @@
+# 설치형 웹앱(PWA)을 GitHub Pages 에 배포한다: https://vmo940417.github.io/wine-sake-pairing/
+# 처음 한 번 저장소 Settings → Pages → Source 를 "GitHub Actions" 로 설정해야 한다.
+name: Web app (Pages)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - "server/app/**"
+      - "server/data/**"
+      - ".github/workflows/pages.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build (Python 엔진과 결과 대조 포함)
+        run: |
+          pip install pydantic
+          python web/build.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist/site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

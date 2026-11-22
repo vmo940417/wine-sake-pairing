@@ -7,6 +7,17 @@
 |---|---|---|---|
 | ![](docs/screenshots/1_home.png) | ![](docs/screenshots/2_pairing.png) | ![](docs/screenshots/3_detail.png) | ![](docs/screenshots/4_dictionary.png) |
 
+## 설치형 웹앱 (링크·QR로 공유)
+
+**https://vmo940417.github.io/wine-sake-pairing/**
+
+`main` 에 웹 관련 변경이 올라가면 `.github/workflows/pages.yml` 이 GitHub Pages 에 배포합니다.
+받는 사람은 가입이나 앱스토어 없이 링크를 열면 바로 쓸 수 있고, 홈 화면에 설치하면 앱처럼 전체 화면으로 열리며 오프라인에서도 동작합니다.
+공유용 QR 카드는 `docs/qr-card.png` 입니다.
+
+- 안드로이드: 크롬에서 링크 열기 → 화면 위 **앱 설치** 버튼, 또는 오른쪽 위 ⋮ → **앱 설치**
+- 아이폰: 사파리에서 링크 열기 → 공유 버튼 → **홈 화면에 추가**
+
 ## 휴대폰 웹 버전 (서버 불필요)
 
 `web/` 은 서버 없이 휴대폰 브라우저에서 바로 쓰는 단일 HTML 버전입니다.
