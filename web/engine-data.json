@@ -2134,6 +2134,104 @@
     "Bohae Bokbunja",
     "Sunwoonsan Bokbunja"
    ]
+  },
+  {
+   "id": "whisky_scotch_classic",
+   "type": "whisky",
+   "category": "스카치 (논피트·블렌디드)",
+   "abv": 40.0,
+   "name_ko": "스카치 위스키 (논피트)",
+   "name_en": "Scotch Whisky (Unpeated)",
+   "aliases": [
+    "스카치",
+    "scotch",
+    "블렌디드",
+    "blended",
+    "글렌피딕",
+    "glenfiddich",
+    "글렌리벳",
+    "glenlivet",
+    "발베니",
+    "balvenie",
+    "조니워커",
+    "johnnie walker",
+    "로얄 살루트",
+    "시바스"
+   ],
+   "profile": {
+    "acidity": 1.0,
+    "tannin": 0.5,
+    "body": 3.0,
+    "sweetness": 1.5,
+    "alcohol": 5.0,
+    "umami": 0.0,
+    "aroma": 4.0,
+    "oak": 3.0
+   },
+   "summary": "버번 캐스크 위주로 숙성해 꿀, 바닐라, 서양배, 사과 향이 나는 부드러운 스카치. 구운 고기, 숙성 치즈, 견과, 훈제 요리와 두루 맞습니다.",
+   "regions": [
+    "스페이사이드",
+    "하이랜드",
+    "스코틀랜드 전역"
+   ],
+   "serving_temp": "니트, 온더록 또는 하이볼",
+   "pairs_with": [
+    "grilled",
+    "hard_cheese",
+    "nuts",
+    "smoked",
+    "salty_snack"
+   ],
+   "bottles": [
+    "Glenfiddich 12 Year Old",
+    "The Balvenie DoubleWood 12 Year Old",
+    "Johnnie Walker Black Label 12 Year Old"
+   ]
+  },
+  {
+   "id": "soju_diluted",
+   "type": "korean",
+   "category": "희석식 소주",
+   "abv": 16.5,
+   "name_ko": "희석식 소주 (초록병)",
+   "name_en": "Diluted Soju",
+   "aliases": [
+    "소주",
+    "soju",
+    "참이슬",
+    "처음처럼",
+    "진로",
+    "새로",
+    "좋은데이",
+    "초록병"
+   ],
+   "profile": {
+    "acidity": 0.5,
+    "tannin": 0.0,
+    "body": 1.5,
+    "sweetness": 1.0,
+    "alcohol": 3.5,
+    "umami": 0.0,
+    "aroma": 1.0,
+    "oak": 0.0
+   },
+   "summary": "주정을 물로 희석하고 감미료로 맛을 낸 대중 소주(16~17%). 맛이 깔끔하고 가벼워 삼겹살, 찌개, 회, 전 같은 한식 전반에 곁들이는 술입니다.",
+   "regions": [
+    "전국"
+   ],
+   "serving_temp": "차게 (5~8℃), 소주잔",
+   "pairs_with": [
+    "grilled",
+    "pork",
+    "fermented",
+    "spicy",
+    "raw_fish",
+    "jeon"
+   ],
+   "bottles": [
+    "Jinro Chamisul",
+    "Lotte Chum Churum"
+   ]
   }
  ],
  "foods": [
